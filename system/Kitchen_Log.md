@@ -1,0 +1,123 @@
+# Kitchen Log — Royal Kitchen Briefing Board
+*Every task reads this before running and appends a brief entry when done. Newest entries at top.*
+
+---
+
+## Log Format
+Each entry follows this structure:
+
+```
+### [TASK NAME] — [YYYY-MM-DD HH:MM]
+**Status:** ✅ Success / ⚠️ Partial / ❌ Failed
+**Summary:** One sentence on what was done.
+**Handoff notes:** Anything the next task in the pipeline needs to know.
+**Issues:** Any problems encountered (or "None").
+```
+
+---
+
+## Log Entries
+
+### THE SCRIBE — 2026-06-05 17:45
+**Status:** ❌ Failed — Cowork sandbox has no outbound internet access
+**Summary:** GitHub sync could not complete. JWT was generated from PEM key successfully, but all GitHub API calls returned HTTP 000 (connection blocked). No repo clone, no file sync, no commit.
+**Handoff notes:** Calendar alert created for Sat Jun 6 9 AM with email reminder. This is a Cowork platform network limitation — api.github.com and github.com are not in the allowlisted outbound hosts. The PEM file is intact and JWT auth logic is correct. GitHub sync will fail every Friday until this network constraint is resolved.
+**Issues:** Cowork bash sandbox blocks all outbound connections to GitHub. Requires either: (1) Cowork whitelisting github.com / api.github.com in the sandbox network, or (2) an alternative sync approach that doesn't require direct GitHub API access from bash. Sean needs to review and decide on a path forward.
+
+---
+
+### SEAN (via Kitchen Manager) — 2026-06-05
+**Status:** ✅ GitHub App setup complete
+**Summary:** Sean completed the one-time GitHub App setup. Permanent token automation is now active — The Scribe will never need a manual token rotation again.
+**GitHub App credentials:**
+- App Name: Sean's Kitchen Scribe
+- App ID: `3977437`
+- Client ID: `Iv23lie0F53AwN73Z7Yi`
+- Installation ID: `138345675`
+- PEM file: `G:\My Drive\Cookbook\System\seans-kitchen-scribe.2026-06-05.private-key.pem`
+**Handoff notes:** Scribe SKILL.md upgraded to JWT auth immediately. Developer SKILL.md updated — no further setup actions required. Next Developer run (July 3) will confirm JWT is working.
+**Issues:** None.
+
+---
+
+### THE KITCHEN MANAGER — 2026-06-05 22:20
+**Status:** ✅ Success — The Scribe hired and deployed
+**Summary:** New employee The Scribe (kitchen-scribe) created. Runs Fri 5:45 PM, syncs all kitchen files and task code to GitHub (ARPnemesis/seans-kitchen). Token embedded, token scrub confirmed in prompt. Developer updated to oversee Scribe monthly. Charter and project doc updated with new roster.
+**Peer review:** N/A — new hire.
+**Handoff notes:** Scribe first run next Friday June 12 at 5:45 PM. Repo does not yet exist — Scribe will create it on first run. Developer will verify Scribe health every 1st Friday going forward.
+**Issues:** None.
+
+---
+
+### THE KITCHEN MANAGER — 2026-06-05 22:00
+**Status:** ✅ Success — Ingredient audit complete
+**Summary:** Full ingredient audit of week of June 8 shopping list vs. all 5 recipes. Found 3 gaps; all fixed. Developer and Chef prompts updated to prevent recurrence.
+**Peer review:** Chef's shopping list had 3 issues on first run: (1) broccoli under-counted — 1 head listed but 2 dishes needed it, bumped to 2 heads; (2) mashed potato ingredients vague with no quantities, now specific (Russet potatoes 2 lbs, whole milk small carton); (3) butter short by ~1 tbsp when mash is factored in, bumped to 2 sticks. Also corrected a lemon annotation (salmon doesn't use lemon — surplus lemon is harmless but annotation was wrong).
+**Handoff notes:** Developer SKILL.md now includes mandatory ingredient audit step every month. Chef SKILL.md updated with 5 shopping list rules to prevent gaps. Updated shopping list is live at Shopping_List_Week_of_2026-06-08.md.
+**Issues:** None outstanding.
+
+---
+
+### THE KITCHEN MANAGER — 2026-06-05 21:36
+**Status:** ✅ Success — Full pipeline manual run complete
+**Summary:** Manually ran all pipeline tasks for week of June 8 at Sean's request. Mississippi Pot Roast secured for June 6 (Saturday dinner with Sophia). All 6 dinner calendar events updated with Google Doc recipe links. Developer CRs approved and closed.
+**Peer review:** All tasks performed well for a first run. Scheduler's links pointed to old Drive .md paths (expected — Google Docs didn't exist when it ran). Updated retroactively. Developer filed clean, well-documented change requests; both resolved by Kitchen Manager without needing to escalate.
+**Issues:** None.
+
+---
+
+### THE SCHEDULER — 2026-06-05 (auto-run)
+**Status:** ✅ Success
+**Summary:** Created 5 dinner calendar events for week of June 8–14. Linked to recipe files in Google Drive.
+**Handoff notes:** Assignments: Chicken Shawarma Bowl → Mon Jun 8, Gochujang Turkey Bowl → Wed Jun 10, Garlic Butter Chicken → Thu Jun 11, Honey Garlic Salmon → Sat Jun 13, Mississippi Pot Roast → Sun Jun 14. Note: Kitchen Manager separately added a June 6 event for the Pot Roast (Sophia dinner).
+**Issues:** Recipe links pointed to .md Drive files instead of Google Docs — corrected by Kitchen Manager after Docs were created.
+
+---
+
+### THE CHEF — 2026-06-05 (auto-run)
+**Status:** ⚠️ Partial — Shopping list had ingredient gaps (corrected by Kitchen Manager)
+**Summary:** Built menu for week of June 8. 5 new dishes. Shopping list retroactively corrected: broccoli bumped to 2 heads, mashed potato ingredients made specific, butter bumped to 2 sticks.
+**Handoff notes:** Dishes for Scheduler: Shawarma Bowl (weeknight), Turkey Bowl (weeknight), Garlic Butter Chicken (weeknight), Honey Salmon (weekend), Pot Roast (weekend). All 5 recipe files written to Recipes/. Carryover reset. Dashboard refreshed. Avg: 40.6g protein / 474 cal.
+**Issues:** Shopping list rules added to Chef SKILL.md — should not recur.
+
+---
+
+### THE ARCHIVIST — 2026-06-05 (auto-run)
+**Status:** ✅ Success (first run — nothing to archive)
+**Summary:** First week of operation; no prior week files to archive. Confirmed Carryover.md present with 5 dishes unchecked.
+**Handoff notes:** Next Friday will archive Menu_Week_of_2026-06-08.md, Shopping_List_Week_of_2026-06-08.md, Rate_This_Week.md, and associated Lessons_Learned. Chef can build fresh.
+**Issues:** None.
+
+---
+
+### THE CRITIC — 2026-06-05 (auto-run)
+**Status:** ✅ Success (first run — no ratings to process)
+**Summary:** First run of the season. No Rate_This_Week.md exists yet (Surveyor creates Sunday). No Recipe_Ratings.md entries to process. Preferences.md already populated.
+**Handoff notes:** Nothing to carry forward. Expecting Rate_This_Week.md to exist after June 8 week concludes. First real critique next Friday June 12.
+**Issues:** None.
+
+---
+
+### THE DEVELOPER — 2026-06-05 (auto-run, 1st Friday)
+**Status:** ✅ Success
+**Summary:** Full system code review on first run. Filed Change_Request_2026-06-05.md with 2 issues. Both resolved same day by Kitchen Manager.
+**Handoff notes:** CR-1 (Archivist timing) — resolved. CR-2 (Rate_This_Week.md lifecycle) — resolved. Ingredient audit step now added to Developer SKILL.md for monthly checks.
+**Issues:** None outstanding.
+
+---
+
+### THE SURVEYOR — 2026-06-05 (auto-run)
+**Status:** ✅ Success
+**Summary:** Created "Rate your meals — Week of June 8" calendar event for Monday June 8 at 9 AM with email reminder. Dishes pre-listed in event description.
+**Handoff notes:** Rate_This_Week.md will be created Sunday June 7 at 7 PM ahead of the week. Critic reads it Friday June 12 at 8 AM.
+**Issues:** None.
+
+---
+
+### KITCHEN MANAGER — 2026-06-06
+**Status:** ✅ System initialized
+**Summary:** Royal Kitchen system stood up. Six minions deployed. Charter written.
+**Handoff notes:** First live runs begin this Sunday (Surveyor) and next Friday (full pipeline). All tasks should pre-approve connectors via Run Now before their first automated run.
+**Issues:** None.
+
+---
