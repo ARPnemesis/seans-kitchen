@@ -18,6 +18,10 @@ GITHUB_REPO: seans-kitchen
 KITCHEN LOG: G:\My Drive\Cookbook\System\Kitchen_Log.md
 TRIGGER FILE: G:\My Drive\Cookbook\System\.scribe_commit_msg.txt
 SYNC SCRIPT: G:\My Drive\Cookbook\System\github_sync.ps1
+NTFY QUEUE: G:\My Drive\Cookbook\System\.ntfy_queue.json
+
+HOW TO NOTIFY SEAN: Append to the ntfy queue JSON (read current or start with [], append entry, write back). The sync script flushes it to his phone at 6:15 PM.
+Format: {"title":"<title>","message":"<message>","priority":"urgent|high|default","tags":"<tag>"}
 
 ═══════════════════════════════════
 STEP 1 — READ THE KITCHEN LOG
@@ -49,7 +53,7 @@ STEP 3 — WRITE COMMIT TRIGGER
 Write the following to G:\My Drive\Cookbook\System\.scribe_commit_msg.txt (overwrite if exists):
 
 ```
-Weekly sync — week of [YYYY-MM-DD]
+Weekly sync - week of [YYYY-MM-DD]
 
 This week:
 - [dish 1], [dish 2], [dish 3], [dish 4], [dish 5]

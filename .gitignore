@@ -1,0 +1,13 @@
+# Secrets — never commit these
+System/ntfy_topic.txt
+System/*.pem
+System/.github_token_expiry
+System/.ntfy_queue.json
+System/.scribe_commit_msg.txt
+System/.github_sync_log.txt
+
+# PowerShell setup scripts (local machine only)
+System/setup_*.ps1
+
+# macOS
+.DS_Store

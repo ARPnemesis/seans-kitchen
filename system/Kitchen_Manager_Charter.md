@@ -81,3 +81,4 @@ When Sean opens a kitchen conversation, the Kitchen Manager should:
 ---
 
 *"Run lean, eat like a king."*
+

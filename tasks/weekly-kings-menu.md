@@ -66,6 +66,8 @@ BUILD STEPS
    ---
    *Assumed you have: [pantry staples list]*
 
+   After the dinner sections, append the full contents of G:\My Drive\Cookbook\System\Weekly_Staples.md as a final section titled "## Weekly Staples (Lunches + Espresso)". Copy it verbatim — do not modify or filter. If an item says "check bag first", include that note as-is so Sean sees it at the store.
+
    SHOPPING LIST RULES (non-negotiable):
    a) Every ingredient in every recipe must appear on the list OR be explicitly on the pantry staples list. No exceptions.
    b) SERVING SIDES (rice, mashed potatoes, bread, noodles, etc.) must be listed with specific quantities — never vague (e.g., "potatoes, milk, butter if doing mash" is NOT acceptable; write "Russet potatoes, 2 lbs" and "Whole milk, small carton").

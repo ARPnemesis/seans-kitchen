@@ -31,5 +31,20 @@
 - Pepperoncini peppers, 1 jar (Pot Roast)
 - Sourdough bread, 1 loaf (Pot Roast — for soaking up the juices)
 
+## Weekly Staples (Lunches + Espresso)
+
+### Lunches
+- Bread, 1 loaf (sandwich/toast)
+- Eggs, 1 dozen
+- Bacon, 1 pack
+- Deli turkey or ham, ~½ lb
+- Sliced cheese, 1 pack (cheddar or swiss)
+- Protein bars, 1 box
+
+### Espresso Bar
+- Whole milk, ½ gallon (lattes, cappuccinos, macchiatos)
+- Espresso beans — **check bag first, add if less than ~1 week of shots left**
+
 ---
 *Assumed you have: olive oil, sesame oil, rice vinegar, red wine vinegar, soy sauce, honey, salt, pepper, chili flakes, smoked paprika, cumin, garlic powder, onion powder, sesame seeds*
+*Lunch condiments (mayo, mustard, hot sauce) assumed in pantry — add manually if running out.*

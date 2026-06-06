@@ -23,7 +23,7 @@ From Chef's log entry (or Menu file), extract each dish name and its type:
 ═══════════════════════════════════
 STEP 2 — CHECK THE CALENDAR
 ═══════════════════════════════════
-List all events on Sean's primary Google Calendar (seanmclatchie97@gmail.com) for the coming Mon–Sun, 5 PM–11 PM window. Identify free vs. busy evenings.
+List all events on Sean's primary Google Calendar ([REDACTED_EMAIL]) for the coming Mon–Sun, 5 PM–11 PM window. Identify free vs. busy evenings.
 
 IF ALL EVENINGS ARE BUSY:
 - Log ⚠️ Partial status in Kitchen Log.
@@ -55,7 +55,7 @@ STEP 4 — CREATE CALENDAR EVENTS
 For each (dish, free evening) pair:
 - Title: "🍽️ [Dish Name]"
 - Time: 6:30 PM–7:30 PM (weeknight) or 7:00 PM–8:30 PM (weekend/involved)
-- Calendar: seanmclatchie97@gmail.com
+- Calendar: [REDACTED_EMAIL]
 - Description:
   "Tonight's dinner: [Dish Name]
   Style: [style] · ~[X]g protein · ~[Y] cal · [cook time]
