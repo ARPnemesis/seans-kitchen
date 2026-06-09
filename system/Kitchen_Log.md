@@ -18,6 +18,40 @@ Each entry follows this structure:
 
 ## Log Entries
 
+### THE CHEF — 2026-06-09 15:57
+**Status:** ✅ Success
+**Summary:** Built menu for week of June 22. 5 new dishes, 0 carried over.
+**Decision note:** Ran off-cycle (Tue June 9). Carryover.md held the 5 week-of-June-15 dishes unchecked — but those are this coming week's scheduled meals (the Surveyor created a "Rate your meals — Week of June 15" event today listing them), not uncooked leftovers. Carrying them forward would duplicate meals Sean is about to eat, so I treated them as scheduled and built a fresh, fully varied slate for the next open week (June 22) — same precedent as the June 6 run. Recipes/ folder was empty on entry again (prior local .md files not persisting), so I wrote fresh local + Drive recipe files for all 5.
+**Handoff notes:** Dishes for Scheduler: Smash Burger Bowls (weeknight), Weeknight Butter Chicken (weeknight), Honey Mustard Pork Tenderloin & Green Beans (weeknight), Ground Chicken Banh Mi Bowls (weeknight), Mediterranean Steak Bowls (weekend). 5 recipe files written to Recipes/ + 5 Google Docs in Drive Recipes folder (parentId 1XNX6FDmVZ...). Carryover reset with the 5 new dishes. Dashboard refreshed (DISHES + week comment + ratings week label; CSS/structure/localStorage keys/CART_TOOL/stale-rating cleanup preserved). Shopping list ingredient audit passed; cucumber bumped to 2 (Banh Mi + Steak Bowls share), garlic 1 head (~6 cloves), Greek yogurt 32oz tub shared across 4 dishes. Avg: 42g protein / 518 cal. No evening calendar conflicts June 22–28 (only a noon WGU mentor call June 22).
+**Issues:** Empty Recipes/ folder on entry (resolved — all 5 written). Off-cycle trigger (Tue, not Fri 5 PM) flagged for Kitchen Manager awareness; next scheduled run remains Fri June 12.
+
+---
+
+### THE SURVEYOR — 2026-06-09 15:50
+**Status:** ⚠️ Partial
+**Summary:** Rate_This_Week.md created with 5 dishes for the week of June 15. Monday June 15, 9:00 AM Denver-time calendar reminder (email + popup, 0-min) sent to [REDACTED_EMAIL].
+**Handoff notes:** Dishes for rating (Week of June 15): Greek Chicken Souvlaki Bowls, Sheet-Pan Shrimp Fajitas, Thai Basil Beef / Pad Krapow, Cajun Butter Pork Chops & Green Beans, Chimichurri Skirt Steak & Roasted Potatoes. Critic should find Rate_This_Week.md at G:\My Drive\Cookbook\Rate_This_Week.md on Friday (June 19). All five marked "(skip if not cooked)" since the cooking week hasn't started.
+**Issues:** Ran off-cycle (Tue June 9, not the usual Sun 7 PM). No `Menu_Week_of_*.md` file exists on disk — the June 15 menu was recovered from The Chef's June 6 log handoff; dish list is sourced from there, not a menu file. Carryover.md still holds the week-of-June-8 dishes (all unchecked) — those are the in-progress week being cooked June 8–14, not carried forward, so they were not used for this rating file. Fixed an initial calendar-timezone slip: first create resolved to 10 AM because I forced America/Los_Angeles; corrected to America/Denver (Sean's primary calendar TZ) so the reminder fires at 9 AM local.
+
+---
+
+### THE CHEF — 2026-06-06 21:31
+**Status:** ✅ Success
+**Summary:** Built menu for week of June 15. 5 new dishes, 0 carried over.
+**Decision note:** Ran off-cycle (Sat June 6, not the usual Fri 5 PM). Carryover.md held all 5 week-of-June-8 dishes unchecked — but only because that week hasn't started yet; those 5 are already on the calendar to be cooked June 8–14. Carrying them forward would have duplicated meals Sean is about to eat, so I treated them as scheduled (not uncooked) and built a fresh, fully varied menu for the next open week (June 15). Also note: the Recipes/ folder was empty (prior run's local .md files were never persisted, though the June 8 Google Docs exist), so I wrote fresh local + Drive recipe files for all 5 new dishes.
+**Handoff notes:** Dishes for Scheduler: Greek Chicken Souvlaki Bowls (weeknight), Sheet-Pan Shrimp Fajitas (weeknight), Thai Basil Beef / Pad Krapow (weeknight), Cajun Butter Pork Chops & Green Beans (weeknight), Chimichurri Skirt Steak & Roasted Potatoes (weekend). 5 recipe files written to Recipes/ + 5 Google Docs in Drive Recipes folder (parentId 1XNX6FDmVZ...). Carryover reset with the 5 new dishes. Dashboard refreshed (DISHES + week comment + ratings date; CSS/structure/localStorage keys preserved). Shopping list ingredient audit passed; garlic bumped to 2 heads (~12 cloves needed). Avg: 41g protein / 494 cal. No evening calendar conflicts June 15–21.
+**Issues:** Empty Recipes/ folder on entry (resolved — all 5 written). Off-cycle trigger flagged for the Kitchen Manager's awareness.
+
+---
+
+### THE KITCHEN MANAGER — 2026-06-05 07:00
+**Status:** ✅ All clear
+**Summary:** Daily check complete. Reviewed 10 log entries. 0 critical issues. System healthy after first full pipeline run.
+**Peer review:** The Scribe (22:25, via PowerShell) — ✅ Clean entry; all fields present; first GitHub sync successful. This is the only task that ran after the previous Manager check at 22:20. Earlier tasks reviewed in prior Manager sessions — no re-review needed. Change_Requests folder is empty.
+**Issues:** None. The Chef's shopping list gaps (⚠️ Partial) and Scribe's initial GitHub failure (❌) were both resolved same-day by prior Kitchen Manager sessions. No open items carry forward.
+
+---
+
 ### THE SCRIBE (via github_sync.ps1) — 2026-06-05 22:25
 **Status:** ✅ Success — First sync complete
 **Summary:** All kitchen files pushed to GitHub via Windows Task Scheduler PowerShell script. 6 recipes, 2 menus, 2 shopping lists, all task prompts, README, and system files synced.

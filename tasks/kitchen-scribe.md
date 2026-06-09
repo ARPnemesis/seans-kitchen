@@ -77,4 +77,3 @@ To prepend: (1) Read G:\My Drive\Cookbook\System\Kitchen_Log.md fully. (2) Write
 **Issues:** None (git operations handled by local PowerShell job — check .github_sync_log.txt in System/ for push results).
 
 COOKBOOK: G:\My Drive\Cookbook\ | REPO: https://github.com/ARPnemesis/seans-kitchen | SYNC LOG: G:\My Drive\Cookbook\System\.github_sync_log.txt
-
