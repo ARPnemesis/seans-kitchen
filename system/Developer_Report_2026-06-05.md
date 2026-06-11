@@ -46,7 +46,7 @@ Solid foundation, two issues to address before first archive cycle.
 
 ## Major Improvements — Pending Approval (2)
 
-See full details in: `G:\My Drive\Cookbook\System\Change_Requests\Change_Request_2026-06-05.md`
+See full details in: `E:\Seans_Royal_Kitchen\System\Change_Requests\Change_Request_2026-06-05.md`
 
 Review event created: **Tuesday, June 9, 2026 at 7 PM** (email reminder fires at event time).
 

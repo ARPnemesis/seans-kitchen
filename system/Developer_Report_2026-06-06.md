@@ -89,7 +89,7 @@ Note: Bash sandbox cannot reach github.com. GitHub health checks now use `.githu
 ## Mid-Tier Changes Surfaced to Kitchen Manager (1 — 3 CRs)
 
 ### CR-1 & CR-2: Manager and Scribe missing recurring schedules
-**File:** `G:\My Drive\Cookbook\System\Change_Requests\Change_Request_2026-06-06.md`
+**File:** `E:\Seans_Royal_Kitchen\System\Change_Requests\Change_Request_2026-06-06.md`
 
 The Manager (`the-manager`) fires once tonight then auto-disables — needs `cronExpression: 0 7 * * *`.
 The Scribe (`kitchen-scribe`) is already disabled — needs `cronExpression: 45 17 * * 5`.

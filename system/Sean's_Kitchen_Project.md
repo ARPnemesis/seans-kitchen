@@ -53,7 +53,7 @@ Friday 8 AM  → Critic reads Rate_This_Week.md → appends to Recipe_Ratings.md
 ## File Structure
 
 ```
-G:\My Drive\Cookbook\
+E:\Seans_Royal_Kitchen\
 │
 ├── Menu_Week_of_YYYY-MM-DD.md          ← current week (overwritten each Friday)
 ├── Shopping_List_Week_of_YYYY-MM-DD.md ← current week (overwritten each Friday)
@@ -140,4 +140,13 @@ Sean gets a real email (via Google Calendar event notification) for:
 ---
 
 *"Run lean, eat like a king."*
+
+---
+
+## System Update — 2026-06-11 (approved change requests CR-A…D)
+
+- **Single source of truth:** `System/Current_Week.md` now holds `ACTIVE_WEEK`/`ACTIVE_DISHES` (the week being cooked/scheduled) and `PREVIOUS_WEEK`/`PREVIOUS_DISHES` (the week being rated). Every task reads this — they no longer infer the week from "the most recent menu file." The Chef rolls it each Friday.
+- **Rhythm:** Chef builds for the coming Monday–Sunday; you rate the prior week each Monday (after you've eaten everything); ratings feed the menu ~2 Fridays later.
+- **Ratings split out:** the rating survey is now its own artifact, **`kings-table-rate-this-week`** (localStorage key `kt_survey_ratings_v1`), refreshed each Sunday by The Surveyor with the week you just finished. The main `kings-table-kitchen-dashboard` no longer has a rating section (menu/cart/macros/pantry only). The Surveyor owns `Rate_This_Week.md`; `Rate_Reminder_This_Week.md` is retired.
+- **Notifications:** alerts, reminders, and escalations now go out via BOTH Google Calendar (email) AND ntfy. Two rating nudges per cycle (Surveyor Monday + Manager Wednesday-if-unrated).
 

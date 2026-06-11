@@ -1,31 +1,31 @@
-# Rate This Week — Week of June 8, 2026
-*Open the "King's Table — Rate This Week" artifact to rate, or fill this in directly. Skip any dish you didn't cook. The Critic reads this Friday.*
+# Rate This Week's Meals — Week of June 15, 2026
+*Fill in your ratings below. The Critic reads this Friday morning. Skip any dish you didn't cook. When done, hit "Submit ratings" in your King's Table Kitchen Dashboard OR save this file.*
 
-## Chicken Shawarma Bowl *(skip if not cooked)*
+## Greek Chicken Souvlaki Bowls *(skip if not cooked)*
 - Stars (1–5): 
 - Cook again? (yes / no): 
 - Difficulty (easier / as-expected / harder than described): 
 - Notes: 
 
-## Gochujang Ground Turkey Bowl *(skip if not cooked)*
+## Sheet-Pan Shrimp Fajitas *(skip if not cooked)*
 - Stars (1–5): 
 - Cook again? (yes / no): 
 - Difficulty (easier / as-expected / harder than described): 
 - Notes: 
 
-## Garlic Butter Chicken & Broccoli *(skip if not cooked)*
+## Thai Basil Beef / Pad Krapow *(skip if not cooked)*
 - Stars (1–5): 
 - Cook again? (yes / no): 
 - Difficulty (easier / as-expected / harder than described): 
 - Notes: 
 
-## Honey Garlic Salmon & Sesame Cucumber Salad *(skip if not cooked)*
+## Cajun Butter Pork Chops & Green Beans *(skip if not cooked)*
 - Stars (1–5): 
 - Cook again? (yes / no): 
 - Difficulty (easier / as-expected / harder than described): 
 - Notes: 
 
-## Mississippi Pot Roast *(skip if not cooked)*
+## Chimichurri Skirt Steak & Roasted Potatoes *(skip if not cooked)*
 - Stars (1–5): 
 - Cook again? (yes / no): 
 - Difficulty (easier / as-expected / harder than described): 
