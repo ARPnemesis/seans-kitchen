@@ -14,7 +14,7 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 **Week of 2026-06-15** (Mon Jun 15 – Sun Jun 21) — 5 dishes, avg ~42g protein / ~518 cal
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-22.md` — a legacy filename from an off-cycle build; the dishes below are the ones actually cooked the week of June 15.*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is now `Menu_Week_of_2026-06-15.md`, created on-cycle by The Chef on 2026-06-12; it supersedes the legacy `Menu_Week_of_2026-06-22.md` (an off-cycle build kept only until the next attended cleanup).*
 
 | Dish | Style | Night | Time |
 |------|-------|-------|------|
@@ -23,6 +23,8 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 | Honey Mustard Pork Tenderloin & Green Beans | American | Weeknight | 30 min |
 | Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | 25 min |
 | Mediterranean Steak Bowls | Mediterranean | Weekend | 40 min |
+
+*All five carried over from the prior plan and are already on the calendar June 15–20 with Google Doc recipes linked — no new dishes were built this week.*
 
 **Previously cooked (now in the rating queue):** Week of 2026-06-08 — Chicken Shawarma Bowl, Gochujang Ground Turkey Bowl, Garlic Butter Chicken & Broccoli, Honey Garlic Salmon & Sesame Cucumber Salad, Mississippi Pot Roast.
 
@@ -38,8 +40,8 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 | 🗄️ The Archivist | `kitchen-archivist` | Friday 4:30 PM | Archives the finished week's files to `Archive/` before the Chef overwrites them. |
 | 🍳 The Chef | `weekly-kings-menu` | Friday 5 PM | Builds the coming week's menu, recipe files, and shopping list; resets Carryover; rolls the `Current_Week.md` pointer; refreshes the dashboard. |
 | 📅 The Scheduler | `kitchen-scheduler` | Friday 5:30 PM | Assigns the active dishes to free evenings; creates calendar events with Google Drive recipe links. |
-| 📬 The Surveyor | `meal-surveyor` | Sunday 7 PM | Owns `Rate_This_Week.md` (seeds it with the previous week's dishes); refreshes the standalone rating artifact; sends Monday 9 AM email + ntfy nudge. |
 | 📜 The Scribe | `kitchen-scribe` | Friday 5:45 PM | Refreshes the README and drops the commit-message trigger for the Windows host GitHub sync. |
+| 📬 The Surveyor | `meal-surveyor` | Sunday 7 PM | Owns `Rate_This_Week.md` (seeds it with the previous week's dishes); refreshes the standalone rating artifact; sends Monday 9 AM email + ntfy nudge. |
 
 ---
 
@@ -85,6 +87,18 @@ Ratings feed the menu roughly two Fridays later. Notifications go out via **both
 
 ---
 
+## GitHub Sync Architecture
+
+The Cowork sandbox has no outbound internet, so The Scribe never runs `git` directly. Instead:
+
+1. **The Scribe** (5:45 PM) refreshes this README and writes a one-line commit message to `System/.scribe_commit_msg.txt`.
+2. **`System/github_sync.ps1`** runs on the **Windows host** via Task Scheduler ("Royal Kitchen - GitHub Sync") at **6:15 PM**. It checks for the trigger file, and if present: syncs files, scrubs secrets from copied task prompts, commits with that message, and pushes to **`ARPnemesis/seans-kitchen`** using the GitHub App key in `System/`.
+3. After a successful push, the PS1 deletes the trigger file so the next run is a clean no-op until The Scribe writes a new one.
+
+Auth is handled entirely host-side by the GitHub App private key — The Scribe never needs it.
+
+---
+
 ## Dashboards
 
 - **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, pantry staples, and one-click Instacart cart build. Refreshed each Friday by the Chef. (Rating UI now lives in its own artifact.)
@@ -99,50 +113,17 @@ seans-kitchen/
 │
 ├── README.md                        ← this file (refreshed weekly by The Scribe)
 ├── Carryover.md                     ← live checklist of dishes not yet cooked
+├── Menu_Week_of_*.md                ← the week's menu (authoritative week set by Current_Week.md)
+├── Shopping_List_Week_of_*.md       ← the week's shopping list
 ├── Rate_This_Week.md                ← rating form (Surveyor-owned; created Sunday, read Friday)
-│
-├── recipes/                         ← PERMANENT library (never deleted, grows every week)
-│   └── Dish_Name.md
-│
-├── menus/                           ← weekly menus
-│   └── Menu_Week_of_YYYY-MM-DD.md
-│
-├── shopping_lists/                  ← weekly shopping lists
-│   └── Shopping_List_Week_of_YYYY-MM-DD.md
-│
-├── system/                          ← system intelligence
-│   ├── Current_Week.md              ← single source of truth (ACTIVE / PREVIOUS week)
-│   ├── Kitchen_Log.md               ← shared briefing board (all tasks read + write)
-│   ├── Preferences.md               ← Sean's taste profile (Critic updates)
-│   ├── Recipe_Ratings.md            ← all historical ratings
-│   ├── Kitchen_Manager_Charter.md   ← authority + escalation rules
-│   ├── Sean's_Kitchen_Project.md    ← full project reference
-│   └── Developer_Report_*.md        ← monthly system health reports
-│
-├── archive/                         ← past weeks (read-only history)
-│   └── Week_YYYY-MM-DD/
-│
-└── tasks/                           ← task prompts (one per employee, secrets scrubbed)
-    ├── kitchen-scribe.md
-    └── ...
+├── Weekly_Staples.md                ← standing pantry staples
+├── Recipes/                         ← one .md per dish
+├── Archive/                         ← finished weeks, filed by the Archivist
+└── System/                          ← pointers, logs, scripts, charters
+    ├── Current_Week.md              ← single source of truth for the active/previous week
+    ├── Kitchen_Log.md               ← briefing board (every task logs here)
+    ├── Preferences.md               ← evolving taste profile
+    ├── Recipe_Ratings.md            ← rating history
+    ├── github_sync.ps1              ← host-side commit + push
+    └── .scribe_commit_msg.txt       ← commit-message trigger (written by the Scribe)
 ```
-
----
-
-## How the GitHub Sync Works
-
-The Cowork bash sandbox has no outbound internet access, so GitHub sync is handled by a Windows host script:
-
-1. **The Scribe** (Cowork, Friday 5:45 PM) writes `E:\Seans_Royal_Kitchen\System\.scribe_commit_msg.txt` with the commit message.
-2. **github_sync.ps1** (Windows Task Scheduler, Friday 6:15 PM) detects the trigger file, generates a GitHub App JWT from the PEM key, clones `ARPnemesis/seans-kitchen`, syncs all files, commits with that message, pushes, then deletes the trigger file.
-3. Secrets are scrubbed before commit (tokens, email, ntfy topic replaced with `[REDACTED]`); the PEM key is gitignored.
-
----
-
-## Recipe Library
-
-**16 unique recipes** and growing. Every Friday the Chef adds new dishes to `recipes/`.
-
----
-
-*Last updated: 2026-06-11 by The Scribe — Royal Kitchen*

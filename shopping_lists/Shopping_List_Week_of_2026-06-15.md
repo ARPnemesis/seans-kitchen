@@ -1,47 +1,55 @@
 # Shopping List — Week of June 15, 2026
-*King Soopers · ~$95 est. (dinners) + weekly staples*
+*King Soopers · ~$85 est. (dinners only)*
 
 ## Meat & Seafood
-- Boneless skinless chicken thighs, 1 lb (Souvlaki Bowls)
-- Large shrimp, peeled & deveined, 1 lb (Shrimp Fajitas) — frozen bag is fine
-- Ground beef, 90/10, 1 lb (Thai Basil Beef)
-- Boneless pork chops, 2 (~1.25 lb) (Cajun Pork)
-- Skirt steak, 1 lb (Chimichurri Steak)
+- Ground beef, 90/10, ¾ lb (Smash Burger Bowls)
+- Chicken thighs, boneless skinless, 1 lb (Weeknight Butter Chicken)
+- Pork tenderloin, 1 lb (Honey Mustard Pork) — often sold ~1.25 lb; a little extra is fine
+- Ground chicken, 1 lb (Banh Mi Bowls)
+- Sirloin or flat-iron steak, ¾ lb (Mediterranean Steak Bowls)
 
 ## Produce
-- Bell peppers, 4 (Shrimp Fajitas ×2 + Thai Basil Beef ×1, +1 buffer) — combined total
-- Yellow onions, 2 (Shrimp Fajitas ×1 + Thai Basil Beef ×½, rounded up)
-- Red onion, 1 (Souvlaki Bowls)
-- Limes, 4 (Shrimp Fajitas ×2 + Thai Basil Beef ×1, +1 buffer) — combined total; sold in a bag
-- Lemons, 2 (Souvlaki ×1 + Cajun Pork ×1) — combined total
-- Cucumber, 1 (Souvlaki Bowls — tzatziki + salad)
-- Cherry tomatoes, 1 pint (Souvlaki Bowls)
-- Cilantro, 1 bunch (Shrimp Fajitas + Chimichurri) — combined
-- Fresh parsley, 1 large bunch (Chimichurri)
-- Thai basil (or regular basil), 1 bunch (Thai Basil Beef)
-- Green beans, 12 oz (Cajun Pork)
-- Baby potatoes, 1.5 lb (Chimichurri Steak side)
-- Garlic, 2 heads (Souvlaki, Thai Basil Beef, Cajun Pork, Chimichurri — ~12 cloves combined)
+- Romaine or iceberg lettuce, 1 head (Smash Burger)
+- Roma tomato, 1 (Smash Burger)
+- Cherry tomatoes, 1 pint (Mediterranean Steak Bowls)
+- Red onion, 1 (Smash Burger)
+- Cucumbers, 2 (shared: Banh Mi + Steak Bowls — ~1½ used, buy 2 so neither runs short)
+- Carrots, 2 (Banh Mi)
+- Scallions, 1 bunch (Banh Mi)
+- Cilantro, 1 bunch (shared: Butter Chicken + Banh Mi)
+- Fresh ginger, 1 small knob (Butter Chicken)
+- Garlic, 1 head / ~8 cloves (shared: Butter Chicken, Honey Mustard Pork, Banh Mi, Steak Bowls)
+- Green beans, 12 oz (Honey Mustard Pork)
+- Baby/new potatoes, 1 lb (Honey Mustard Pork)
+- Zucchini, 1 (Steak Bowls)
+- Red bell pepper, 1 (Steak Bowls)
+- Lemon, 1 (Steak Bowls)
+- Lime, 1 (Banh Mi)
 
 ## Dairy
-- Greek yogurt, 1 small tub / ~16 oz (Souvlaki — marinade + tzatziki)
-- Feta cheese, 4 oz block (Souvlaki Bowls)
-- Butter, 1 stick (Cajun Pork) — sold as a 1 lb / 4-stick pack
+- Greek yogurt, 1 large tub (32 oz) (shared: Smash Burger sauce, Butter Chicken marinade + sauce, Banh Mi drizzle, Steak Bowls sauce — 4 dishes; a full tub covers all)
+- Shredded cheddar, small bag (~½ cup used) (Smash Burger)
+- Butter, 1 stick (Butter Chicken — only ~2 tbsp needed; smallest pack is 4 sticks)
+- Feta, 4 oz block or tub (Steak Bowls)
 
 ## Pantry & Sauces
-- Oyster sauce, 1 small bottle (Thai Basil Beef) — specialty, add even if shelf-stable
-- Fish sauce, 1 small bottle (Thai Basil Beef) — specialty, add even if shelf-stable
-- Chili powder, 1 jar (Shrimp Fajitas) — skip if already stocked
-- Cajun seasoning, 1 jar (Cajun Pork) — skip if making the homemade blend from pantry spices
-- Jasmine rice, 1 bag, ~2 lb (Souvlaki + Thai Basil Beef — serving side)
-- Flour tortillas, fajita-size, 1 pack of 8 (Shrimp Fajitas)
+- Crushed tomatoes, 1 can (14–15 oz) (Butter Chicken)
+- Naan flatbreads, 1 pack (≥2) (Butter Chicken) — serving side
+- Couscous, 1 box (need ¾ cup dry) (Steak Bowls) — serving side
+- Rice, ~1 cup dry total (Butter Chicken + Banh Mi) — serving side; *you likely have this — check the pantry first*
+- Garam masala, 1 small jar (Butter Chicken) — specialty spice
+- Turmeric, 1 small jar (Butter Chicken) — specialty spice
+- Dijon mustard, 1 jar (Honey Mustard Pork)
+- Sriracha, 1 bottle (Banh Mi) — *check first; shelf-stable*
+- Fish sauce, 1 bottle (Banh Mi) — *check first; shelf-stable, lasts months*
 
 ---
-*Assumed you have: olive oil, neutral oil, sesame oil, rice vinegar, red wine vinegar, soy sauce, honey, salt, pepper, chili flakes, smoked paprika, cumin, garlic powder, onion powder, dried oregano, italian seasoning, sugar, brown sugar, sesame seeds, flour. Eggs for the Pad Krapow fried-egg topping are covered by the weekly staples dozen below.*
+*Assumed you have: olive oil, neutral oil, sesame oil, soy sauce, rice vinegar, honey, sugar, brown sugar, salt, pepper, garlic powder, smoked paprika, cumin, dried oregano, sesame seeds; and condiments — mayonnaise, ketchup, yellow mustard (Smash Burger special sauce).*
 
 ## Weekly Staples (Lunches + Espresso)
 
 ### Lunches
+
 - Bread, 1 loaf (sandwich/toast)
 - Eggs, 1 dozen
 - Bacon, 1 pack
@@ -50,6 +58,7 @@
 - Protein bars, 1 box
 
 ### Espresso Bar
+
 - Whole milk, ½ gallon (lattes, cappuccinos, macchiatos)
 - Espresso beans — **check bag first, add if less than ~1 week of shots left**
 

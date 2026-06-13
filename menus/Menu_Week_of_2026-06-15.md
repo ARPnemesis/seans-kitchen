@@ -1,30 +1,33 @@
-# Royal Menu — Week of June 15, 2026
+# 👑 The King's Menu — Week of June 15, 2026
 
-*Hear ye, Sean. A fresh slate of five from the Royal Kitchen — all new dishes, every protein and cuisine its own. No two nights repeat, and none of last week's dishes return: those five (Shawarma, Gochujang Turkey, Garlic Butter Chicken, Honey Salmon, Pot Roast) are already on your calendar for June 8–14, so they've earned their place at the table rather than being carried forward. Your evenings June 15–21 are clear (only a midday WGU mentor call on Monday), so the full five stand ready.*
+*Hear ye, Sean. The Royal Kitchen presents the slate for the week ahead — a tour through American comfort, an Indian classic, a one-pan roast, a Vietnamese bowl, and a Mediterranean feast to crown the weekend. These five were planned on your calendar (and your Carryover list) and now take their rightful place as the official Week-of-June-15 menu — the recipe cards are already linked from each dinner on your calendar.*
 
-*Critic's brief: first season, no ratings yet — so this week leans into variety to start building your taste profile. Rate these on the dashboard and the menus will sharpen.*
+*A note from the kitchen: this is the first proper on-cycle Friday build, and it brings the schedule back in step after a few weeks of off-cycle drift. Your evenings June 15–21 are clear for cooking — only a midday WGU mentor call on Monday and an informational System Change-Request review on Tuesday night (no cooking conflict). All five nights are yours.*
+
+*Critic's brief: no ratings on file yet (the June 8 week is still in your rating queue, to be scored Monday), so this menu leans on your Standing Preferences — high protein, moderate calories, weeknight speed, and good ingredient overlap across the week.*
 
 ## At a Glance
 
 | Dish | Style | When | Protein | Calories | Time |
 |------|-------|------|---------|----------|------|
-| Greek Chicken Souvlaki Bowls | Mediterranean | Weeknight | ~45g | ~520 | 25 min |
-| Sheet-Pan Shrimp Fajitas | Tex-Mex | Weeknight | ~38g | ~430 | 25 min |
-| Thai Basil Beef (Pad Krapow) | Thai | Weeknight | ~40g | ~510 | 20 min |
-| Cajun Butter Pork Chops & Green Beans | Cajun / American | Weeknight | ~42g | ~470 | 25 min |
-| Chimichurri Skirt Steak & Roasted Potatoes | Argentine | Weekend | ~40g | ~540 | 35 min |
+| Smash Burger Bowls | American comfort | Weeknight | ~42g | ~520 | 25 min |
+| Weeknight Butter Chicken | Indian | Weeknight | ~45g | ~560 | 30 min |
+| Honey Mustard Pork Tenderloin & Green Beans | American comfort | Weeknight | ~40g | ~430 | 30 min |
+| Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | ~38g | ~500 | 25 min |
+| Mediterranean Steak Bowls | Mediterranean / global | Weekend | ~44g | ~580 | 40 min |
 
-## Macro Scoreboard
+## 📊 Macro Scoreboard
 
-**Average: ~41g protein · ~494 cal per serving.**
-Five distinct proteins (chicken, shrimp, beef, pork, steak), all north of 38g protein and under 600 cal. A balanced, high-protein week — the verdict: lean, hearty, and on target.
+**Average protein:** ~42g/serving  ·  **Average calories:** ~518/serving
+
+*Verdict: Five proteins, five cuisines, zero repeats — every plate clears the 35g protein bar while staying comfortably under 600 calories. A well-balanced royal week.*
 
 ## The Dishes
 
-1. **Greek Chicken Souvlaki Bowls** — yogurt-marinated chicken thighs over rice with tzatziki, cucumber, tomato, and feta.
-2. **Sheet-Pan Shrimp Fajitas** — one pan, charred peppers and onions, smoky-spiced shrimp, lime and cilantro.
-3. **Thai Basil Beef (Pad Krapow)** — 20-minute stir-fry over rice with a crispy fried egg.
-4. **Cajun Butter Pork Chops & Green Beans** — one-skillet, lemon-butter finish.
-5. **Chimichurri Skirt Steak & Roasted Potatoes** — the weekend splurge; bright herb sauce over seared steak.
+1. **Smash Burger Bowls** — crispy-edged smashed beef over crisp lettuce with a tangy special sauce. The fastest dinner of the week.
+2. **Weeknight Butter Chicken** — a lighter Greek-yogurt take on the Indian classic, ready in 30 minutes with warm naan.
+3. **Honey Mustard Pork Tenderloin & Green Beans** — one sheet pan: juicy glazed pork, roasted baby potatoes, and beans.
+4. **Ground Chicken Banh Mi Bowls** — quick-pickled veg, savory glazed chicken, and a sriracha-yogurt drizzle over rice.
+5. **Mediterranean Steak Bowls** — the weekend splurge: seared steak, couscous, roasted veg, feta, and a cool yogurt sauce.
 
-*Full recipes in Cookbook/Recipes/ (and as Google Docs linked from each calendar event).*
+*Full recipes in Recipes/ (and as Google Docs linked from each calendar event).*
