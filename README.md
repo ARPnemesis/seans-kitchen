@@ -12,21 +12,21 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-06-15** (Mon Jun 15 – Sun Jun 21) — 5 dishes, avg ~42g protein / ~518 cal
+**Week of 2026-06-22** (Mon Jun 22 – Sun Jun 28) — 5 dishes, avg ~42g protein / ~540 cal
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is now `Menu_Week_of_2026-06-15.md`, created on-cycle by The Chef on 2026-06-12; it supersedes the legacy `Menu_Week_of_2026-06-22.md` (an off-cycle build kept only until the next attended cleanup).*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-22.md`, built on-cycle by The Chef on 2026-06-19 (this build also overwrote the old legacy `Menu_Week_of_2026-06-22.md` content, clearing that orphan).*
 
 | Dish | Style | Night | Time |
 |------|-------|-------|------|
 | Smash Burger Bowls | American comfort | Weeknight | 25 min |
 | Weeknight Butter Chicken | Indian | Weeknight | 30 min |
-| Honey Mustard Pork Tenderloin & Green Beans | American | Weeknight | 30 min |
 | Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | 25 min |
+| Creamy Tuscan Salmon | Italian | Weeknight | 25 min |
 | Mediterranean Steak Bowls | Mediterranean | Weekend | 40 min |
 
-*All five carried over from the prior plan and are already on the calendar June 15–20 with Google Doc recipes linked — no new dishes were built this week.*
+*Four dishes carried over from the prior plan; **Creamy Tuscan Salmon** is new this week (proven 5★ salmon protein, per the Critic). Mississippi Pot Roast is held back one more week — Critic targets its return the week of 2026-06-29. Full recipes in `Recipes/`; the new salmon also has a Google Doc in the Drive Recipes folder for mobile access.*
 
-**Previously cooked (now in the rating queue):** Week of 2026-06-08 — Chicken Shawarma Bowl, Gochujang Ground Turkey Bowl, Garlic Butter Chicken & Broccoli, Honey Garlic Salmon & Sesame Cucumber Salad, Mississippi Pot Roast.
+**Previously cooked (week of 2026-06-15, now finished):** Smash Burger Bowls, Weeknight Butter Chicken, Ground Chicken Banh Mi Bowls, Mediterranean Steak Bowls (plus a carried-over Honey Garlic Salmon Sean cooked Mon 6/15). These move into the rating queue — the Surveyor seeds the rating form with this week on Sunday 6/22.
 
 ---
 
@@ -40,7 +40,7 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 | 🗄️ The Archivist | `kitchen-archivist` | Friday 4:30 PM | Archives the finished week's files to `Archive/` before the Chef overwrites them. |
 | 🍳 The Chef | `weekly-kings-menu` | Friday 5 PM | Builds the coming week's menu, recipe files, and shopping list; resets Carryover; rolls the `Current_Week.md` pointer; refreshes the dashboard. |
 | 📅 The Scheduler | `kitchen-scheduler` | Friday 5:30 PM | Assigns the active dishes to free evenings; creates calendar events with Google Drive recipe links. |
-| 📜 The Scribe | `kitchen-scribe` | Friday 5:45 PM | Refreshes the README and drops the commit-message trigger for the Windows host GitHub sync. |
+| 📜 The Scribe | `kitchen-scribe` | Friday 5:45 PM | Refreshes this README and drops the commit-message trigger for the Windows host GitHub sync. |
 | 📬 The Surveyor | `meal-surveyor` | Sunday 7 PM | Owns `Rate_This_Week.md` (seeds it with the previous week's dishes); refreshes the standalone rating artifact; sends Monday 9 AM email + ntfy nudge. |
 
 ---
@@ -77,10 +77,12 @@ Each Friday the Chef rolls the ledger forward: the old ACTIVE becomes PREVIOUS, 
 Sunday 7 PM   → Surveyor populates Rate_This_Week.md with the PREVIOUS week's dishes,
                 refreshes the standalone survey artifact, and sends a Monday 9 AM
                 email (Google Calendar) + ntfy nudge.
-Anytime       → Sean opens the rating artifact → rates dishes → hits "Submit"
-                → sendPrompt → Kitchen Manager saves ratings to Rate_This_Week.md.
+Anytime       → Sean opens the rating artifact → rates dishes → saves.
+                Artifacts can't write local files, so ratings persist to a Google Drive
+                doc (the Cookbook Drive folder) rather than to disk directly.
 Wednesday     → Manager sends a second ntfy nudge if the week is still unrated.
-Friday 8 AM   → Critic reads Rate_This_Week.md → appends to Recipe_Ratings.md → updates Preferences.md.
+Friday 8 AM   → Critic collects the ratings from Drive → appends to Recipe_Ratings.md
+                → updates Preferences.md → writes Lessons Learned for the Chef.
 ```
 
 Ratings feed the menu roughly two Fridays later. Notifications go out via **both** Google Calendar (email) **and** ntfy.
@@ -99,9 +101,10 @@ Auth is handled entirely host-side by the GitHub App private key — The Scribe 
 
 ---
 
-## Dashboards
+## Artifacts (live dashboards)
 
-- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, pantry staples, and one-click Instacart cart build. Refreshed each Friday by the Chef. (Rating UI now lives in its own artifact.)
+- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, and one-click Instacart cart build. Refreshed each Friday by the Chef. The cart now assumes Sean owns **nothing** and includes every ingredient, then subtracts whatever is marked owned in the Inventory app. The "Generate a fresh menu now" button triggers the Chef via `runScheduledTask("weekly-kings-menu")`.
+- **`kings-table-inventory`** — Drive-backed checklist where Sean marks what he already has on hand; it saves a `Kitchen_Inventory` doc to the Cookbook Drive folder, which the dashboard cart reads at build time. (Replaced the old local pantry checklist that lived inside the dashboard.)
 - **`kings-table-rate-this-week`** — standalone weekly rating survey, refreshed each Sunday by the Surveyor with the week just finished.
 
 ---

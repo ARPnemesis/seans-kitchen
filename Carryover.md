@@ -1,9 +1,5 @@
-# Carryover — Week of June 15, 2026
+# Carryover — Week of June 22, 2026
 
-*Delete (check off) a dish once you've cooked it. Whatever's left at Friday rolls forward into next week.*
+*Delete a dish once cooked. Unchecked dishes roll forward next Friday.*
 
-- [ ] Smash Burger Bowls
-- [ ] Weeknight Butter Chicken
-- [ ] Honey Mustard Pork Tenderloin & Green Beans
-- [ ] Ground Chicken Banh Mi Bowls
-- [ ] Mediterranean Steak Bowls
+- [ ] Creamy Tuscan Salmon

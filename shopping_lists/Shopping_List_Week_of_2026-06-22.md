@@ -1,49 +1,73 @@
 # Shopping List — Week of June 22, 2026
-*King Soopers · ~$85 est. (dinners) + weekly staples below*
+*King Soopers · ~$100 est.*
+
+*Assume nothing is on hand — every ingredient from every recipe is listed, including salt, pepper, oils, and spices. Trim what you already own in your Inventory app before checkout.*
 
 ## Meat & Seafood
-- Ground beef, 90/10, 12 oz (Smash Burger Bowls)
-- Boneless skinless chicken thighs, 1 lb (Butter Chicken)
-- Pork tenderloin, ~1 lb (Honey Mustard Pork)
+- Ground beef, 90/10, ¾ lb (Smash Burger Bowls)
+- Chicken thighs, boneless skinless, 1 lb (Weeknight Butter Chicken)
 - Ground chicken, 1 lb (Banh Mi Bowls)
+- Salmon fillets, 2 × ~6 oz (Creamy Tuscan Salmon)
 - Sirloin or flat-iron steak, ¾ lb (Mediterranean Steak Bowls)
 
 ## Produce
-- Romaine or iceberg lettuce, 1 head (Smash Burger Bowls)
-- Roma tomato, 1 (Smash Burger Bowls)
-- Cherry tomatoes, 1 pint (Steak Bowls)
-- Red onion, 1 small (Smash Burger Bowls)
-- Cucumbers, 2 (Banh Mi + Steak Bowls — shared; Banh Mi uses 1, Steak Bowls ½)
+- Romaine or iceberg lettuce, 1 head (Smash — ½ head used)
+- Roma tomato, 1 (Smash)
+- Red onion, 1 (Smash — ¼ used; also handy elsewhere)
+- Cherry tomatoes, 2 pints (Tuscan Salmon + Steak Bowls share ~2 cups total — buy 2 pints so neither runs short)
+- Baby spinach, 1 bag (~5 oz) (Tuscan Salmon — 2 packed cups)
 - Carrots, 2 (Banh Mi Bowls)
-- Green beans, 12 oz (Honey Mustard Pork)
-- Baby/Yukon potatoes, 1 lb (Honey Mustard Pork)
+- Cucumber, 2 (Banh Mi 1 + Steak Bowls ½ — share, buy 2)
+- Scallions, 1 bunch (Banh Mi Bowls)
+- Cilantro, 1 bunch (Butter Chicken + Banh Mi share)
+- Lime, 1 (Banh Mi Bowls)
+- Lemon, 1 (Steak Bowls)
 - Zucchini, 1 (Steak Bowls)
 - Red bell pepper, 1 (Steak Bowls)
-- Scallions, 1 bunch (Banh Mi Bowls)
-- Cilantro, 1 bunch (Butter Chicken + Banh Mi — shared)
-- Limes, 2 (Banh Mi Bowls)
-- Lemon, 1 (Steak Bowls)
 - Fresh ginger, 1 small knob (Butter Chicken)
-- Garlic, 1 head (Butter Chicken + Banh Mi + Steak Bowls — shared, ~6 cloves)
-- Dill pickles, 1 jar (Smash Burger Bowls)
+- Garlic, 1 head / ~9 cloves (Butter Chicken 3 + Banh Mi 2 + Tuscan 3 + Steak 1 — share)
 
 ## Dairy
-- Greek yogurt, 1 large tub (32 oz) (Smash Burger sauce + Butter Chicken + Banh Mi drizzle + Steak Bowls sauce — shared across 4 dishes)
-- Shredded cheddar, 1 bag / 8 oz (Smash Burger Bowls)
-- Feta, crumbled, 4 oz (Steak Bowls)
-- Butter, 1 stick (Butter Chicken)
+- Greek yogurt, 1 tub (32 oz) (Smash + Butter Chicken + Banh Mi + Steak share ~1¼ cups total)
+- Shredded cheddar, 1 bag (Smash — ½ cup)
+- Butter, 1 stick (Butter Chicken 2 tbsp + Tuscan 2 tbsp — share)
+- Heavy cream, 1 small carton (½ pint) (Tuscan — ½ cup)
+- Parmesan, grated, 1 small tub or wedge (Tuscan — ¼ cup)
+- Feta cheese, crumbled, 1 small tub (Steak Bowls — ½ cup)
 
 ## Pantry & Sauces
 - Crushed tomatoes, 1 can (14–15 oz) (Butter Chicken)
-- Garam masala, 1 small jar (Butter Chicken)
-- Turmeric, 1 small jar (Butter Chicken)
-- Naan flatbread, 1 pack of 2 (Butter Chicken)
-- Couscous, 1 box (Steak Bowls — uses ¾ cup dry)
-- Dijon mustard, 1 small jar (Honey Mustard Pork)
-- Sriracha, 1 bottle (Banh Mi Bowls)
+- Naan flatbread, 1 pack (2 needed) (Butter Chicken)
+- White rice, 1 cup dry (~2 cups cooked across Butter Chicken + Banh Mi) — small bag
+- Couscous, 1 box (Steak Bowls — ¾ cup dry)
+- Baguette or crusty bread, 1 loaf (Tuscan — ½ used)
+- Dill pickle chips, 1 jar (Smash — ⅓ cup + sauce)
+- Mayonnaise, 1 jar (Smash — 1 tbsp) — check you have enough
+- Ketchup, 1 bottle (Smash — 1 tbsp) — check you have enough
+- Yellow mustard, 1 bottle (Smash — 2 tsp) — check you have enough
+- Soy sauce, 1 bottle (Banh Mi — 2 tbsp) — check you have enough
+- Fish sauce, 1 bottle (Banh Mi — 1 tbsp) — check you have enough
+- Sriracha, 1 bottle (Banh Mi — 1 tbsp) — check you have enough
+- Rice vinegar, 1 bottle (Banh Mi — 3 tbsp) — **check you have enough** (you were caught short on this before)
+- Sun-dried tomatoes, oil-packed, 1 jar (Tuscan — ⅓ cup)
+- Granulated sugar, 1 bag (Banh Mi — 1 tsp) — check you have enough
+- Brown sugar, 1 bag (Banh Mi — 1 tbsp) — check you have enough
+- Sesame seeds, 1 jar (Smash garnish) — **check you have enough** (you were caught short on this before)
+
+## Seasonings & Oils
+- Olive oil (Tuscan + Steak Bowls + searing) — check you have enough
+- Neutral cooking oil (searing) — check you have enough
+- Salt (all dishes)
+- Black pepper (all dishes)
+- Garlic powder (Smash)
+- Garam masala (Butter Chicken — 2 tsp)
+- Turmeric (Butter Chicken — 1 tsp)
+- Ground cumin (Butter Chicken + Steak Bowls share)
+- Italian seasoning (Tuscan)
+- Dried oregano (Steak Bowls)
 
 ---
-*Assumed you have (pantry): olive oil, neutral oil, sesame oil, soy sauce, rice vinegar, honey, sugar, brown sugar, salt, pepper, garlic powder, smoked paprika, cumin, dried oregano, sesame seeds, mayo, ketchup, yellow mustard, eggs, rice (~2 cups cooked needed across Butter Chicken + Banh Mi). **Fish sauce** (Banh Mi) — check you have it. Espresso beans — see staples note below.*
+*Likely already on hand (still listed above — trim what you own in your Inventory app): salt, black pepper, olive oil, neutral oil, garlic powder, granulated sugar, brown sugar, mayonnaise, ketchup, yellow mustard, soy sauce, and the dried spices (garam masala, turmeric, cumin, Italian seasoning, oregano).*
 
 ## Weekly Staples (Lunches + Espresso)
 

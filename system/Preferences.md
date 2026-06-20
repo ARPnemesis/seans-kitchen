@@ -29,20 +29,36 @@
 ## Auto-Generated: Discovered Preferences
 *Updated by The Critic each Friday based on your ratings. Do not edit.*
 
+*Last updated 2026-06-19 — based on 1 week of ratings (week of 2026-06-08, 5 dishes).*
+
 **High-rated dishes (4–5 ★):**
-*(none yet — ratings start after first survey)*
+- Chicken Shawarma Bowl — 5★ ("Amazing!!")
+- Garlic Butter Chicken & Broccoli — 5★ ("So simple, yet so good")
+- Honey Garlic Salmon & Sesame Cucumber Salad — 5★ (salmon + salad both winners)
+- Mississippi Pot Roast — 5★ (declared a permanent favorite)
+- Gochujang Ground Turkey Bowl — 4★ (great flavor; oyster sauce smell a minor knock)
 
 **Low-rated dishes (1–2 ★ — avoid recycling):**
 *(none yet)*
 
 **Preferred cuisines by rating:**
-*(none yet)*
+- Middle Eastern — 5★ (1 dish)
+- American comfort — 5★ (2 dishes: garlic butter chicken, pot roast)
+- Asian glazed/fusion — 5★ (honey garlic salmon)
+- Korean — 4★ (1 dish)
+All cuisines landing well; no cuisine has underperformed.
 
 **Preferred proteins by rating:**
-*(none yet)*
+- Chicken — 5★ avg (2 dishes) — strongest performer
+- Salmon — 5★
+- Beef (chuck/pot roast) — 5★
+- Ground turkey — 4★ (slightly behind the others)
 
 **Notes from The Critic:**
-*(none yet)*
+- Exceptional first week: every dish 4–5★ and "cook again: Yes" across the board. The current taste model is well-calibrated.
+- Difficulty estimates are accurate — four "as expected," one "easier," zero "harder than described."
+- Recurring operational issue (NOT a taste problem): the shopping list omitted honey (twice), sesame seeds, and rice wine vinegar. Sean improvised (maple syrup, white wine vinegar, skipped seeds). The Chef/shopping-list step should double-check glaze/sauce pantry items (honey, vinegars, sesame seeds) are included.
+- Ground turkey scored lowest of the proteins; keep it but don't lean on it heavily.
 
 ---
 

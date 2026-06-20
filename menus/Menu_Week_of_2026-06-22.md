@@ -1,8 +1,8 @@
 # 👑 The King's Menu — Week of June 22, 2026
 
-*Hear ye, hear ye. The royal kitchen presents five fresh dishes for the week ahead — a tour through American comfort, an Indian classic, a Vietnamese bowl, and a Mediterranean feast to crown the weekend. All five are new this week: the June 15 dishes (Greek Souvlaki, Shrimp Fajitas, Thai Basil Beef, Cajun Pork Chops, Chimichurri Steak) are already on the calendar and in your rating queue, so the Chef built a fully varied slate rather than repeat them. No evening engagements clash with cooking June 22–28, so all five nights are yours.*
+A hearty, well-rotated week for the royal table. Four returning favorites carry forward from last week's slate, joined by one fresh arrival — **Creamy Tuscan Salmon** — to keep a splurge protein and a creamy Italian note in the rotation. Every evening June 22–28 is clear on the calendar (only a Monday midday WGU mentor call and the Monday-morning rating reminder), so it's a full five-dish week with no nights skipped.
 
-*Critic's notes: no ratings on file yet (first survey concludes after the June 8 week), so this menu leans on the standing taste profile — high protein, moderate calories, weeknight speed, and trending bowl-style dinners spotted this month.*
+Per the Critic's latest brief: last week was a flawless 4–5★ run, so the well-loved set rolls on. Mississippi Pot Roast is deliberately held one more week (targeted to return June 29) to avoid over-recycling, and ground turkey is rested this week since it scored lowest of the proteins. No honey-glaze dish this week — but the glaze/sauce pantry items the Critic keeps flagging (rice vinegar, sesame seeds, fish sauce, sriracha) are all called out on the shopping list with "check you have enough" notes.
 
 ## At a Glance
 
@@ -10,22 +10,22 @@
 |------|-------|------|---------|----------|------|
 | Smash Burger Bowls | American comfort | Weeknight | ~42g | ~520 | 25 min |
 | Weeknight Butter Chicken | Indian | Weeknight | ~45g | ~560 | 30 min |
-| Honey Mustard Pork Tenderloin & Green Beans | American comfort | Weeknight | ~40g | ~430 | 30 min |
 | Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | ~38g | ~500 | 25 min |
-| Mediterranean Steak Bowls | Mediterranean / global | Weekend | ~44g | ~580 | 40 min |
+| Creamy Tuscan Salmon *(new)* | Italian | Weeknight | ~40g | ~540 | 25 min |
+| Mediterranean Steak Bowls | Mediterranean | Weekend | ~44g | ~580 | 40 min |
 
 ## 📊 Macro Scoreboard
 
-**Average protein:** ~42g/serving  ·  **Average calories:** ~518/serving
+**Average: ~42g protein · ~540 cal per serving**
 
-*Verdict: Five proteins, five cuisines, zero repeats — every plate clears the 35g protein bar while staying comfortably under 600 calories. A well-balanced royal week.*
+All five plates clear the 35g-protein bar and stay under 600 calories — lean but hearty, exactly the royal standard. A strong, balanced week.
 
-## The Dishes
+## This Week's Dishes
 
-1. **Smash Burger Bowls** — crispy-edged smashed beef over crisp lettuce with a tangy special sauce. The fastest dinner of the week.
-2. **Weeknight Butter Chicken** — a lighter Greek-yogurt take on the Indian classic, ready in 30 minutes with warm naan.
-3. **Honey Mustard Pork Tenderloin & Green Beans** — one sheet pan, juicy glazed pork, roasted potatoes and beans.
-4. **Ground Chicken Banh Mi Bowls** — quick-pickled veg, savory glazed chicken, and a sriracha-yogurt drizzle.
-5. **Mediterranean Steak Bowls** — the weekend splurge: seared steak, couscous, roasted veg, feta, and a cool yogurt sauce.
+1. **Smash Burger Bowls** — crispy-edged smashed beef, cheddar, and a tangy special sauce over crunchy lettuce. *(carried over)*
+2. **Weeknight Butter Chicken** — yogurt-marinated thighs in a quick spiced tomato sauce with naan and rice. *(carried over)*
+3. **Ground Chicken Banh Mi Bowls** — glazed chicken, quick-pickled veg, and a sriracha-yogurt drizzle. *(carried over)*
+4. **Creamy Tuscan Salmon** — seared salmon in a garlic-Parmesan cream sauce with spinach and sun-dried tomatoes. *(new this week)*
+5. **Mediterranean Steak Bowls** — seared sirloin over couscous with roasted veg, feta, and lemon-yogurt sauce. *(carried over · weekend)*
 
-*Full recipes in Cookbook/Recipes/ (and as Google Docs linked from each calendar event).*
+*Full recipes in Recipes/. Shared ingredients (Greek yogurt, garlic, butter, cherry tomatoes, cucumber, cilantro) are combined on the shopping list to cut waste.*
