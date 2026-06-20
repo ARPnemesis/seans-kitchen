@@ -1,77 +1,68 @@
 # Shopping List — Week of June 22, 2026
-*King Soopers · ~$100 est.*
+*King Soopers · ~$105 est. · 5 dinners, 2 servings each*
 
-*Assume nothing is on hand — every ingredient from every recipe is listed, including salt, pepper, oils, and spices. Trim what you already own in your Inventory app before checkout.*
+Assume-nothing list: every ingredient the recipes call for is here (yes, even salt, pepper, and oil). Trim what you already own in your Inventory app — the "likely on hand" line at the bottom is just a reminder of the usual suspects; it removes nothing.
 
 ## Meat & Seafood
-- Ground beef, 90/10, ¾ lb (Smash Burger Bowls)
-- Chicken thighs, boneless skinless, 1 lb (Weeknight Butter Chicken)
-- Ground chicken, 1 lb (Banh Mi Bowls)
-- Salmon fillets, 2 × ~6 oz (Creamy Tuscan Salmon)
-- Sirloin or flat-iron steak, ¾ lb (Mediterranean Steak Bowls)
+- Boneless skinless chicken thighs, 1 lb (Harissa Chicken) — packs often run ~1.3–1.5 lb; use extra for lunch
+- Lean ground turkey (93%), 10 oz (Baked Ziti)
+- Cod fillets, 2 (~6 oz each / ~12 oz total; frozen fine) (Miso Cod)
+- Ground pork, 12 oz (Egg Roll in a Bowl)
+- Flank or skirt steak, 3/4 lb (Carne Asada) — packs often ~1–1.25 lb; save slices for lunch
 
 ## Produce
-- Romaine or iceberg lettuce, 1 head (Smash — ½ head used)
-- Roma tomato, 1 (Smash)
-- Red onion, 1 (Smash — ¼ used; also handy elsewhere)
-- Cherry tomatoes, 2 pints (Tuscan Salmon + Steak Bowls share ~2 cups total — buy 2 pints so neither runs short)
-- Baby spinach, 1 bag (~5 oz) (Tuscan Salmon — 2 packed cups)
-- Carrots, 2 (Banh Mi Bowls)
-- Cucumber, 2 (Banh Mi 1 + Steak Bowls ½ — share, buy 2)
-- Scallions, 1 bunch (Banh Mi Bowls)
-- Cilantro, 1 bunch (Butter Chicken + Banh Mi share)
-- Lime, 1 (Banh Mi Bowls)
-- Lemon, 1 (Steak Bowls)
-- Zucchini, 1 (Steak Bowls)
-- Red bell pepper, 1 (Steak Bowls)
-- Fresh ginger, 1 small knob (Butter Chicken)
-- Garlic, 1 head / ~9 cloves (Butter Chicken 3 + Banh Mi 2 + Tuscan 3 + Steak 1 — share)
+- Red bell peppers, 2 (1 for Harissa Chicken, 1 for Carne Asada)
+- Red onions, 2 (Harissa Chicken whole; Carne Asada ½ — combined)
+- Yellow onion, 1 (Baked Ziti)
+- Lemon, 1 (Harissa Chicken)
+- Limes, 2 (Carne Asada)
+- Garlic, 1 head (~10 cloves needed across 5 dishes — bump so you don't run short)
+- Fresh ginger, 1 knob (Miso Cod + Egg Roll — combined)
+- Baby bok choy, 2 (Miso Cod)
+- Coleslaw mix (shredded cabbage + carrot), 1 bag (14 oz) (Egg Roll)
+- Green onions, 1 bunch (Miso Cod + Egg Roll — combined)
+- Avocado, 1 (Carne Asada)
+- Fresh parsley, 1 bunch (Harissa Chicken)
+- Fresh cilantro, 1 bunch (Carne Asada)
 
 ## Dairy
-- Greek yogurt, 1 tub (32 oz) (Smash + Butter Chicken + Banh Mi + Steak share ~1¼ cups total)
-- Shredded cheddar, 1 bag (Smash — ½ cup)
-- Butter, 1 stick (Butter Chicken 2 tbsp + Tuscan 2 tbsp — share)
-- Heavy cream, 1 small carton (½ pint) (Tuscan — ½ cup)
-- Parmesan, grated, 1 small tub or wedge (Tuscan — ¼ cup)
-- Feta cheese, crumbled, 1 small tub (Steak Bowls — ½ cup)
+- Plain Greek yogurt, 1 tub (16–24 oz; ~¾ cup used: Harissa drizzle + Carne Asada crema)
+- Low-fat cottage cheese, 1 tub (16 oz; 1 cup used) (Baked Ziti)
+- Shredded part-skim mozzarella, 1 bag (8 oz) (Baked Ziti)
+- Grated parmesan, 1 small container (Baked Ziti)
+- Feta cheese, 1 container (6–8 oz; Harissa + Carne Asada — combined; cotija works for the Carne Asada)
 
 ## Pantry & Sauces
-- Crushed tomatoes, 1 can (14–15 oz) (Butter Chicken)
-- Naan flatbread, 1 pack (2 needed) (Butter Chicken)
-- White rice, 1 cup dry (~2 cups cooked across Butter Chicken + Banh Mi) — small bag
-- Couscous, 1 box (Steak Bowls — ¾ cup dry)
-- Baguette or crusty bread, 1 loaf (Tuscan — ½ used)
-- Dill pickle chips, 1 jar (Smash — ⅓ cup + sauce)
-- Mayonnaise, 1 jar (Smash — 1 tbsp) — check you have enough
-- Ketchup, 1 bottle (Smash — 1 tbsp) — check you have enough
-- Yellow mustard, 1 bottle (Smash — 2 tsp) — check you have enough
-- Soy sauce, 1 bottle (Banh Mi — 2 tbsp) — check you have enough
-- Fish sauce, 1 bottle (Banh Mi — 1 tbsp) — check you have enough
-- Sriracha, 1 bottle (Banh Mi — 1 tbsp) — check you have enough
-- Rice vinegar, 1 bottle (Banh Mi — 3 tbsp) — **check you have enough** (you were caught short on this before)
-- Sun-dried tomatoes, oil-packed, 1 jar (Tuscan — ⅓ cup)
-- Granulated sugar, 1 bag (Banh Mi — 1 tsp) — check you have enough
-- Brown sugar, 1 bag (Banh Mi — 1 tbsp) — check you have enough
-- Sesame seeds, 1 jar (Smash garnish) — **check you have enough** (you were caught short on this before)
+- Chickpeas, 1 can (15 oz) (Harissa Chicken)
+- Black beans, 1 can (15 oz) (Carne Asada)
+- Harissa paste, 1 jar (or harissa powder) (Harissa Chicken)
+- White rice, 1 bag (base for Harissa, Cod, and Carne Asada — ~3 cups cooked)
+- Ziti or penne, 1 box (protein pasta if available) (Baked Ziti)
+- Marinara sauce, 1 jar (Baked Ziti)
+- White miso paste, 1 tub (Miso Cod)
+- Rice vinegar, 1 bottle — **check you have enough** (Miso Cod + Egg Roll)
+- Soy sauce, 1 bottle — **check you have enough** (Miso Cod + Egg Roll)
+- Honey, 1 bottle — **check you have enough** (Miso Cod)
+- Toasted sesame seeds, 1 jar — **check you have enough** (Miso Cod + Egg Roll)
+- Toasted sesame oil, 1 small bottle (Egg Roll)
+- Sriracha, 1 bottle (optional, Egg Roll) — only if you want the heat
 
 ## Seasonings & Oils
-- Olive oil (Tuscan + Steak Bowls + searing) — check you have enough
-- Neutral cooking oil (searing) — check you have enough
-- Salt (all dishes)
-- Black pepper (all dishes)
-- Garlic powder (Smash)
-- Garam masala (Butter Chicken — 2 tsp)
-- Turmeric (Butter Chicken — 1 tsp)
-- Ground cumin (Butter Chicken + Steak Bowls share)
-- Italian seasoning (Tuscan)
-- Dried oregano (Steak Bowls)
+- Olive oil, 1 bottle (used in 4 dishes)
+- Neutral oil (avocado or canola), 1 bottle (Egg Roll stir-fry)
+- Salt, 1 container
+- Black pepper, 1 container
+- Ground cumin, 1 jar (Harissa + Carne Asada)
+- Smoked paprika, 1 jar (Harissa + Carne Asada)
+- Chili powder, 1 jar (Carne Asada)
+- Italian seasoning, 1 jar (Baked Ziti)
+- Red pepper flakes, 1 jar (Baked Ziti)
 
 ---
-*Likely already on hand (still listed above — trim what you own in your Inventory app): salt, black pepper, olive oil, neutral oil, garlic powder, granulated sugar, brown sugar, mayonnaise, ketchup, yellow mustard, soy sauce, and the dried spices (garam masala, turmeric, cumin, Italian seasoning, oregano).*
 
 ## Weekly Staples (Lunches + Espresso)
 
-### Lunches
+## Lunches
 
 - Bread, 1 loaf (sandwich/toast)
 - Eggs, 1 dozen
@@ -80,12 +71,16 @@
 - Sliced cheese, 1 pack (cheddar or swiss)
 - Protein bars, 1 box
 
-### Espresso Bar
+## Espresso Bar
 
 - Whole milk, ½ gallon (lattes, cappuccinos, macchiatos)
 - Espresso beans — **check bag first, add if less than ~1 week of shots left**
 
-### Notes
+## Notes
 - Condiments (mayo, mustard, hot sauce) are pantry staples — only add if running out
 - Simple syrup or flavored syrups: add manually when needed
 - Oat milk: swap for whole milk here if preferred
+
+---
+
+*Likely already on hand (still listed above — trim what you own in your Inventory app): olive oil, neutral oil, salt, black pepper, ground cumin, smoked paprika, chili powder, Italian seasoning, red pepper flakes, soy sauce, rice vinegar, honey, sesame seeds, sesame oil, sriracha, white rice, garlic.*

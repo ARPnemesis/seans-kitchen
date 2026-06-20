@@ -1,31 +1,39 @@
 # 👑 The King's Menu — Week of June 22, 2026
 
-A hearty, well-rotated week for the royal table. Four returning favorites carry forward from last week's slate, joined by one fresh arrival — **Creamy Tuscan Salmon** — to keep a splurge protein and a creamy Italian note in the rotation. Every evening June 22–28 is clear on the calendar (only a Monday midday WGU mentor call and the Monday-morning rating reminder), so it's a full five-dish week with no nights skipped.
+Hear ye, Sean. A wholly fresh slate this week — five brand-new dishes, no repeats of anything from the last three weeks. The royal kitchen circled the globe for this one: a fiery Middle Eastern sheet pan, a cozy American comfort bake reinvented for protein, a clean Japanese fish night, a fast Chinese stir-fry bowl, and a Latin weekend feast. Five different proteins (chicken, turkey, cod, pork, beef) and five different cuisines, with no protein or cuisine landing twice.
 
-Per the Critic's latest brief: last week was a flawless 4–5★ run, so the well-loved set rolls on. Mississippi Pot Roast is deliberately held one more week (targeted to return June 29) to avoid over-recycling, and ground turkey is rested this week since it scored lowest of the proteins. No honey-glaze dish this week — but the glaze/sauce pantry items the Critic keeps flagging (rice vinegar, sesame seeds, fish sauce, sriracha) are all called out on the shopping list with "check you have enough" notes.
+Four are easy weeknights; **Carne Asada Bowls** is your weekend showpiece (a quick marinade rewards patience). Your evenings June 22–28 are clear for cooking — only a Monday midday WGU mentor call and the Monday morning rating reminder are on the calendar, so no dinner nights are blocked.
+
+Per the Critic's notes: chicken, fish, and beef anchor the week (your top performers), ground turkey appears just once and leans on a strong marinara, and every glaze/dressing pantry item (rice vinegar, soy, honey, sesame) is double-checked onto the shopping list. **Mississippi Pot Roast** is resting one more week — it's slated to return around June 29 per the recycle cadence.
+
+---
 
 ## At a Glance
 
-| Dish | Style | When | Protein | Calories | Time |
-|------|-------|------|---------|----------|------|
-| Smash Burger Bowls | American comfort | Weeknight | ~42g | ~520 | 25 min |
-| Weeknight Butter Chicken | Indian | Weeknight | ~45g | ~560 | 30 min |
-| Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | ~38g | ~500 | 25 min |
-| Creamy Tuscan Salmon *(new)* | Italian | Weeknight | ~40g | ~540 | 25 min |
-| Mediterranean Steak Bowls | Mediterranean | Weekend | ~44g | ~580 | 40 min |
+| Dish | Style | Night | Protein | Calories | Time |
+|------|-------|-------|---------|----------|------|
+| Harissa Chicken & Chickpea Sheet-Pan Bowls | Middle Eastern | Weeknight | ~46g | ~520 | ~30 min |
+| High-Protein Cottage Cheese Baked Ziti | American comfort | Weeknight | ~45g | ~575 | ~40 min |
+| Miso-Glazed Cod with Bok Choy & Rice | Japanese / Asian | Weeknight | ~38g | ~470 | ~25 min |
+| Egg Roll in a Bowl (Ground Pork) | Chinese | Weeknight | ~37g | ~430 | ~25 min |
+| Carne Asada Bowls | Latin / Mexican | Weekend | ~46g | ~580 | ~40 min + marinade |
 
-## 📊 Macro Scoreboard
+---
 
-**Average: ~42g protein · ~540 cal per serving**
+## Macro Scoreboard
 
-All five plates clear the 35g-protein bar and stay under 600 calories — lean but hearty, exactly the royal standard. A strong, balanced week.
+- **Average protein:** ~42g per serving
+- **Average calories:** ~515 per serving
+- **Verdict:** Five for five — every dish clears the 35g-protein / sub-600-calorie bar, with a wide protein spread (chicken, turkey, cod, pork, beef) and zero cuisine repeats.
+
+---
 
 ## This Week's Dishes
 
-1. **Smash Burger Bowls** — crispy-edged smashed beef, cheddar, and a tangy special sauce over crunchy lettuce. *(carried over)*
-2. **Weeknight Butter Chicken** — yogurt-marinated thighs in a quick spiced tomato sauce with naan and rice. *(carried over)*
-3. **Ground Chicken Banh Mi Bowls** — glazed chicken, quick-pickled veg, and a sriracha-yogurt drizzle. *(carried over)*
-4. **Creamy Tuscan Salmon** — seared salmon in a garlic-Parmesan cream sauce with spinach and sun-dried tomatoes. *(new this week)*
-5. **Mediterranean Steak Bowls** — seared sirloin over couscous with roasted veg, feta, and lemon-yogurt sauce. *(carried over · weekend)*
+1. **Harissa Chicken & Chickpea Sheet-Pan Bowls** — *Middle Eastern · weeknight.* Roasted harissa-spiced chicken thighs and chickpeas over rice with a garlicky lemon-yogurt drizzle and feta.
+2. **High-Protein Cottage Cheese Baked Ziti** — *American comfort · weeknight.* Ground turkey and marinara folded with cottage cheese (the ricotta swap that doubles the protein), baked under mozzarella.
+3. **Miso-Glazed Cod with Bok Choy & Rice** — *Japanese · weeknight.* Caramelized miso-glazed cod with roasted baby bok choy, green onion, and sesame.
+4. **Egg Roll in a Bowl (Ground Pork)** — *Chinese · weeknight.* All the savory flavor of an egg roll without the wrapper — ground pork stir-fried with cabbage, ginger, garlic, soy, and sesame. High protein, low calorie, ~25 min.
+5. **Carne Asada Bowls** — *Latin · weekend.* Lime-and-garlic marinated flank steak over rice and black beans with charred peppers, avocado, and a lime crema.
 
-*Full recipes in Recipes/. Shared ingredients (Greek yogurt, garlic, butter, cherry tomatoes, cucumber, cilantro) are combined on the shopping list to cut waste.*
+*Full recipes in Recipes/ (and as Google Docs in your Cookbook Drive folder).*

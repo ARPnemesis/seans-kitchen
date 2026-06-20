@@ -1,152 +1,107 @@
 # Sean's Kitchen — Project Master Reference
-*Royal Kitchen Automation System · Established June 2026*
+*Royal Kitchen Automation System · Established June 2026 · Updated 2026-06-19*
 
 ---
 
 ## What This Is
 
-A fully automated weekly meal-planning system. Every Friday a pipeline of six scheduled tasks builds a personalized 5-dinner menu, writes individual recipe files, creates a simple shopping list, schedules dinner on the calendar with recipe links, and refreshes a live dashboard — all informed by Sean's taste ratings and evolving preferences.
+A fully automated weekly meal-planning system. Every Friday a pipeline of scheduled tasks builds a brand-new 5-dinner menu, writes recipe files and a shopping list, schedules dinners on the calendar with recipe links, and refreshes a live dashboard — all informed by Sean's taste ratings and evolving preferences. **Canonical data lives in `E:\Seans_Royal_Kitchen\`.**
 
 ---
 
-## The Team
+## The Team (8 scheduled tasks)
 
 | Employee | Task ID | Schedule | Role |
 |----------|---------|----------|------|
-| 👑 The Kitchen Manager | `the-manager` | Daily 7 AM | Checks and balances on all employees. Approves mid-tier changes. Escalates failures to Sean. |
-| 🔧 The Developer | `kitchen-developer` | 1st Friday 6 AM | Monthly system review. Auto-fixes minor issues. Proposes improvements. |
-| 📋 The Critic | `meal-critic-weekly` | Friday 8 AM | Reads meal ratings, updates taste profile, writes Lessons Learned for the Chef. |
-| 🗄️ The Archivist | `kitchen-archivist` | Friday 4:30 PM | Archives this week's files before Chef overwrites them. |
-| 🍳 The Chef | `weekly-kings-menu` | Friday 5 PM | Builds menu, recipe files, shopping list, resets Carryover, refreshes dashboard. |
-| 📅 The Scheduler | `kitchen-scheduler` | Friday 5:30 PM | Assigns dishes to free evenings, creates calendar events with recipe links. |
-| 📬 The Surveyor | `meal-surveyor` | Sunday 7 PM | Creates Rate_This_Week.md, emails Sean Monday 9 AM via Google Calendar. |
-| 📝 The Scribe | `kitchen-scribe` | Friday 5:45 PM | Syncs all kitchen files and task prompts to GitHub (ARPnemesis/seans-kitchen). Version control + README. |
+| 👑 Kitchen Manager | `the-manager` | Daily 7 AM | Health check on all tasks; verifies the ledger; escalates failures; approves mid-tier changes. |
+| 🔧 Developer | `kitchen-developer` | 1st Fri 6 AM | Monthly system review; auto-fixes minor issues; proposes major ones. |
+| 📋 Critic | `meal-critic-weekly` | Fri 8 AM | Reads ratings, updates taste profile, writes Lessons Learned for the Chef. |
+| 🗄️ Archivist | `kitchen-archivist` | Fri 4:30 PM | Files the just-finished (PREVIOUS) week into Archive\; resets the rating form. |
+| 🍳 Chef | `weekly-kings-menu` | Fri 5 PM | Builds a fresh 5-dish menu, recipes, shopping list; refreshes dashboard; updates the week ledger. |
+| 📅 Scheduler | `kitchen-scheduler` | Fri 5:30 PM | Puts the ACTIVE week's dishes on the calendar with recipe links. |
+| 📝 Scribe | `kitchen-scribe` | Fri 5:45 PM | Backs up the kitchen to GitHub via the Windows host PowerShell task; refreshes README. |
+| 📬 Surveyor | `meal-surveyor` | Sun 7 PM | Refreshes the Rate This Week app with the PREVIOUS week's dishes; emails a Monday 9 AM rating reminder. |
+
+Task prompts (SKILL.md) live at `C:\Users\seanm\OneDrive\Documents\Claude\Scheduled\<id>\`. A backup of all 8 is at `System\Recovered_Task_Prompts_2026-06-10.md`.
 
 ---
 
-## Friday Pipeline (in order)
+## Source of Truth: `System\Current_Week.md`
 
-```
-6:00 AM  → Developer     (1st Friday of month only)
-7:00 AM  → Manager       (daily check — verifies Developer ran if 1st Friday)
-8:00 AM  → Critic        (reads Rate_This_Week.md → updates Preferences.md + writes Lessons Learned)
-4:30 PM  → Archivist     (copies week's files to Archive/)
-5:00 PM  → Chef          (builds new menu, recipe files, shopping list, dashboard)
-5:30 PM  → Scheduler     (creates calendar dinner events with Google Drive recipe links)
-5:45 PM  → Scribe        (syncs all files + task code to GitHub, updates README)
-```
+Every task reads this ledger to know which week it operates on — never inferred from "the most recent menu file" (that caused off-cycle drift).
+
+- **ACTIVE_WEEK** = the week currently being cooked (Chef most recently built). Scheduler + dashboard use it.
+- **PREVIOUS_WEEK** = the week most recently finished. Surveyor rates it, Critic processes it, Archivist files it.
+
+Each Friday the Chef builds a fresh ACTIVE week. Normal week: old ACTIVE rolls to PREVIOUS. Re-run for the same week: the Chef rebuilds in place and leaves PREVIOUS untouched.
+
+## No Carryover
+
+Removed June 2026. Every week is 5 brand-new dishes; the Chef never repeats a dish served in the last 3 weeks (only exception: a Critic-recommended 4–5★ favorite absent 4+ weeks). Sean does not maintain any carry-forward list.
+
+## Ingredient Policy: assume nothing
+
+The Chef assumes Sean owns nothing and lists/cart-adds every ingredient (incl. salt, pepper, oil). Sean trims what he owns in the **Inventory app**.
+
+---
+
+## Live Artifacts (3)
+
+| Artifact id | Purpose |
+|-------------|---------|
+| `kings-table-kitchen-dashboard` | Menu, macro scoreboard, "Generate menu" (→ runScheduledTask), "Build Instacart cart" (King Soopers; subtracts inventory), links to the other two apps. |
+| `kings-table-rate-this-week` | Weekly rating. Submit writes a `Rate_Submission_<date>` doc to the Cookbook folder on Google Drive. |
+| `kings-table-inventory` | What Sean owns. Save writes a `Kitchen_Inventory` doc to Google Drive. |
+
+**Why Drive?** Persisted artifacts can't write local files and have no `sendPrompt`. So they bridge through Google Drive: the **rating** app → `Rate_Submission_*` (the Critic reads it Friday and writes `Rate_This_Week.md`); the **inventory** app → `Kitchen_Inventory` (the dashboard cart reads it at build time). Drive `create_file` only creates, so readers take the newest copy by createdTime.
 
 ---
 
 ## Rating Flow
 
 ```
-Sunday 7 PM  → Surveyor creates Rate_This_Week.md + Monday 9 AM calendar email
-               (Sean gets a real email from Google Calendar)
-Anytime      → Sean opens King's Table Kitchen Dashboard → rates dishes → hits "Submit"
-               → sendPrompt → Kitchen Manager saves ratings to Rate_This_Week.md
-Friday 8 AM  → Critic reads Rate_This_Week.md → appends to Recipe_Ratings.md → updates Preferences.md
+Sun 7 PM   → Surveyor refreshes Rate This Week app (PREVIOUS week's dishes) + Monday 9 AM email reminder
+Mon–Fri    → Sean rates in the app → Submit → Rate_Submission_<date> saved to Google Drive
+Fri 8 AM   → Critic pulls latest Rate_Submission from Drive → Rate_This_Week.md → Recipe_Ratings.md + Preferences + Lessons Learned
 ```
 
 ---
 
-## File Structure
+## File Structure (E:\Seans_Royal_Kitchen\)
 
 ```
-E:\Seans_Royal_Kitchen\
-│
-├── Menu_Week_of_YYYY-MM-DD.md          ← current week (overwritten each Friday)
-├── Shopping_List_Week_of_YYYY-MM-DD.md ← current week (overwritten each Friday)
-├── Carryover.md                        ← live checklist (delete dishes as cooked)
-├── Rate_This_Week.md                   ← rating form (created Sunday, read Friday)
-│
-├── Recipes\                            ← PERMANENT library (never deleted)
-│   └── [Dish_Name_With_Underscores].md ← one file per recipe, grows every week
-│
-├── Archive\                            ← past weeks (read-only history)
-│   └── Week_YYYY-MM-DD\
-│       ├── Menu_Week_of_*.md
-│       ├── Shopping_List_Week_of_*.md
-│       ├── Lessons_Learned_*.md
-│       ├── Rate_This_Week.md
-│       └── Archive_Summary.md
-│
-└── System\                             ← system intelligence (do not delete)
-    ├── Kitchen_Manager_Charter.md      ← authority + escalation rules
-    ├── Kitchen_Log.md                  ← shared briefing board (all tasks read + write)
-    ├── Preferences.md                  ← Sean's taste profile (Critic updates auto-section)
-    ├── Recipe_Ratings.md               ← all historical ratings
-    ├── Sean's_Kitchen_Project.md       ← this file
-    ├── Developer_Report_*.md           ← monthly system health reports
-    └── Change_Requests\
-        └── Change_Request_YYYY-MM-DD.md
+Menu_Week_of_*.md, Shopping_List_Week_of_*.md   ← current + recent weeks
+Rate_This_Week.md                               ← rating form (Critic fills Fri, Archivist blanks after)
+README.md, How_This_Kitchen_Works.md            ← docs (Scribe / manual)
+Recipes\                                         ← permanent recipe library
+Archive\Week_YYYY-MM-DD\                         ← filed past weeks
+System\
+  Current_Week.md            ← THE week ledger (source of truth)
+  Kitchen_Log.md             ← shared briefing board (all tasks read + append)
+  Kitchen_Manager_Charter.md, Preferences.md, Recipe_Ratings.md, Weekly_Staples.md
+  Sean's_Kitchen_Project.md  ← this file
+  Recovered_Task_Prompts_*.md ← backup of all 8 task prompts
+  Developer_Report_*.md, Change_Requests\, Kitchen_Log_Archive\
+  *.ps1, *.vbs, *.pem, ntfy_topic.txt ← Windows host scripts + secrets (gitignored)
 ```
 
 ---
 
-## Carryover.md Format
+## Notifications & Sync
 
-One dish per line, standard markdown task syntax:
-```
-- [ ] Chicken Shawarma Bowl        ← unchecked = not yet cooked → rolls forward
-- [x] Mississippi Pot Roast        ← checked = cooked → does NOT roll forward
-```
-Delete lines you don't want to carry forward. The Chef reads this every Friday.
-
----
-
-## Dashboard: King's Table Kitchen Dashboard
-
-Live artifact (refreshed every Friday by the Chef):
-- 🎛️ Control Panel — manual menu trigger + cart build shortcut
-- 📊 Macro Scoreboard — live avg protein + calories across selected dishes
-- 🍽️ This Week's Menu — checkboxes to deselect dishes you're skipping
-- ⭐ Rate This Week — star ratings, cook-again, difficulty, notes per dish
-- 🥫 Pantry Staples — check what you own; excluded from cart
-- 🛒 Build Instacart Cart — one click, clears old cart, adds all selected dishes minus pantry
-
-localStorage keys (persist across sessions):
-- `kt_pantry_v1` — your pantry checkmarks
-- `kt_dishes_off_v1` — deselected dishes
-- `kt_ratings_v1` — in-progress ratings (cleared on new week load)
-
----
-
-## Escalation Chain
-
-```
-Auto-implement  →  Kitchen Manager decides (no approval needed)
-Mid-tier change →  Kitchen Manager reviews → implements if approved
-Major change    →  Kitchen Manager writes proposal → Sean approves via email
-```
-
-Sean gets a real email (via Google Calendar event notification) for:
-- 🚨 Critical failures (task crashed, no menu found)
-- 🔧 Major change requests requiring approval
-- 📬 Weekly meal rating reminder (Monday 9 AM)
+- **Phone alerts:** tasks append to `System\.ntfy_queue.json`; a Windows PowerShell flusher pushes to ntfy.
+- **GitHub backup:** the Scribe writes a commit-trigger; the Windows `github_sync.ps1` task pushes `E:\Seans_Royal_Kitchen\` to GitHub (the Cowork sandbox has no outbound network, so git runs on the host). Secrets (`.pem`, ntfy topic, tokens, setup scripts) are gitignored.
 
 ---
 
 ## Sean's Profile (quick reference)
 
 - **Location:** Englewood, CO · King Soopers via Instacart
-- **Budget:** ~$100–130/week groceries
+- **Budget:** ~$100–130/week
 - **Schedule:** 5 dinners/week, eats out often
-- **Weeknight:** ≤30 min, minimal prep
-- **Weekend:** can be involved (slow cooker fine)
-- **Proteins:** chicken thighs, ground turkey/beef, eggs weeknights; steak/salmon/shrimp weekends
+- **Weeknight:** ≤30 min, minimal prep · **Weekend:** can be involved
+- **Proteins:** chicken thighs, ground turkey/beef, eggs midweek; steak/salmon/shrimp weekends
 - **Goal:** high protein (35g+/serving), moderate calories (<600), lean + hearty, global variety
 
----
-
 *"Run lean, eat like a king."*
-
----
-
-## System Update — 2026-06-11 (approved change requests CR-A…D)
-
-- **Single source of truth:** `System/Current_Week.md` now holds `ACTIVE_WEEK`/`ACTIVE_DISHES` (the week being cooked/scheduled) and `PREVIOUS_WEEK`/`PREVIOUS_DISHES` (the week being rated). Every task reads this — they no longer infer the week from "the most recent menu file." The Chef rolls it each Friday.
-- **Rhythm:** Chef builds for the coming Monday–Sunday; you rate the prior week each Monday (after you've eaten everything); ratings feed the menu ~2 Fridays later.
-- **Ratings split out:** the rating survey is now its own artifact, **`kings-table-rate-this-week`** (localStorage key `kt_survey_ratings_v1`), refreshed each Sunday by The Surveyor with the week you just finished. The main `kings-table-kitchen-dashboard` no longer has a rating section (menu/cart/macros/pantry only). The Surveyor owns `Rate_This_Week.md`; `Rate_Reminder_This_Week.md` is retired.
-- **Notifications:** alerts, reminders, and escalations now go out via BOTH Google Calendar (email) AND ntfy. Two rating nudges per cycle (Surveyor Monday + Manager Wednesday-if-unrated).
 

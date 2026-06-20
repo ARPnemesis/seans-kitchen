@@ -12,21 +12,21 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-06-22** (Mon Jun 22 – Sun Jun 28) — 5 dishes, avg ~42g protein / ~540 cal
+**Week of 2026-06-22** (Mon Jun 22 – Sun Jun 28) — 5 dishes, avg ~42g protein / ~515 cal
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-22.md`, built on-cycle by The Chef on 2026-06-19 (this build also overwrote the old legacy `Menu_Week_of_2026-06-22.md` content, clearing that orphan).*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-22.md`, rebuilt on-cycle by The Chef on 2026-06-19.*
 
-| Dish | Style | Night | Time |
-|------|-------|-------|------|
-| Smash Burger Bowls | American comfort | Weeknight | 25 min |
-| Weeknight Butter Chicken | Indian | Weeknight | 30 min |
-| Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | 25 min |
-| Creamy Tuscan Salmon | Italian | Weeknight | 25 min |
-| Mediterranean Steak Bowls | Mediterranean | Weekend | 40 min |
+| Dish | Style | Night | Protein | Calories | Time |
+|------|-------|-------|---------|----------|------|
+| Harissa Chicken & Chickpea Sheet-Pan Bowls | Middle Eastern | Weeknight | ~46g | ~520 | 30 min |
+| High-Protein Cottage Cheese Baked Ziti | American comfort | Weeknight | ~45g | ~575 | 40 min |
+| Miso-Glazed Cod with Bok Choy & Rice | Japanese | Weeknight | ~38g | ~470 | 25 min |
+| Egg Roll in a Bowl (Ground Pork) | Chinese | Weeknight | ~37g | ~430 | 25 min |
+| Carne Asada Bowls | Latin / Mexican | Weekend | ~46g | ~580 | 40 min + marinade |
 
-*Four dishes carried over from the prior plan; **Creamy Tuscan Salmon** is new this week (proven 5★ salmon protein, per the Critic). Mississippi Pot Roast is held back one more week — Critic targets its return the week of 2026-06-29. Full recipes in `Recipes/`; the new salmon also has a Google Doc in the Drive Recipes folder for mobile access.*
+*A wholly fresh slate — five brand-new dishes, no repeats of anything from the last three weeks. Five proteins (chicken, turkey, cod, pork, beef) and five cuisines, none landing twice; all five clear the 35g-protein / sub-600-calorie bar. **Carne Asada Bowls** is the weekend showpiece (a quick marinade rewards patience). Mississippi Pot Roast is held one more week — Critic targets its return the week of 2026-06-29. Full recipes in `Recipes/`; each also has a Google Doc in the Drive Recipes folder for mobile access.*
 
-**Previously cooked (week of 2026-06-15, now finished):** Smash Burger Bowls, Weeknight Butter Chicken, Ground Chicken Banh Mi Bowls, Mediterranean Steak Bowls (plus a carried-over Honey Garlic Salmon Sean cooked Mon 6/15). These move into the rating queue — the Surveyor seeds the rating form with this week on Sunday 6/22.
+**Previously cooked (week of 2026-06-15, now finished):** Greek Chicken Souvlaki Bowls, Sheet-Pan Shrimp Fajitas, Thai Basil Beef (Pad Krapow), Cajun Butter Pork Chops & Green Beans, Chimichurri Skirt Steak & Roasted Potatoes. These are the rating queue — the Surveyor seeds the rating form with this week on Sunday 6/21.
 
 ---
 
@@ -38,7 +38,7 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 | 🔧 The Developer | `kitchen-developer` | 1st Friday 6 AM | Monthly system review. Auto-fixes minor issues. Proposes change requests. |
 | 🎭 The Critic | `meal-critic-weekly` | Friday 8 AM | Reads the previous week's ratings, updates the taste profile, writes Lessons Learned for the Chef. |
 | 🗄️ The Archivist | `kitchen-archivist` | Friday 4:30 PM | Archives the finished week's files to `Archive/` before the Chef overwrites them. |
-| 🍳 The Chef | `weekly-kings-menu` | Friday 5 PM | Builds the coming week's menu, recipe files, and shopping list; resets Carryover; rolls the `Current_Week.md` pointer; refreshes the dashboard. |
+| 🍳 The Chef | `weekly-kings-menu` | Friday 5 PM | Builds the coming week's 5 brand-new dishes, recipe files, and shopping list; rolls the `Current_Week.md` pointer; refreshes the dashboard. |
 | 📅 The Scheduler | `kitchen-scheduler` | Friday 5:30 PM | Assigns the active dishes to free evenings; creates calendar events with Google Drive recipe links. |
 | 📜 The Scribe | `kitchen-scribe` | Friday 5:45 PM | Refreshes this README and drops the commit-message trigger for the Windows host GitHub sync. |
 | 📬 The Surveyor | `meal-surveyor` | Sunday 7 PM | Owns `Rate_This_Week.md` (seeds it with the previous week's dishes); refreshes the standalone rating artifact; sends Monday 9 AM email + ntfy nudge. |
@@ -52,7 +52,7 @@ Every task reads `Current_Week.md` to decide which week it operates on — **nev
 - **`ACTIVE_WEEK` / `ACTIVE_DISHES`** — the Monday and dishes currently being cooked and scheduled.
 - **`PREVIOUS_WEEK` / `PREVIOUS_DISHES`** — the week most recently finished, which the Surveyor asks Sean to rate.
 
-Each Friday the Chef rolls the ledger forward: the old ACTIVE becomes PREVIOUS, and the newly built week becomes ACTIVE.
+Each Friday the Chef rolls the ledger forward: the old ACTIVE becomes PREVIOUS, and the newly built week becomes ACTIVE. Every week is a fresh slate of 5 dishes — there is no carryover, and no dish from the last 3 weeks repeats (except a Critic-recommended 4+ week-old favorite). Re-running for a week that is already ACTIVE rebuilds it in place and never sets PREVIOUS = ACTIVE.
 
 ---
 
@@ -115,7 +115,6 @@ Auth is handled entirely host-side by the GitHub App private key — The Scribe 
 seans-kitchen/
 │
 ├── README.md                        ← this file (refreshed weekly by The Scribe)
-├── Carryover.md                     ← live checklist of dishes not yet cooked
 ├── Menu_Week_of_*.md                ← the week's menu (authoritative week set by Current_Week.md)
 ├── Shopping_List_Week_of_*.md       ← the week's shopping list
 ├── Rate_This_Week.md                ← rating form (Surveyor-owned; created Sunday, read Friday)
