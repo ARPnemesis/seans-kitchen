@@ -29,36 +29,44 @@
 ## Auto-Generated: Discovered Preferences
 *Updated by The Critic each Friday based on your ratings. Do not edit.*
 
-*Last updated 2026-06-19 — based on 1 week of ratings (week of 2026-06-08, 5 dishes).*
+*Last updated 2026-06-26 — based on 2 weeks of ratings (weeks of 2026-06-08 and 2026-06-15, 8 dishes rated).*
 
 **High-rated dishes (4–5 ★):**
 - Chicken Shawarma Bowl — 5★ ("Amazing!!")
 - Garlic Butter Chicken & Broccoli — 5★ ("So simple, yet so good")
 - Honey Garlic Salmon & Sesame Cucumber Salad — 5★ (salmon + salad both winners)
 - Mississippi Pot Roast — 5★ (declared a permanent favorite)
+- Smash Burger Bowls — 5★ ("delicious"; came in easier than described)
+- Weeknight Butter Chicken — 5★ (loved the Greek-yogurt-for-cream swap)
+- Mediterranean Steak Bowls — 5★ ("one of the best Mediterranean dishes ever"; girlfriend-approved)
 - Gochujang Ground Turkey Bowl — 4★ (great flavor; oyster sauce smell a minor knock)
 
 **Low-rated dishes (1–2 ★ — avoid recycling):**
-*(none yet)*
+*(none yet — every dish rated to date is 4★ or higher)*
 
 **Preferred cuisines by rating:**
+- American comfort — 5★ (3 dishes: garlic butter chicken, pot roast, smash burger) — broadest winner
+- Mediterranean — 5★ (1 dish, but a standout "best ever")
 - Middle Eastern — 5★ (1 dish)
-- American comfort — 5★ (2 dishes: garlic butter chicken, pot roast)
+- Indian — 5★ (butter chicken; yogurt-based sauce preferred over heavy cream)
 - Asian glazed/fusion — 5★ (honey garlic salmon)
 - Korean — 4★ (1 dish)
 All cuisines landing well; no cuisine has underperformed.
 
 **Preferred proteins by rating:**
-- Chicken — 5★ avg (2 dishes) — strongest performer
+- Chicken — 5★ avg (3 dishes: shawarma, garlic butter, butter chicken) — strongest and most-served performer
+- Beef — 5★ (ground/smash, steak/flat-iron, chuck pot roast) — every beef cut/form scores top marks
 - Salmon — 5★
-- Beef (chuck/pot roast) — 5★
 - Ground turkey — 4★ (slightly behind the others)
 
 **Notes from The Critic:**
-- Exceptional first week: every dish 4–5★ and "cook again: Yes" across the board. The current taste model is well-calibrated.
-- Difficulty estimates are accurate — four "as expected," one "easier," zero "harder than described."
-- Recurring operational issue (NOT a taste problem): the shopping list omitted honey (twice), sesame seeds, and rice wine vinegar. Sean improvised (maple syrup, white wine vinegar, skipped seeds). The Chef/shopping-list step should double-check glaze/sauce pantry items (honey, vinegars, sesame seeds) are included.
-- Ground turkey scored lowest of the proteins; keep it but don't lean on it heavily.
+- Two exceptional weeks running: every dish 4–5★ and "cook again: Yes" across the board. Taste model remains well-calibrated.
+- Beef is emerging as a co-leader with chicken — ground, steak, and chuck all hit 5★. Steak in a Mediterranean/bowl format is a particular high.
+- Sauce-technique signal: Sean explicitly prefers tangy yogurt-based sauces over heavy cream (butter chicken note). Favor lighter, brighter sauce builds where a cream-vs-yogurt choice exists.
+- Difficulty estimates remain accurate — mostly "as expected," one "easier," zero "harder than described."
+- Only 3 of 5 dishes were rated for the week of 06-15 (Honey Mustard Pork and Ground Chicken Banh Mi went unrated; note Sean swapped Honey Mustard Pork for carried-over Honey Garlic Salmon at cook time). No taste signal on those two yet.
+- Carry-forward operational reminder (week 06-08): shopping list previously omitted honey, sesame seeds, rice wine vinegar. Keep double-checking glaze/sauce pantry items. No new list gaps reported for 06-15.
+- Ground turkey still the lowest-scoring protein; keep it but don't lean on it heavily.
 
 ---
 

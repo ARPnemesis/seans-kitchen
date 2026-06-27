@@ -26,7 +26,7 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 *A wholly fresh slate — five brand-new dishes, no repeats of anything from the last three weeks. Five proteins (chicken, turkey, cod, pork, beef) and five cuisines, none landing twice; all five clear the 35g-protein / sub-600-calorie bar. **Carne Asada Bowls** is the weekend showpiece (a quick marinade rewards patience). Mississippi Pot Roast is held one more week — Critic targets its return the week of 2026-06-29. Full recipes in `Recipes/`; each also has a Google Doc in the Drive Recipes folder for mobile access.*
 
-**Previously cooked (week of 2026-06-15, now finished):** Greek Chicken Souvlaki Bowls, Sheet-Pan Shrimp Fajitas, Thai Basil Beef (Pad Krapow), Cajun Butter Pork Chops & Green Beans, Chimichurri Skirt Steak & Roasted Potatoes. These are the rating queue — the Surveyor seeds the rating form with this week on Sunday 6/21.
+**Previously cooked (week of 2026-06-15, now finished and rated):** Smash Burger Bowls, Weeknight Butter Chicken, Honey Mustard Pork Tenderloin & Green Beans, Ground Chicken Banh Mi Bowls, Mediterranean Steak Bowls. This was the rating queue (per `Current_Week.md` `PREVIOUS_DISHES`); the Critic processed its ratings on Friday 6/26 and the Archivist filed the week to `Archive/Week_2026-06-15/`.
 
 ---
 

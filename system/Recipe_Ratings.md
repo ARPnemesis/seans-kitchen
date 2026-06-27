@@ -52,3 +52,24 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: As expected
 - Notes: Super simple, savory, always a favorite. Made sandwiches with leftover roast and potatoes — SOOO good!!!
+
+### Smash Burger Bowls
+- Week: 2026-06-15
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: Delicious.
+
+### Weeknight Butter Chicken
+- Week: 2026-06-15
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: So good. Loved the Greek yogurt sub in place of the usual heavy cream — the tanginess of the yogurt really worked.
+
+### Mediterranean Steak Bowls
+- Week: 2026-06-15
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: So delicious — one of the best Mediterranean dishes he's ever had. Girlfriend helped cook it and loved it too.
