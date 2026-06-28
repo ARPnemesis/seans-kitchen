@@ -12,21 +12,21 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-06-22** (Mon Jun 22 – Sun Jun 28) — 5 dishes, avg ~42g protein / ~515 cal
+**Week of 2026-06-29** (Mon Jun 29 – Sun Jul 5) — 5 dishes, avg ~42g protein / ~516 cal
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-22.md`, rebuilt on-cycle by The Chef on 2026-06-19.*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-29.md`, built on-cycle by The Chef for the week of 2026-06-29.*
 
 | Dish | Style | Night | Protein | Calories | Time |
 |------|-------|-------|---------|----------|------|
-| Harissa Chicken & Chickpea Sheet-Pan Bowls | Middle Eastern | Weeknight | ~46g | ~520 | 30 min |
-| High-Protein Cottage Cheese Baked Ziti | American comfort | Weeknight | ~45g | ~575 | 40 min |
-| Miso-Glazed Cod with Bok Choy & Rice | Japanese | Weeknight | ~38g | ~470 | 25 min |
-| Egg Roll in a Bowl (Ground Pork) | Chinese | Weeknight | ~37g | ~430 | 25 min |
-| Carne Asada Bowls | Latin / Mexican | Weekend | ~46g | ~580 | 40 min + marinade |
+| Thai Basil Chicken Bowls | Thai | Weeknight | ~44g | ~520 | 25 min |
+| Korean Beef Bulgogi Bowls | Korean | Weeknight | ~43g | ~560 | 30 min |
+| Maple-Dijon Salmon & Brussels | American | Weeknight | ~42g | ~500 | 30 min |
+| Cajun Honey-Butter Shrimp Bowls | Cajun/Creole | Weeknight | ~40g | ~520 | 25 min |
+| Mississippi Pot Roast | American Comfort | Weekend | ~40g | ~480 | 8 hrs (15 min prep) |
 
-*A wholly fresh slate — five brand-new dishes, no repeats of anything from the last three weeks. Five proteins (chicken, turkey, cod, pork, beef) and five cuisines, none landing twice; all five clear the 35g-protein / sub-600-calorie bar. **Carne Asada Bowls** is the weekend showpiece (a quick marinade rewards patience). Mississippi Pot Roast is held one more week — Critic targets its return the week of 2026-06-29. Full recipes in `Recipes/`; each also has a Google Doc in the Drive Recipes folder for mobile access.*
+*A fresh slate — four brand-new dishes plus a returning champion, no repeats of anything from the last three weeks. A wide protein spread (chicken, two beef cuts, salmon, shrimp) across Thai, Korean, American, Cajun, and American-comfort cuisines; all five clear the 35g-protein / sub-600-calorie bar with zero ground turkey. **Korean Beef Bulgogi Bowls** fills The Critic's standing steak-in-a-bowl slot, and **Mississippi Pot Roast** returns as the weekend feast — Sean's declared permanent favorite (5★, last cooked the week of June 8), brought back on The Critic's recommendation. Full recipes in `Recipes/`; each also has a Google Doc in the Drive Recipes folder for mobile access.*
 
-**Previously cooked (week of 2026-06-15, now finished and rated):** Smash Burger Bowls, Weeknight Butter Chicken, Honey Mustard Pork Tenderloin & Green Beans, Ground Chicken Banh Mi Bowls, Mediterranean Steak Bowls. This was the rating queue (per `Current_Week.md` `PREVIOUS_DISHES`); the Critic processed its ratings on Friday 6/26 and the Archivist filed the week to `Archive/Week_2026-06-15/`.
+**Previously cooked (week of 2026-06-22, now finished and being rated):** Harissa Chicken & Chickpea Sheet-Pan Bowls, High-Protein Cottage Cheese Baked Ziti, Miso-Glazed Cod with Bok Choy & Rice, Egg Roll in a Bowl (Ground Pork), Carne Asada Bowls. This is the current rating queue (per `Current_Week.md` `PREVIOUS_DISHES`); the Surveyor seeds it for rating and the Critic processes it the following Friday.
 
 ---
 
