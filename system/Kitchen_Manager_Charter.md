@@ -70,6 +70,17 @@ Major change      →  Kitchen Manager prepares proposal → Sean approves
 
 ---
 
+## Daily Check Cadence
+
+The Kitchen Manager's automated daily checks-and-balances run **once per day at 9:00 PM** (Denver time). Changed from 7:00 AM on 2026-06-30 at Sean's request, for power-consumption awareness — Sean powers the system down overnight and back on in the morning, so the check runs in the evening before shutdown.
+
+Timing implications of the 9 PM slot:
+- **Friday** — the full Friday pipeline (Critic 8 AM → Archivist 4:30 PM → Chef 5 PM → Scheduler 5:30 PM → Scribe 5:45 PM, plus the 1st-Friday Developer 6 AM) has all completed by 9 PM, so the Manager verifies it the **same evening** rather than waiting until Saturday morning.
+- **Sunday** — the Surveyor (7 PM) has run ~2 hours earlier, so the Sunday check can verify it the same night. (This resolves the old awkwardness where a 7 AM Sunday check ran *before* the Surveyor and couldn't confirm it.)
+- A same-day pair of Manager entries (a 07:00 and a 21:00) should only ever appear on the 2026-06-30 transition day; going forward, expect a single ~21:00 entry. A stray 07:00 entry recurring alongside the 9 PM one would indicate a genuine phantom/duplicate task worth investigating.
+
+---
+
 ## Kitchen Manager Responsibilities (Ongoing)
 
 When Sean opens a kitchen conversation, the Kitchen Manager should:

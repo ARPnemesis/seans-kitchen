@@ -1,20 +1,15 @@
 # Archive Summary — Week of 2026-06-22
 
-**Archived by:** The Archivist (automated run)
-**Run date:** 2026-06-10 16:30
+**Archived:** 2026-07-03 (by The Archivist)
 
-## Files archived to `Archive\Week_2026-06-22\`
+## Files archived
+- Menu_Week_of_2026-06-22.md
+- Shopping_List_Week_of_2026-06-22.md
+- Lessons_Learned_Week_of_2026-06-22.md
+- Rate_This_Week.md (ratings submitted 2026-07-01 19:46:53 for this week's dishes)
 
-- ✅ Menu_Week_of_2026-06-22.md
-- ✅ Shopping_List_Week_of_2026-06-22.md
-- ✅ Rate_This_Week.md (was: Week of June 15 dishes, awaiting ratings)
-- ✅ Carryover.md (copied; live file left in place to roll forward)
-
-## Missing files (noted, run continued)
-
-- ⚠️ Lessons_Learned_*.md — none found anywhere in the kitchen folder; nothing to archive.
+## Missing
+None — all four expected files were present and copied.
 
 ## Notes
-
-- Carryover.md was copied, not moved — the live Carryover remains in the kitchen root so unfinished dishes roll forward into the Chef's next menu.
-- "This week" was determined as 2026-06-22, the most recent `Menu_Week_of_*.md` on file.
+Week of 06-22 dishes: Harissa Chicken & Chickpea Sheet-Pan Bowls, High-Protein Cottage Cheese Baked Ziti, Miso-Glazed Cod with Bok Choy & Rice, Egg Roll in a Bowl (Ground Pork), Carne Asada Bowls.

@@ -73,3 +73,38 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: As expected
 - Notes: So delicious — one of the best Mediterranean dishes he's ever had. Girlfriend helped cook it and loved it too.
+
+### Harissa Chicken & Chickpea Sheet-Pan Bowls
+- Week: 2026-06-22
+- Stars: 4/5
+- Cook again: Not specified
+- Difficulty: As expected
+- Notes: —
+
+### High-Protein Cottage Cheese Baked Ziti
+- Week: 2026-06-22
+- Stars: 5/5
+- Cook again: Not specified
+- Difficulty: As expected
+- Notes: —
+
+### Miso-Glazed Cod with Bok Choy & Rice
+- Week: 2026-06-22
+- Stars: 3/5
+- Cook again: Not specified
+- Difficulty: As expected
+- Notes: —
+
+### Egg Roll in a Bowl (Ground Pork)
+- Week: 2026-06-22
+- Stars: 4/5
+- Cook again: Not specified
+- Difficulty: As expected
+- Notes: —
+
+### Carne Asada Bowls
+- Week: 2026-06-22
+- Stars: 5/5
+- Cook again: Not specified
+- Difficulty: As expected
+- Notes: —

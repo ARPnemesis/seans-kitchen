@@ -29,7 +29,7 @@
 ## Auto-Generated: Discovered Preferences
 *Updated by The Critic each Friday based on your ratings. Do not edit.*
 
-*Last updated 2026-06-26 — based on 2 weeks of ratings (weeks of 2026-06-08 and 2026-06-15, 8 dishes rated).*
+*Last updated 2026-07-03 — based on 3 weeks of ratings (weeks of 2026-06-08, 2026-06-15, and 2026-06-22, 13 dishes rated).*
 
 **High-rated dishes (4–5 ★):**
 - Chicken Shawarma Bowl — 5★ ("Amazing!!")
@@ -39,34 +39,47 @@
 - Smash Burger Bowls — 5★ ("delicious"; came in easier than described)
 - Weeknight Butter Chicken — 5★ (loved the Greek-yogurt-for-cream swap)
 - Mediterranean Steak Bowls — 5★ ("one of the best Mediterranean dishes ever"; girlfriend-approved)
+- High-Protein Cottage Cheese Baked Ziti — 5★
+- Carne Asada Bowls — 5★
 - Gochujang Ground Turkey Bowl — 4★ (great flavor; oyster sauce smell a minor knock)
+- Harissa Chicken & Chickpea Sheet-Pan Bowls — 4★
+- Egg Roll in a Bowl (Ground Pork) — 4★
+
+**Mid-rated dishes (3 ★):**
+- Miso-Glazed Cod with Bok Choy & Rice — 3★ (first dish to land below 4★; no notes or cook-again response given, so not a confirmed dislike — watch before recycling per the 3★ "only if explicitly carried over" rule)
 
 **Low-rated dishes (1–2 ★ — avoid recycling):**
-*(none yet — every dish rated to date is 4★ or higher)*
+*(none yet — lowest recorded is the 3★ Miso Cod above)*
 
 **Preferred cuisines by rating:**
-- American comfort — 5★ (3 dishes: garlic butter chicken, pot roast, smash burger) — broadest winner
+- American comfort — 5★ avg (4 dishes: garlic butter chicken, pot roast, smash burger, cottage cheese baked ziti) — broadest, most consistent winner
+- Mexican/Latin — 5★ (Carne Asada Bowls)
 - Mediterranean — 5★ (1 dish, but a standout "best ever")
-- Middle Eastern — 5★ (1 dish)
+- Middle Eastern — 4.5★ avg (shawarma 5★, harissa chicken 4★)
 - Indian — 5★ (butter chicken; yogurt-based sauce preferred over heavy cream)
 - Asian glazed/fusion — 5★ (honey garlic salmon)
-- Korean — 4★ (1 dish)
-All cuisines landing well; no cuisine has underperformed.
+- Korean — 4★ (gochujang turkey)
+- Asian bowl (egg roll) — 4★
+- Japanese (miso-glazed) — 3★ (Miso Cod — first cuisine to underperform; single data point, don't overreact yet)
 
 **Preferred proteins by rating:**
-- Chicken — 5★ avg (3 dishes: shawarma, garlic butter, butter chicken) — strongest and most-served performer
-- Beef — 5★ (ground/smash, steak/flat-iron, chuck pot roast) — every beef cut/form scores top marks
+- Beef — 5★ avg across every form (ground/smash, steak/flat-iron, chuck pot roast, carne asada) — most consistent top performer, 4 dishes
+- Chicken — 4.5★ avg (shawarma 5, garlic butter 5, butter chicken 5, harissa 4) — strong, large sample
 - Salmon — 5★
-- Ground turkey — 4★ (slightly behind the others)
+- Pasta/dairy (cottage cheese baked ziti) — 5★
+- Ground pork (egg roll bowl) — 4★
+- Ground turkey — 4★ (still slightly behind the others)
+- White fish (cod) — 3★ (Miso Cod; only fish-in-sauce data point so far — worth another fish dish before concluding fish underperforms, since salmon scored 5★)
 
 **Notes from The Critic:**
-- Two exceptional weeks running: every dish 4–5★ and "cook again: Yes" across the board. Taste model remains well-calibrated.
-- Beef is emerging as a co-leader with chicken — ground, steak, and chuck all hit 5★. Steak in a Mediterranean/bowl format is a particular high.
-- Sauce-technique signal: Sean explicitly prefers tangy yogurt-based sauces over heavy cream (butter chicken note). Favor lighter, brighter sauce builds where a cream-vs-yogurt choice exists.
-- Difficulty estimates remain accurate — mostly "as expected," one "easier," zero "harder than described."
-- Only 3 of 5 dishes were rated for the week of 06-15 (Honey Mustard Pork and Ground Chicken Banh Mi went unrated; note Sean swapped Honey Mustard Pork for carried-over Honey Garlic Salmon at cook time). No taste signal on those two yet.
-- Carry-forward operational reminder (week 06-08): shopping list previously omitted honey, sesame seeds, rice wine vinegar. Keep double-checking glaze/sauce pantry items. No new list gaps reported for 06-15.
-- Ground turkey still the lowest-scoring protein; keep it but don't lean on it heavily.
+- Three weeks of ratings now on file; the model is holding up well — 12 of 13 dishes rated 4★ or higher.
+- Beef remains the strongest, most consistent protein — every single cut/form served (ground, steak, chuck, carne asada) has scored 5★. Lean into beef-forward bowls.
+- First sub-4★ result: Miso-Glazed Cod with Bok Choy & Rice at 3★. No notes or cook-again response were captured this week (see operational issue below), so treat this as a soft signal, not a confirmed dislike — don't recycle it without checking in with Sean first, and don't extrapolate to fish generally (Honey Garlic Salmon scored 5★).
+- Sauce-technique signal from week 06-15 still holds: Sean prefers tangy yogurt-based sauces over heavy cream. No new sauce data this week.
+- Difficulty estimates remain accurate — every dish rated so far has come in "as expected" or "easier," zero "harder than described."
+- Operational gap this week: the dashboard submission for week 06-22 captured Stars for all 5 dishes but "Cook again" and "Notes" were left blank across the board. Worth flagging to the Surveyor/dashboard — star ratings alone don't tell us whether to recycle a dish, especially borderline ones like Miso Cod.
+- Ground turkey and ground pork are both solid-but-not-standout (4★) — fine as rotation fillers, don't lean on either heavily.
+- Carry-forward operational reminder (week 06-08): shopping list previously omitted honey, sesame seeds, rice wine vinegar. No new list-gap reports since.
 
 ---
 

@@ -1,31 +1,39 @@
 # 👑 The King's Menu — Week of June 22, 2026
 
-*Hear ye, hear ye. The royal kitchen presents five fresh dishes for the week ahead — a tour through American comfort, an Indian classic, a Vietnamese bowl, and a Mediterranean feast to crown the weekend. All five are new this week: the June 15 dishes (Greek Souvlaki, Shrimp Fajitas, Thai Basil Beef, Cajun Pork Chops, Chimichurri Steak) are already on the calendar and in your rating queue, so the Chef built a fully varied slate rather than repeat them. No evening engagements clash with cooking June 22–28, so all five nights are yours.*
+Hear ye, Sean. A wholly fresh slate this week — five brand-new dishes, no repeats of anything from the last three weeks. The royal kitchen circled the globe for this one: a fiery Middle Eastern sheet pan, a cozy American comfort bake reinvented for protein, a clean Japanese fish night, a fast Chinese stir-fry bowl, and a Latin weekend feast. Five different proteins (chicken, turkey, cod, pork, beef) and five different cuisines, with no protein or cuisine landing twice.
 
-*Critic's notes: no ratings on file yet (first survey concludes after the June 8 week), so this menu leans on the standing taste profile — high protein, moderate calories, weeknight speed, and trending bowl-style dinners spotted this month.*
+Four are easy weeknights; **Carne Asada Bowls** is your weekend showpiece (a quick marinade rewards patience). Your evenings June 22–28 are clear for cooking — only a Monday midday WGU mentor call and the Monday morning rating reminder are on the calendar, so no dinner nights are blocked.
+
+Per the Critic's notes: chicken, fish, and beef anchor the week (your top performers), ground turkey appears just once and leans on a strong marinara, and every glaze/dressing pantry item (rice vinegar, soy, honey, sesame) is double-checked onto the shopping list. **Mississippi Pot Roast** is resting one more week — it's slated to return around June 29 per the recycle cadence.
+
+---
 
 ## At a Glance
 
-| Dish | Style | When | Protein | Calories | Time |
-|------|-------|------|---------|----------|------|
-| Smash Burger Bowls | American comfort | Weeknight | ~42g | ~520 | 25 min |
-| Weeknight Butter Chicken | Indian | Weeknight | ~45g | ~560 | 30 min |
-| Honey Mustard Pork Tenderloin & Green Beans | American comfort | Weeknight | ~40g | ~430 | 30 min |
-| Ground Chicken Banh Mi Bowls | Vietnamese | Weeknight | ~38g | ~500 | 25 min |
-| Mediterranean Steak Bowls | Mediterranean / global | Weekend | ~44g | ~580 | 40 min |
+| Dish | Style | Night | Protein | Calories | Time |
+|------|-------|-------|---------|----------|------|
+| Harissa Chicken & Chickpea Sheet-Pan Bowls | Middle Eastern | Weeknight | ~46g | ~520 | ~30 min |
+| High-Protein Cottage Cheese Baked Ziti | American comfort | Weeknight | ~45g | ~575 | ~40 min |
+| Miso-Glazed Cod with Bok Choy & Rice | Japanese / Asian | Weeknight | ~38g | ~470 | ~25 min |
+| Egg Roll in a Bowl (Ground Pork) | Chinese | Weeknight | ~37g | ~430 | ~25 min |
+| Carne Asada Bowls | Latin / Mexican | Weekend | ~46g | ~580 | ~40 min + marinade |
 
-## 📊 Macro Scoreboard
+---
 
-**Average protein:** ~42g/serving  ·  **Average calories:** ~518/serving
+## Macro Scoreboard
 
-*Verdict: Five proteins, five cuisines, zero repeats — every plate clears the 35g protein bar while staying comfortably under 600 calories. A well-balanced royal week.*
+- **Average protein:** ~42g per serving
+- **Average calories:** ~515 per serving
+- **Verdict:** Five for five — every dish clears the 35g-protein / sub-600-calorie bar, with a wide protein spread (chicken, turkey, cod, pork, beef) and zero cuisine repeats.
 
-## The Dishes
+---
 
-1. **Smash Burger Bowls** — crispy-edged smashed beef over crisp lettuce with a tangy special sauce. The fastest dinner of the week.
-2. **Weeknight Butter Chicken** — a lighter Greek-yogurt take on the Indian classic, ready in 30 minutes with warm naan.
-3. **Honey Mustard Pork Tenderloin & Green Beans** — one sheet pan, juicy glazed pork, roasted potatoes and beans.
-4. **Ground Chicken Banh Mi Bowls** — quick-pickled veg, savory glazed chicken, and a sriracha-yogurt drizzle.
-5. **Mediterranean Steak Bowls** — the weekend splurge: seared steak, couscous, roasted veg, feta, and a cool yogurt sauce.
+## This Week's Dishes
 
-*Full recipes in Cookbook/Recipes/ (and as Google Docs linked from each calendar event).*
+1. **Harissa Chicken & Chickpea Sheet-Pan Bowls** — *Middle Eastern · weeknight.* Roasted harissa-spiced chicken thighs and chickpeas over rice with a garlicky lemon-yogurt drizzle and feta.
+2. **High-Protein Cottage Cheese Baked Ziti** — *American comfort · weeknight.* Ground turkey and marinara folded with cottage cheese (the ricotta swap that doubles the protein), baked under mozzarella.
+3. **Miso-Glazed Cod with Bok Choy & Rice** — *Japanese · weeknight.* Caramelized miso-glazed cod with roasted baby bok choy, green onion, and sesame.
+4. **Egg Roll in a Bowl (Ground Pork)** — *Chinese · weeknight.* All the savory flavor of an egg roll without the wrapper — ground pork stir-fried with cabbage, ginger, garlic, soy, and sesame. High protein, low calorie, ~25 min.
+5. **Carne Asada Bowls** — *Latin · weekend.* Lime-and-garlic marinated flank steak over rice and black beans with charred peppers, avocado, and a lime crema.
+
+*Full recipes in Recipes/ (and as Google Docs in your Cookbook Drive folder).*

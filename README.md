@@ -12,21 +12,21 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-06-29** (Mon Jun 29 – Sun Jul 5) — 5 dishes, avg ~42g protein / ~516 cal
+**Week of 2026-07-06** (Mon Jul 6 – Sun Jul 12) — 5 dishes, avg ~42.6g protein / ~520 cal
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-06-29.md`, built on-cycle by The Chef for the week of 2026-06-29.*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`). The on-disk menu file is `Menu_Week_of_2026-07-06.md`, built on-cycle by The Chef for the week of 2026-07-06.*
 
 | Dish | Style | Night | Protein | Calories | Time |
 |------|-------|-------|---------|----------|------|
-| Thai Basil Chicken Bowls | Thai | Weeknight | ~44g | ~520 | 25 min |
-| Korean Beef Bulgogi Bowls | Korean | Weeknight | ~43g | ~560 | 30 min |
-| Maple-Dijon Salmon & Brussels | American | Weeknight | ~42g | ~500 | 30 min |
-| Cajun Honey-Butter Shrimp Bowls | Cajun/Creole | Weeknight | ~40g | ~520 | 25 min |
-| Mississippi Pot Roast | American Comfort | Weekend | ~40g | ~480 | 8 hrs (15 min prep) |
+| Garlic Butter Chicken Thighs & Broccoli | American Classic | Mon 07/06 | ~42g | ~440 | 25 min |
+| Southwest Turkey & Black Bean Stuffed Sweet Potatoes | Southwest/Tex-Mex | Tue 07/07 | ~40g | ~540 | 30 min |
+| Cuban Mojo Pork Chops with Black Beans & Rice | Cuban/Latin | Wed 07/08 | ~42g | ~520 | 30 min |
+| Lemon-Garlic Butter Scallops with Asparagus & Orzo | Coastal/Mediterranean | Thu 07/09 | ~45g | ~520 | 25 min |
+| Peruvian Beef Stir-Fry (Lomo Saltado) | Peruvian | Sat 07/11 (weekend) | ~44g | ~580 | 40 min |
 
-*A fresh slate — four brand-new dishes plus a returning champion, no repeats of anything from the last three weeks. A wide protein spread (chicken, two beef cuts, salmon, shrimp) across Thai, Korean, American, Cajun, and American-comfort cuisines; all five clear the 35g-protein / sub-600-calorie bar with zero ground turkey. **Korean Beef Bulgogi Bowls** fills The Critic's standing steak-in-a-bowl slot, and **Mississippi Pot Roast** returns as the weekend feast — Sean's declared permanent favorite (5★, last cooked the week of June 8), brought back on The Critic's recommendation. Full recipes in `Recipes/`; each also has a Google Doc in the Drive Recipes folder for mobile access.*
+*Four brand-new dishes plus a returning champion — **Garlic Butter Chicken Thighs & Broccoli** (5★, last cooked the week of June 8) comes back on The Critic's recommendation, well clear of the recycle window. The other four are all-new, swinging the cuisine spread toward Southwest, Cuban, coastal Mediterranean, and Peruvian after three straight weeks of Thai, Korean, Cajun, Mexican, and American comfort. Every dish clears 40g protein and stays under 600 calories. Full recipes in `Recipes/`; each also has a Google Doc in the Drive Recipes folder for mobile access.*
 
-**Previously cooked (week of 2026-06-22, now finished and being rated):** Harissa Chicken & Chickpea Sheet-Pan Bowls, High-Protein Cottage Cheese Baked Ziti, Miso-Glazed Cod with Bok Choy & Rice, Egg Roll in a Bowl (Ground Pork), Carne Asada Bowls. This is the current rating queue (per `Current_Week.md` `PREVIOUS_DISHES`); the Surveyor seeds it for rating and the Critic processes it the following Friday.
+**Previously cooked (week of 2026-06-29, now finished and in the rating queue):** Thai Basil Chicken Bowls, Korean Beef Bulgogi Bowls, Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts, Cajun Honey-Butter Shrimp Bowls, Mississippi Pot Roast. This is the current rating queue (per `Current_Week.md` `PREVIOUS_DISHES`); the Surveyor seeds it for rating and the Critic processes it the following Friday.
 
 ---
 
@@ -34,7 +34,7 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 | Employee | Task ID | Schedule | Role |
 |----------|---------|----------|------|
-| 👑 The Kitchen Manager | `the-manager` | Daily 7 AM | Checks and balances on all employees. Approves mid-tier changes. Escalates failures to Sean. Sends Wednesday rating nudge if the week is still unrated. |
+| 👑 The Kitchen Manager | `the-manager` | Daily ~9 PM | Checks and balances on all employees. Approves mid-tier changes. Escalates failures to Sean. Sends Wednesday rating nudge if the week is still unrated. |
 | 🔧 The Developer | `kitchen-developer` | 1st Friday 6 AM | Monthly system review. Auto-fixes minor issues. Proposes change requests. |
 | 🎭 The Critic | `meal-critic-weekly` | Friday 8 AM | Reads the previous week's ratings, updates the taste profile, writes Lessons Learned for the Chef. |
 | 🗄️ The Archivist | `kitchen-archivist` | Friday 4:30 PM | Archives the finished week's files to `Archive/` before the Chef overwrites them. |
@@ -60,7 +60,7 @@ Each Friday the Chef rolls the ledger forward: the old ACTIVE becomes PREVIOUS, 
 
 ```
 6:00 AM → Developer  (1st Friday of month only)
-7:00 AM → Manager    (daily check — verifies Developer ran if 1st Friday)
+~9 PM   → Manager    (daily check — verifies Developer ran if 1st Friday)
 8:00 AM → Critic     (reads previous week's ratings → updates Preferences.md + writes Lessons Learned)
 4:30 PM → Archivist  (copies finished week's files to Archive/)
 5:00 PM → Chef       (builds new menu, recipe files, shopping list, dashboard; rolls Current_Week.md)
@@ -103,8 +103,8 @@ Auth is handled entirely host-side by the GitHub App private key — The Scribe 
 
 ## Artifacts (live dashboards)
 
-- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, and one-click Instacart cart build. Refreshed each Friday by the Chef. The cart now assumes Sean owns **nothing** and includes every ingredient, then subtracts whatever is marked owned in the Inventory app. The "Generate a fresh menu now" button triggers the Chef via `runScheduledTask("weekly-kings-menu")`.
-- **`kings-table-inventory`** — Drive-backed checklist where Sean marks what he already has on hand; it saves a `Kitchen_Inventory` doc to the Cookbook Drive folder, which the dashboard cart reads at build time. (Replaced the old local pantry checklist that lived inside the dashboard.)
+- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, and one-click Instacart cart build. Refreshed each Friday by the Chef. The cart assumes Sean owns nothing and includes every ingredient, then subtracts whatever is marked owned in the Inventory app. The "Generate a fresh menu now" button triggers the Chef via `runScheduledTask("weekly-kings-menu")`.
+- **`kings-table-inventory`** — Drive-backed checklist where Sean marks what he already has on hand; it saves a `Kitchen_Inventory` doc to the Cookbook Drive folder, which the dashboard cart reads at build time.
 - **`kings-table-rate-this-week`** — standalone weekly rating survey, refreshed each Sunday by the Surveyor with the week just finished.
 
 ---
