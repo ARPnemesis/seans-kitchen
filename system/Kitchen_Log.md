@@ -3,6 +3,199 @@
 
 ---
 
+### THE CHEF — 2026-07-10 17:10
+**Status:** ✅ Success
+**Summary:** Built fresh menu for week of 2026-07-13 (normal ROLL) — no repeats of dishes cooked in the last 3 weeks. 3 brand-new dishes (Greek Chicken Meatball Bowls with Tzatziki, Salmon Tacos with Mango-Corn Salsa, Creamy Cajun Shrimp Pasta) + 2 sanctioned returns: Korean Beef Bulgogi Bowls (early reuse — DROPPED 07-05, never cooked, exempt from no-repeat) and Mississippi Pot Roast (early reuse + Critic-flagged 5★ recycle candidate, last served 06-08). Both new sauces use the tangy Greek-yogurt style Sean rated 5★. Menu file re-read and verified complete (all 5 dishes + closing line).
+**Handoff notes:** Dishes for Scheduler: Korean Beef Bulgogi Bowls (weeknight), Greek Chicken Meatball Bowls with Tzatziki (weeknight), Salmon Tacos with Mango-Corn Salsa (weeknight), Creamy Cajun Shrimp Pasta (weeknight), Mississippi Pot Roast (WEEKEND — 8 hr slow cooker; Saturday fits). ⚠️ CALENDAR: Fri 07-17 is Bean's Birthday (all-day) — leave Friday evening clear; Mon 07-13 midday WGU call doesn't touch dinner. Recipes: 3 new local .md + 3 new Google Docs created; Bulgogi + Pot Roast reused existing local files and existing Drive docs (did NOT create duplicates — note TWO Pot Roast docs exist in the recipes folder, 06-06 and 06-28; Scheduler should link the newer). Dashboard refreshed incl. the Save-menu-changes bridge (writes Menu_Adjustment_2026-07-13 to Drive folder 1qai6gTlEcwD6-DciKfyzc_FWla7RlVdj) and a Re-schedule-my-week button; cart = selected dishes' ingredients minus Kitchen_Inventory (all 5 selected ≈ 34 items after ~20 inventory subtractions from a 54-item ingredient union). Current_Week.md rolled — 07-06 annotations preserved exactly. Inventory annotations: applied (Kitchen_Inventory doc updated 7/10 8:50 AM, 44 items read). ARCHIVIST/MANAGER: re your 16:45 Issue #1 — I read Recipe_Ratings.md at 17:00 and BOTH week 06-29 entries (Thai Basil 5★, Maple-Dijon Salmon 4★) ARE present at the bottom of the file; the gap appears already fixed — please re-verify rather than re-appending (duplicate risk).
+**Issues:** None. Correction window: Sean has 5:00–7:30 PM to swap dishes or regenerate before the Scheduler books the calendar (Scribe 7:45, GitHub sync 8:15).
+
+---
+
+### THE ARCHIVIST — 2026-07-10 16:45
+**Status:** ⚠️ Success with findings
+**Summary:** Archived week of 2026-06-29 to Archive\Week_2026-06-29\ (menu, shopping list, lessons learned, rating form, Archive_Summary.md — nothing missing). Reset Rate_This_Week.md to the blank template. Housekeeping: Kitchen_Log.md had grown to 175 KB — moved entries older than 2026-06-12 to System\Kitchen_Log_Archive\Kitchen_Log_pre-2026-06-12_archived_2026-07-10.md (no entries lost; live log now ~160 KB, most bulk is recent weeks).
+**Handoff notes:** CHEF (5 PM): ratings data for the 07-13 build is in the Critic's 12:00 entry below (recycle candidates + early-reuse list) — but see Issues before trusting Recipe_Ratings.md. Scallops/Bulgogi/Cajun Shrimp/Pot Roast are early-reuse eligible per the ledger.
+**Issues:** (1) Recipe_Ratings.md does NOT contain the week 06-29 entries (Thai Basil Chicken Bowls 5★, Maple-Dijon Salmon 4★) even though the Critic's 08:00/12:00 entries state they "were already logged" — the file was last modified 07-03. CRITIC/MANAGER: please append the two entries (full data preserved in Drive doc "Rate_Submission_2026-06-29" and in Archive\Week_2026-06-29\Rate_This_Week.md). (2) The live Rate_This_Week.md had been truncated mid-write at 126 bytes by the dashboard bridge; archived copy was restored in full from the Drive submission. Worth watching whether the bridge truncates again next cycle.
+
+---
+
+### THE CRITIC — 2026-07-10 12:00 (NEW NOON SLOT — reconciliation pass)
+**Status:** ✅ Success
+**Summary:** Processed ratings for the week of 2026-06-29 (2 of 2 actually-cooked dishes rated; 3 dishes were dropped/not cooked and excluded). Both ratings (Thai Basil Chicken Bowls 5★, Maple-Dijon Salmon 4★) were already logged by the 8:37 AM re-run — no new appends, no duplicates. This run's real work was reconciling the Critic's artifacts to the ledger annotations added at ~10:30 (after the 8 AM runs): Preferences.md and Lessons_Learned_Week_of_2026-06-29.md no longer call Bulgogi/Cajun Shrimp/Pot Roast "unrated" — they were DROPPED and never cooked, so week 06-29 actually had 100% rating coverage. The "nudge Sean about partial submissions" recommendation is retracted.
+**Handoff notes:** CHEF (5 PM): Watch List — none. Recycle candidates (4–5★, 4+ weeks): Mississippi Pot Roast, Chicken Shawarma Bowl, Gochujang Ground Turkey Bowl, Honey Garlic Salmon & Sesame Cucumber Salad, plus Smash Burger Bowls / Weeknight Butter Chicken / Mediterranean Steak Bowls (06-15, at the 4-week mark). Early-reuse eligible (dropped, never cooked — no-repeat window does NOT apply): Korean Beef Bulgogi Bowls, Cajun Honey-Butter Shrimp Bowls, Mississippi Pot Roast, Lemon-Garlic Butter Scallops. Thai Basil and Maple-Dijon Salmon too fresh to recycle. MANAGER (9 PM): the partial-ratings ntfy queued this morning is moot per the 10:30 reconciliation — this entry confirms the Critic's own artifacts now agree.
+**Issues:** None. Note: both the old 8 AM slot and the new noon slot fired today (timing change was logged as effective 07-17); all three runs were idempotent — no double-logging.
+
+---
+
+### SEAN + CLAUDE (INTERACTIVE SESSION) — 2026-07-10 ~11:15 (ADDENDUM)
+**Status:** ✅ Timing change applied — effective TONIGHT
+**Summary:** Sean-requested timing changes: Critic moved 8 AM -> 12 PM noon and Developer moved 1st-Fri 6 AM -> 11 AM (server powered down overnight; early slots risked firing before boot — Critic change effective next Friday 07-17, Developer change effective Fri 08-07). Correction window added to the Friday pipeline: Scheduler moved 5:30 PM -> 7:30 PM, Scribe 5:45 PM -> 7:45 PM, host GitHub sync 6:15 PM -> 8:15 PM (setup script updated; Sean re-points the Windows task). Sean now has 5:00-7:30 PM after the Chef to review, swap, or regenerate the menu before anything hits the calendar or GitHub. Scheduler also gained stale-event cleanup (deletes future dinner events for dishes no longer on the ledger). Manager/Chef/Developer prompts, Charter, and the recovery backup all reconciled to the new times.
+**Handoff notes:** MANAGER (tonight 9 PM): expect Scheduler ~7:37 and Scribe ~7:54 log entries — do NOT flag them as late against the old 5:30/5:45 slots. If the host GitHub sync task still fired at 6:15 tonight (before the Scribe's trigger file existed), it will have logged "No trigger file found - sync skipped" — that's expected this one transition week; the push happens once Sean moves the host task to 8:15.
+**Issues:** One manual step pending on Sean: re-point the "Royal Kitchen - GitHub Sync" Windows task to 8:15 PM.
+
+---
+
+### THE SCRIBE — 2026-07-10 11:11 (OFF-CYCLE EARLY FIRE — before the Chef's 5 PM roll)
+**Status:** ✅ Success
+**Summary:** README refreshed; commit trigger dropped for host GitHub sync (8:15 PM push). Fired at 11:11 AM instead of the normal 7:45 PM slot — third early fire today (Manager 08:51, Scheduler 11:09), consistent with the recurring host-timing pattern the Manager is tracking, not a scheduler bug. Ledger correctly still shows ACTIVE_WEEK 2026-07-06 (the Chef's roll to 07-13 isn't due until 5 PM), so the README documents the standing week as reconciled this morning: Thai Basil carried from 06-29 (cooked Mon, 5★), Scallops dropped, actual slate Mon Thai Basil / Tue Southwest Turkey / Wed Cuban Mojo / Thu Garlic Butter Chicken / Sat Lomo Saltado. Also corrected the README's stale pipeline times (Scheduler 7:30 PM, Scribe 7:45 PM, host sync 8:15 PM — it previously said 5:30/5:45/6:15) and its outdated 06-29 rating-queue paragraph (Critic processed 06-29 this morning: 2 rated, 3 dropped-not-surveyed).
+**Handoff notes:** Tonight's regular 7:45 PM Scribe run should re-refresh the README after the Chef rolls to 07-13 and overwrite `.scribe_commit_msg.txt` — the current trigger/message is a pre-roll snapshot ("week of 2026-07-06 still active — Chef roll to 07-13 pending"). If the 8:15 PM host sync somehow picks up this pre-roll trigger instead, the commit message is still accurate for its content. Chef: ledger Notes already carry your 07-13 build guidance (Scallops/Bulgogi/Cajun Shrimp/Pot Roast exempt from no-repeat).
+**Issues:** None broken. ⚠️ Off-cycle early fire (see above) — Manager may want to fold this into the recurring host-timing watch item.
+
+---
+
+### THE SCHEDULER — 2026-07-10 11:09 (OFF-CYCLE EARLY FIRE — before the Chef's 5 PM roll)
+**Status:** ✅ Success
+**Summary:** Scheduled 0 of 0 dishes for the week of 2026-07-06 — calendar already fully consistent with the ledger; no stale events removed. Ran at 11:09 AM (not the normal 7:30 PM slot), so the Chef hasn't rolled to 07-13 yet and the ledger correctly still shows ACTIVE_WEEK 2026-07-06.
+**Handoff notes:** Verified against Google Calendar (Mon 07-06 – Sun 07-12): Thai Basil Mon (cooked, rated — skipped per CARRIED+RATED annotation), Southwest Turkey Tue, Cuban Mojo Pork Wed, Garlic Butter Chicken Thu (all past — untouched), Lomo Saltado Sat 07-11 7:00–8:30 PM (existing event left alone, no duplicate). Scallops correctly absent (DROPPED per ledger). No 🍽️ events for off-ledger dishes — nothing stale to clean. Tonight's regular post-Chef run should schedule the new 07-13 week once the ledger rolls.
+**Issues:** None.
+
+---
+
+### SEAN + CLAUDE (INTERACTIVE SESSION) — 2026-07-10 ~10:30
+**Status:** ✅ System changes applied — read this before tonight's runs
+**Summary:** Sean-approved fixes applied mid-day Friday. (1) LEDGER RECONCILED to Sean's actual mid-week changes: Current_Week.md now carries per-dish STATUS ANNOTATIONS — Thai Basil Chicken Bowls (CARRIED FROM 06-29, cooked Mon 07-06, rated 5-star), Scallops DROPPED from 07-06 (never cooked), and Bulgogi/Cajun Shrimp/Pot Roast DROPPED from 06-29 (never cooked — they are NOT unrated; the Manager's queued "partial ratings" nudge is explained and resolved). (2) PROMPTS UPDATED (Manager, Surveyor, Critic, Scheduler, Chef, Developer): tasks must honor the annotation convention; Manager gained a daily STEP 1.5 ledger-reconcile (calendar + Drive Menu_Adjustment docs), transcript-based peer review, and skill-idea capture; Chef gained early-reuse of never-cooked dishes, annotation-preserving rolls, inventory "on hand" shopping-list annotations, and a dashboard "Save menu changes" bridge button; Developer co-owns skill drafting via System\Proposed_Skills\. (3) NTFY FIX (host scripts): UTF-8 body encoding so messages arrive inline instead of as attachment.txt.
+**Handoff notes:** CHEF (tonight 5 PM): honor the annotated ledger — Scallops/Bulgogi/Cajun Shrimp/Pot Roast were never cooked and are exempt from no-repeat; preserve annotations when rolling 07-06 into PREVIOUS; include the new "Save menu changes" dashboard button. SURVEYOR (Sunday): survey week 07-06 = Southwest Turkey, Cuban Mojo Pork, Garlic Butter Chicken, Lomo Saltado (Thai Basil already rated; Scallops dropped). MANAGER (tonight 9 PM): the ratings-nudge issue from this morning is resolved — retire it; begin STEP 1.5 reconciliation tonight.
+**Issues:** None — but the 06-29 "3 of 5 unrated" complaint chain (Critic + Manager entries earlier today) is superseded by this entry.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-10 08:51 (OFF-CYCLE EARLY FIRE — see Issue #1)
+**Status:** ⚠️ Issues noted — non-critical, nothing broken
+**Summary:** Automated check fired Friday morning (lastRunAt 14:51:26 UTC = 8:51 AM MDT) instead of the normal ~9 PM daily slot; `nextRunAt` confirms tonight's regular 9:01 PM slot is still upcoming — this run does not replace it. Today is a normal Friday roll (not first Friday — that was 07-03; next Developer run is 08-07), so only the Critic (8 AM) has completed so far; Archivist (4:30 PM), Chef (5 PM), Scheduler (5:30 PM), Scribe (5:45 PM) are all still ahead per their nextRunAt and not yet due — none are missing, just not yet run. All 8 scheduled tasks enabled, on-schedule, and match the 8-task roster exactly — no phantom/duplicate registry entries. All 3 charter-required key files present (Preferences.md 86 ln, Recipe_Ratings.md 110 ln, Current_Week.md 41 ln). ACTIVE menu file complete. Ledger coherent. ntfy queue clean ([]) on entry; 1 entry queued this run (see Issue #1).
+**Peer review:** The Critic ran twice under one 8 AM slot today — an initial pass (08:00, ⚠️ Partial: no rating submission found yet for week 06-29) followed by a re-run (08:00, logged after, ✅ Success) once a late submission (Rate_Submission_2026-06-29, filed 8:37 AM) arrived; task's own lastRunAt (14:37:18 UTC = 8:37 AM MDT) matches the re-run's completion time. Correct behavior — no double-counting, Preferences.md and Lessons_Learned_Week_of_2026-06-29.md were properly updated with the real data once it arrived. 2 of 5 dishes rated this cycle (Thai Basil Chicken Bowls 5★, Maple-Dijon Glazed Salmon 4★); recycle candidates and watch list logged in its handoff notes. No intervention needed.
+**Issues:**
+1. ⚠️ NON-CRITICAL, PERSISTED 2 CONSECUTIVE WEEKS — partial rating submissions. Week 06-29: 3 of 5 dishes went unrated (Korean Beef Bulgogi Bowls, Cajun Honey-Butter Shrimp Bowls, Mississippi Pot Roast). The Critic's own note: "partial-submission pattern is recurring (also seen week 06-22)... worth a nudge to Sean if it continues." Per charter (non-critical issues get an ntfy once persisted 2+ consecutive weeks), queued a high/warning ntfy this run.
+2. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact).
+3. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE. Will roll to ACTIVE 07-13 / PREVIOUS 07-06 once the Chef runs its normal 5 PM slot today.
+4. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+5. ℹ️ Carried watch items (unchanged): (a) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (b) will verify the rest of today's Friday pipeline (Archivist → Chef → Scheduler → Scribe) on tonight's regular 9 PM sweep.
+
+---
+
+### THE CRITIC — 2026-07-10 08:00 (RE-RUN — late submission processed)
+**Status:** ✅ Success
+**Summary:** A dashboard submission for the week of 2026-06-29 arrived in Google Drive (Rate_Submission_2026-06-29, filed 7/10/2026 8:37 AM) after this morning's first Critic pass had already logged "no ratings." Picked it up on this run: 2 of 5 dishes rated — Thai Basil Chicken Bowls (5★, cook again yes) and Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts (4★, cook again yes). Overwrote Rate_This_Week.md with the submission, appended both entries to Recipe_Ratings.md (now 15 dishes across 4 weeks), refreshed Preferences.md's auto-generated section, and rewrote Lessons_Learned_Week_of_2026-06-29.md with real data in place of the earlier "no ratings" placeholder.
+**Handoff notes:** Recycle candidates for the Chef's 07-13 build (4–5★, outside the last-3-weeks window, not already recycled): Chicken Shawarma Bowl, Gochujang Ground Turkey Bowl, Honey Garlic Salmon & Sesame Cucumber Salad, Smash Burger Bowls, Weeknight Butter Chicken, Mediterranean Steak Bowls. Thai Basil Chicken Bowls and Maple-Dijon Salmon are too fresh to recycle yet. Watch List: none (nothing rated 1–2★ or "Cook again: No"). Salmon is now 2-for-2 at 4–5★ — safe to rotate more often. See Lessons_Learned_Week_of_2026-06-29.md for full detail.
+**Issues:** 3 of 5 dishes served the week of 06-29 (Korean Beef Bulgogi Bowls, Cajun Honey-Butter Shrimp Bowls, Mississippi Pot Roast) still went unrated — partial-submission pattern is recurring (also seen week 06-22). Worth a nudge to Sean if it continues.
+
+---
+
+### THE CRITIC — 2026-07-10 08:00
+**Status:** ⚠️ Partial
+**Summary:** Processed ratings for the week of 2026-06-29 (0 dishes rated — no submission found). Checked Google Drive for Rate_Submission files; the most recent (Rate_Submission_2026-06-22) was already logged in Recipe_Ratings.md by a prior run, and no submission exists yet for 06-29. Rate_This_Week.md remains the blank template. Recipe_Ratings.md unchanged (no new entries to append). Preferences.md auto-generated section refreshed with a note that no new data arrived this cycle — analysis still reflects 13 dishes across weeks 06-08/06-15/06-22.
+**Handoff notes:** Recycle candidates for the Chef's 07-13 build (4–5★, outside the last-3-weeks window): Chicken Shawarma Bowl, Gochujang Ground Turkey Bowl, Honey Garlic Salmon & Sesame Cucumber Salad, Smash Burger Bowls, Weeknight Butter Chicken, Mediterranean Steak Bowls. Watch List: none (nothing rated 1–2★ or "Cook again: No" on file). See Lessons_Learned_Week_of_2026-06-29.md for full detail.
+**Issues:** Sean hasn't submitted the rating dashboard for week 06-29 yet. Not a system failure — just no data to process. Will pick it up automatically next Friday if it comes in late.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-09 21:02
+**Status:** ✅ All clear
+**Summary:** Daily check complete (Thursday, regular 9 PM slot — `lastRunAt` 03:01:53 UTC 07-10 = 9:01 PM MDT confirms on-schedule, not an off-cycle fire). Reviewed entries since the 08:56 off-cycle sweep. 0 task failures, 0 broken-pipeline issues, 0 new escalations. All 8 scheduled tasks enabled, on-schedule, and match the 8-task roster exactly — no phantom/duplicate registry entries. All 3 charter-required key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md). ACTIVE menu file complete. Ledger coherent. ntfy queue clean ([]) on entry and exit.
+**Peer review:** No employee tasks ran since my last check (08:56 off-cycle sweep, itself since 07-07 21:02) — Thursday is not a pipeline window. Last employee run remains the Surveyor (07-05 19:00), already peer-reviewed clean. Nothing new to review. Next pipeline window is Friday 07-10 (normal roll — Critic 8 AM, Archivist 4:30 PM, Chef 5 PM, Scheduler 5:30 PM, Scribe 5:45 PM; not first Friday, so no Developer).
+**Issues:**
+1. ✅ RESOLVED — the missing Wednesday 07-08 daily check flagged on the 08:56 off-cycle sweep (second consecutive week with a cadence gap) already had a high/warning ntfy queued at that time; queue is clean now, consistent with the host having flushed it. No further action needed tonight; will keep watching for any recurrence into a third week.
+2. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact).
+3. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+4. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+5. ℹ️ Carried watch items (unchanged): (a) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (b) standing item: treat "does the live prompt match the current charter" as a routine check, not just monthly; (c) continue watching daily-check cadence gaps for a third consecutive occurrence.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-09 08:56 (OFF-CYCLE EARLY FIRE — see Issue #1)
+**Status:** ⚠️ Issues noted — non-critical, nothing broken
+**Summary:** Automated check fired early Thursday morning (task's own `lastRunAt` 14:56 UTC = 8:56 AM MDT) instead of the normal ~9 PM daily slot; `nextRunAt` confirms tonight's regular 9:01 PM slot is still upcoming — this run does not replace it. Nothing is actually broken: no key file missing, ledger coherent, ACTIVE menu file complete, ntfy queue was clean ([]) on entry.
+**Peer review:** No employee tasks ran since my last check (07-07 21:02) — Tuesday evening through Thursday morning is not a pipeline window. Nothing new to review. Next pipeline window is Friday 07-10 (normal roll — no Developer, not first Friday).
+**Issues:**
+1. ⚠️ NON-CRITICAL, RECURRING — MISSING WEDNESDAY 07-08 DAILY CHECK. No Kitchen_Log entry exists for the normal ~9:02 PM Wednesday slot between the last logged Manager entry (Tue 2026-07-07 21:02) and this run. This is now the **second consecutive week** with at least one missing daily-check gap (week of 06-29 had two: Thu 07-02 and Sat 07-04; week of 07-06 now has one: Wed 07-08). Per the carried watch item from the 07-05 21:02 entry ("a third gap in the next cycle would warrant an ntfy"), this crosses the threshold — queued a high/warning ntfy to Sean flagging the recurring pattern. Nothing else appears broken; consistent with the host machine/Cowork session not getting a window to fire on some evenings rather than a scheduler bug.
+2. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5 — Garlic Butter Chicken Thighs & Broccoli, Southwest Turkey & Black Bean Stuffed Sweet Potatoes, Cuban Mojo Pork Chops, Lemon-Garlic Butter Scallops, Peruvian Beef Stir-Fry/Lomo Saltado — closing "Full recipes in Recipes/…" line intact).
+3. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+4. ℹ️ All 3 charter-required key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md).
+5. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+6. ℹ️ Carried watch items (unchanged, still standing): (a) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (b) standing item from the Developer's 07-03 report: treat "does the live prompt match the current charter" as a routine check, not just monthly.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-07 21:02
+**Status:** ✅ All clear
+**Summary:** Daily check complete (Tuesday — no conditional routines apply). Reviewed last 5 entries. 0 task failures, 0 broken-pipeline issues, 0 escalations. All 3 charter-required key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md). ACTIVE menu file complete. Ledger coherent. ntfy queue clean ([]) on entry and exit. Daily cadence gap-free (last check 07-06 21:02 → this one 07-07 21:02, no skipped day).
+**Peer review:** No employee tasks ran since my last check (07-06 21:02) — Monday evening → Tuesday evening is not a pipeline window. The Surveyor (07-05 19:00, already peer-reviewed clean) remains the most recent employee run. Nothing new to review. Next pipeline window is Friday 07-10 (normal roll — no Developer, not first Friday).
+**Issues:**
+1. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact). Note: this file lives at the Cookbook root (E:\Seans_Royal_Kitchen\Menu_Week_of_2026-07-06.md), not under System — confirmed present there, just flagging the path for future sweeps since System\ was checked first and came up empty.
+2. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+3. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+4. ℹ️ Carried watch items (unchanged, still standing): (a) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (b) standing item from the Developer's 07-03 report: treat "does the live prompt match the current charter" as a routine check, not just monthly.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-06 21:02
+**Status:** ✅ All clear
+**Summary:** Daily check complete (Monday — no conditional routines apply). Reviewed last 5 entries. 0 task failures, 0 broken-pipeline issues, 0 escalations. All 8 scheduled tasks enabled and on-schedule (registry matches the 8-task roster exactly, no phantom/duplicate entries). All 3 charter-required key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md). ACTIVE menu file complete. Ledger coherent. ntfy queue clean ([]) on entry and exit. Daily cadence gap-free for a full week now (last check 07-05 21:02 → this one 07-06 21:02, no skipped day) — the two mid-June missed-Saturday/off-cycle-fire gaps have not recurred.
+**Peer review:** No employee tasks ran since my last check (07-05 21:02) — Sunday evening → Monday evening is not a pipeline window. The Surveyor (07-05/06 19:02 MT, already peer-reviewed clean on the last sweep) remains the most recent employee run. Nothing new to review. Next pipeline window is Friday 07-10 (normal roll — no Developer, not first Friday).
+**Issues:**
+1. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact).
+2. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+3. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+4. ℹ️ Carried watch items (unchanged, still standing): (a) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (b) standing item from the Developer's 07-03 report: treat "does the live prompt match the current charter" as a routine check, not just monthly.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-05 21:02
+**Status:** ✅ All clear
+**Summary:** Daily check complete (Sunday, regular 9 PM slot). Reviewed last 5 entries. 0 task failures, 0 broken-pipeline issues, 0 escalations. Surveyor confirmed run at its 7 PM slot tonight (lastRunAt 2026-07-06T01:02:16Z = 7:02 PM MT). All 8 scheduled tasks enabled, no phantom/duplicate entries in the registry — 8 tasks match the 8-task roster exactly. All 3 charter-required key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md). ACTIVE menu file complete. Ledger coherent. ntfy queue clean ([]) on entry and exit.
+**Peer review:** One task ran since my last check (07-05 14:03 off-cycle sweep) — **The Surveyor (07-05 19:00) ✅**. Clean, complete entry (Status/Summary/Handoff/Issues all present). Correctly seeded PREVIOUS_WEEK (06-29) rating slate — Thai Basil Chicken Bowls, Korean Beef Bulgogi Bowls, Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts, Cajun Honey-Butter Shrimp Bowls, Mississippi Pot Roast — read from PREVIOUS_DISHES per the ledger, not inferred. Refreshed the `kings-table-rate-this-week` artifact, created the Monday 9 AM email reminder, queued (and the host flushed) the ntfy nudge. No intervention needed. The Critic reads the submission Friday 07-10 8 AM.
+**Issues:**
+1. ✅ Sunday Surveyor verification (charter) — ran on schedule tonight. No "Surveyor did not run" alert needed.
+2. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact).
+3. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+4. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+5. ℹ️ Carried watch item, downgraded — the Saturday 07-04 missing-daily-check gap flagged on the 07-05 14:03 sweep did NOT recur today (this run is on the normal 9:02 PM slot, confirmed by nextRunAt/lastRunAt). Two gaps in one week (Thu 07-02, Sat 07-04) stands as the count so far; per charter, the 2-consecutive-weeks ntfy threshold has not been met. Continue watching — a third gap in the next cycle would warrant an ntfy.
+6. ℹ️ Carried watch items: (a) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (b) standing item from the Developer's 07-03 report: treat "does the live prompt match the current charter" as a routine check, not just monthly.
+
+---
+
+### THE SURVEYOR — 2026-07-05 19:00
+**Status:** ✅ Success
+**Summary:** Set up rating for week of 2026-06-29. Refreshed the Rate This Week dashboard, created the Monday 9 AM email reminder, queued the ntfy nudge.
+**Handoff notes:** Dishes to rate: Thai Basil Chicken Bowls, Korean Beef Bulgogi Bowls, Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts, Cajun Honey-Butter Shrimp Bowls, Mississippi Pot Roast. Read PREVIOUS_WEEK/PREVIOUS_DISHES from Current_Week.md (not inferred). Artifact `kings-table-rate-this-week` updated (WEEK_LABEL "Week of June 29, 2026", WEEK_DATE 2026-06-29, Submit→Drive create_file wiring + kt_ratings_v1 preserved, no sendPrompt). Calendar event created on primary ([REDACTED_EMAIL]) Mon 2026-07-06 9:00 AM MT with email reminder at 0 min. ntfy queue went from [] to 1 entry. The Critic reads the submission Friday 8 AM.
+**Issues:** None
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-05 14:03 (OFF-CYCLE EARLY FIRE — see Issue #1)
+
+**Status:** ⚠️ Issues noted — non-critical, nothing broken
+**Summary:** Automated check fired mid-afternoon Sunday instead of the normal ~9:02 PM daily slot (task's own `lastRunAt` 20:03 UTC = 14:03 MDT; `nextRunAt` confirms tonight's regular 9:01 PM MDT slot is still upcoming). Not a pipeline failure — no key file is missing, the ledger is coherent, and the ACTIVE menu file is complete. Because this fired early, today's Sunday-specific requirement (verify the Surveyor ran at its 7 PM slot) cannot be checked yet — the Surveyor's own `nextRunAt` (2026-07-06T01:01:38Z = 7:01 PM MDT tonight) confirms it hasn't fired yet either. That verification will happen on tonight's regular 9 PM sweep.
+**Peer review:** No employee tasks have run since the last Manager check (Fri 2026-07-03 21:02) — Friday evening through Sunday afternoon is not a pipeline window aside from tonight's still-pending Surveyor slot. Nothing new to review.
+**Issues:**
+1. ⚠️ NON-CRITICAL, RECURRING — MISSING SATURDAY 07-04 DAILY CHECK. No Kitchen_Log entry exists for the normal ~9:02 PM Saturday slot between the last logged Manager entry (Fri 2026-07-03 21:02) and this run. This is the second such gap in three days (Thursday 07-02 was the first, logged non-critical on the 07-03 14:59 sweep). Pattern is consistent with the host machine/Cowork session being powered down overnight and this task simply not getting a window to fire on Saturday, rather than a scheduler bug — but two gaps in one week is worth a glance from Sean if it continues into a third occurrence. Per charter, logging only this cycle (the "2+ consecutive weeks" ntfy threshold hasn't technically been met — this is 2 gaps within one week, not two separate weekly cycles) — will escalate with a high/warning ntfy if this recurs again.
+2. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE on disk (title, At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact).
+3. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+4. ℹ️ All 3 charter-required key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md). ntfy queue clean ([]) on entry; nothing queued this run.
+5. ℹ️ Change_Requests — all three on file (CR-2026-06-05, APPROVED_CR-2026-06-06, CR-2026-06-10) remain resolved/closed. Nothing new, nothing mid-tier awaiting approval.
+6. ℹ️ Carried watch items: (a) confirm tonight's regular 9 PM sweep verifies the Surveyor's 7 PM run cleanly; (b) watch for a third consecutive missed-daily-check gap — would trigger the ntfy escalation threshold; (c) host GitHub sync watch — confirm the host task is pushing to ARPnemesis/seans-kitchen (not verifiable from the sandbox, left for Sean); (d) standing item from the Developer's 07-03 report: treat "does the live prompt match the current charter" as a routine check, not just monthly.
+
+---
+
+### THE KITCHEN MANAGER — 2026-07-03 21:02
+**Status:** ✅ All clear
+**Summary:** Daily check complete (first Friday of July — full pipeline verification). Reviewed entries since the 14:59 off-cycle sweep. All 6 pipeline tasks (Developer, Critic, Archivist, Chef, Scheduler, Scribe) completed, well before this 9 PM check. 0 failures, 0 escalations. Key files present, ledger coherent, ACTIVE menu file complete, ntfy queue clean, GitHub sync confirmed pushed.
+**Peer review:**
+- **Developer (lastRunAt 20:58:50 UTC)** ✅ — Did not write a Kitchen_Log entry, but that's expected: its SKILL.md routes output to `Developer_Report_2026-07-03.md`, not the log. Confirmed the report exists and is substantive: 8 minor reversible fixes applied (stale 7 AM references in `the-manager`/its own prompt reconciled to 9 PM, duplicated frontmatter stripped from 4 task prompts, disaster-recovery backup synced, two stale carried watch-items formally closed, artifact registry confirmed clean at 3/3). No major changes proposed, no change request filed. System health scored 9/10. Nothing for me to add — solid self-audit.
+- **Critic (08:00, actual completion ~20:58 UTC)** ✅ — Processed all 5 dishes for week of 06-22, updated Preferences.md (3 weeks/13 dishes) and Recipe_Ratings.md. Flagged "Cook again"/"Notes" fields blank on this submission — first occurrence of that specific gap, logged only, no ntfy (would escalate if it recurs).
+- **Archivist (16:39)** ✅ — Archived week of 06-15 cleanly, reset the rating template. Correctly held off on log-file housekeeping (141 KB, but all entries within the 4-week window) — a judgment call within its own remit, not a gap.
+- **Chef (Friday run)** ✅ — Built the 07-06 menu (4 new + 1 Critic-flagged recycle), rolled the ledger, wrote menu/shopping list, refreshed the dashboard. Menu re-verified complete on disk.
+- **Scheduler (23:39)** ✅ — All 5 dishes placed on free evenings, recipe docs linked, no conflicts.
+- **Scribe (23:45)** ✅ — README refreshed for 07-06, commit trigger dropped. **Confirmed via `.github_sync_log.txt`**: push completed 2026-07-03 18:15:07, commit message matches the Scribe's handoff exactly. Host sync watch item can stand down for this cycle.
+**Issues:**
+1. ✅ RETIRED — the "missing Thursday 07-02 daily check" flagged on the 14:59 sweep did not recur; today's check is on schedule. No longer a carried item.
+2. ✅ RETIRED (per Developer Fix 5/6) — "add Kitchen Log step to Critic/Scheduler" and "correct Current_Week.md LAST_UPDATED stamp" were both confirmed already resolved; dropping them from future carries.
+3. ℹ️ Menu file integrity — Menu_Week_of_2026-07-06.md COMPLETE (At-a-Glance, Macro Scoreboard, all 5 dishes 1–5, closing "Full recipes in Recipes/…" line intact).
+4. ℹ️ Ledger coherence — Current_Week.md self-consistent: ACTIVE 07-06 / PREVIOUS 06-29, distinct, ACTIVE the more recent Monday, PREVIOUS_DISHES matches PREVIOUS_MENU_FILE.
+5. ℹ️ Change_Requests — all three on file remain resolved/closed; Developer proposed no new ones this cycle.
+6. ℹ️ Carried watch item (soft, from Developer report): prompt/schedule drift has now shown up 2 reviews running (06-19 and 07-03) — worth treating "does the live prompt match the current charter" as a standing check rather than only a monthly one. Not urgent; noting for my own future sweeps.
+
+---
+
 ### THE SCRIBE — 2026-07-03 23:45
 **Status:** ✅ Success
 **Summary:** README refreshed for the week of 2026-07-06; commit trigger dropped for host GitHub sync (6:15 PM push).
@@ -510,169 +703,7 @@ Recipe Docs already embedded in each event; no Drive re-search needed. For the S
 4. ℹ️ File cleanup still deferred (unchanged, harmless): orphan Menu_Week_of_2026-06-15.md (Greek Souvlaki, never scheduled), two "Copy of Developer_Report_*" duplicates, the emptied ".ntfy_queue (1).json", and the un-prefixed Change_Request_2026-06-06.md duplicate. Deletion isn't a step in this brief; left for an attended run per unattended-run policy.
 5. ℹ️ Zero ratings captured (CR-D) — nudge machinery built; ~1.5 weeks in, below the 2-week escalation threshold. First real test is Sean rating the June 8 (Shawarma) week on Monday June 15, after the Surveyor populates Rate_This_Week.md on Sunday June 14. Today is Friday, so no Wednesday mid-week nudge applies. Continuing to monitor.
 
-### THE SCRIBE — 2026-06-11 10:05
-**Status:** ✅ Success
-**Summary:** README refreshed; commit trigger dropped for host GitHub sync (6:15 PM push).
-**Handoff notes:** Off-cycle Thursday run (manual). README now sourced from `System/Current_Week.md` rather than the legacy menu filename: Current Week shown as **2026-06-15** (ACTIVE — Smash Burger / Butter Chicken / Honey Mustard Pork / Banh Mi / Mediterranean Steak), with the 2026-06-08 Shawarma set listed as PREVIOUS / in the rating queue. README also updated to reflect the Developer's 09:50 CR-A..D implementation: the Current_Week.md single-source-of-truth section, the standalone `kings-table-rate-this-week` survey artifact (rating UI removed from the main dashboard), dual Calendar+ntfy notifications, and the two-nudge rating cadence (Surveyor Mon + Manager Wed). Recipe library unchanged at 16 (no Chef run since last sync). Commit message written to `.scribe_commit_msg.txt` for github_sync.ps1; did NOT run git (sandbox has no outbound internet — host PS1 owns the push). PEM key not touched.
-**Issues:** None. (Note for next attended cleanup, carried from Manager/Developer: orphan `Menu_Week_of_2026-06-15.md` (Greek Souvlaki, never scheduled), two "Copy of Developer_Report_*" duplicates, and emptied ".ntfy_queue (1).json" still present — deletion not in this brief, left for an attended run.)
-
-### THE KITCHEN MANAGER — 2026-06-11 09:53
-**Status:** ✅ All clear
-**Summary:** Follow-up check (manual re-run; my scheduled 07:00 entry already stands). Reviewed last 5 entries. 0 failures, 0 critical issues. All key files present (Preferences.md, Recipe_Ratings.md, Current_Week.md, Carryover.md). One task ran since my 07:00 check — the Developer's 09:50 implementation run — peer-reviewed below. Notably, that run **resolved** the HIGH week-alignment-drift issue I escalated at 07:00. ntfy queue clean; no new notification needed.
-**Peer review:**
-- Developer (2026-06-11 09:50) ✅ — Excellent entry; all fields present and handoff notes are specific and actionable. Implemented all 4 Sean-approved CRs from Change_Request_2026-06-10. CR-A (Current_Week.md pointer) is the important one: it eliminates the off-cycle "most recent menu" guessing that caused the drift I flagged this morning. Verified the pointer is live and internally consistent — ACTIVE_WEEK 2026-06-15 (Smash Burger set, matches the calendar June 15–20 and Carryover.md); PREVIOUS_WEEK 2026-06-08 (Shawarma set, the week Sean rates Mon June 15). CR-B/C/D (dual notifications, Surveyor owns Rate_This_Week.md + standalone survey artifact, two rating nudges/cycle) all reflected in the implementation log and pointer state. No intervention required.
-**Issues:**
-1. ✅ RESOLVED — Week-of-June-15 alignment drift (my 07:00 HIGH flag). The Developer's pointer fix closes it; calendar, rating form, and menu now agree via Current_Week.md. The June 16 review event is now informational only.
-2. ℹ️ Change_Request_2026-06-10.md is now APPROVED-BY-SEAN & IMPLEMENTED (header + implementation log present). No longer pending; no Manager action needed. No new or mid-tier CRs awaiting my approval.
-3. ℹ️ File cleanup still deferred (unchanged, harmless): orphan Menu_Week_of_2026-06-15.md (Greek Souvlaki, never scheduled), two "Copy of Developer_Report_*" duplicates, and the emptied ".ntfy_queue (1).json". Deletion isn't a step in this brief, so left for an attended cleanup per unattended-run policy.
-4. ℹ️ Zero ratings captured (CR-D) — nudge machinery now built; ~1 week in, below the 2-week escalation threshold. First real test is Sean rating the June 8 week on Monday June 15. Wednesday Manager nudge not applicable today (Thursday). Continuing to monitor.
-
-### THE DEVELOPER — 2026-06-11 09:50
-**Status:** ✅ Success — major change requests approved by Sean & implemented
-**Summary:** Implemented all 4 approved CRs from Change_Request_2026-06-10.md. CR-A: created Current_Week.md pointer + rewired Chef/Scheduler/Surveyor/Critic/Archivist to read it (no more "most recent menu" guessing; Chef builds the coming-Monday week & rolls the pointer). CR-B: dual notifications — Manager + Developer + Surveyor now use BOTH Google Calendar (email) AND ntfy; removed the Manager's old "no calendar alerts" rule. CR-C: Surveyor now owns Rate_This_Week.md (populates it Sunday with the PREVIOUS week's dishes) and refreshes a NEW standalone survey artifact `kings-table-rate-this-week`; rating UI removed from the main dashboard; retired Rate_Reminder_This_Week.md. CR-D: two rating nudges/cycle (Surveyor Monday ntfy + Manager Wednesday conditional ntfy, plus calendar emails).
-**Handoff notes:** All 7 task prompts updated via update_scheduled_task (Scheduled\ SKILL.md files are outside connected folders, so direct edits aren't possible — Scribe will sync the new prompts to GitHub next run). Pointer seeded: ACTIVE_WEEK=2026-06-15 (Smash Burger set, already on calendar June 15–20), PREVIOUS_WEEK=2026-06-08 (Shawarma set). Rate_This_Week.md + survey artifact seeded to the June 8 week (Sean rates it Monday June 15) — this starts the new rhythm. Re-labeled the June 22 rating reminder and removed its stale "not cooked yet" line. ORPHAN for manual cleanup: Menu_Week_of_2026-06-15.md (Greek Souvlaki) — superseded test-fire menu, never scheduled. Also still pending manual delete (Manager has rights): the two "Copy of Developer_Report_*" in System/Developer_Reports/ and the emptied .ntfy_queue (1).json.
-**Issues:** None blocking. Sean should click "Run now" on the Chef/Surveyor once to pre-approve connector tools (Drive/Calendar/artifacts) so future automated runs don't pause on permissions.
-### THE KITCHEN MANAGER — 2026-06-11 07:00
-**Status:** ⚠️ Issues noted — Sean alerted
-**Summary:** Daily check complete. Reviewed 5 most recent log entries (3 tasks ran since my last check on June 9). 0 critical issues, 0 failures. All key files present (Preferences.md, Recipe_Ratings.md, Carryover.md). ntfy queue was clean on entry. 1 high-priority heads-up queued (week-alignment drift). New MAJOR change request left for Sean.
-**Peer review:**
-- Developer (2026-06-10 18:55) ✅ — Thorough manual review, health 8/10. Entry complete and actionable; all fields present. Filed Change_Request_2026-06-10 (4 CRs, 1 HIGH) and escalated to Sean via June 16 calendar event. Auto-fixes (.gitignore hardening, stale-queue neutralization) are sound. Requested Manager delete report/queue duplicates — see Issues #3.
-- Archivist (2026-06-10 16:30) ✅ — Clean entry. Archived week of June 22; reset Rate_This_Week.md with the 5 carryover dishes. Lessons_Learned absence correctly noted as non-failure.
-- Scribe (2026-06-10 17:52) ✅ — Clean entry. README refreshed (current week June 22, 16 recipes); commit trigger written for the host PS1 sync. Correct file-trigger architecture.
-**Issues:**
-1. ⚠️ HIGH — Week-of-June-15 alignment drift (Developer CR-A). The June 15 calendar holds the June 22 menu's dishes, while the rating form/Surveyor reminder list the June 15 menu's dishes; the two disagree and neither matches a single source of truth. Correctly classified MAJOR and left for Sean (review event Tue June 16, 7 PM). BUT that review lands the day after the cooking week begins (Mon June 15), so I queued a high-priority ntfy now to surface it before Sean cooks. Not implementing — awaiting Sean's decision on the Current_Week.md pointer fix.
-2. ℹ️ MAJOR change request Change_Request_2026-06-10.md is PENDING SEAN'S REVIEW — per charter, MAJOR items are not auto-implemented. No action taken; left intact for Sean. (CR-2026-06-05 and CR-2026-06-06 already resolved in prior sessions.)
-3. ℹ️ File cleanup deferred. Developer asked me to delete two "Copy of Developer_Report_*.md" duplicates in System/Developer_Reports/ and the emptied ".ntfy_queue (1).json". These persist (verified present). Deletion is not a step in this task's brief, so per unattended-run policy I logged them for an attended cleanup rather than deleting autonomously. All are harmless (the queue dupe holds only []).
-4. ℹ️ No Kitchen Manager log entry exists for 2026-06-10 — my daily 7 AM run appears to have been skipped that day (the-manager cron is 0 7 * * *). Not impacting the pipeline; noting for awareness. Today's run covers all tasks since June 9.
-5. ℹ️ Ongoing (not yet escalatable): zero ratings captured (Developer CR-D) — ~1 week in, below the 2-week escalation threshold; folded into Sean's pending CR review.
-
-### THE DEVELOPER — 2026-06-10 18:55
-**Status:** ✅ Success
-**Summary:** Manual system review. Health score 8/10. 3 minor fixes auto-applied; 4 change requests escalated (1 HIGH); 0 failures.
-**Handoff notes:** Auto-fixed: hardened .gitignore to glob `System/.ntfy_queue*.json` (was committing Drive-conflict duplicates); emptied stale duplicate queue `.ntfy_queue (1).json` (held a now-FALSE "June 15 has no calendar events" alert — verified events exist). Escalated to Sean via calendar event Tue June 16 7 PM (email reminder): CR-A HIGH — tasks infer "current week" from newest menu file, which has drifted off-cycle (June 15 calendar now holds June 22 dishes; rating form lists June 15 dishes scheduled nowhere) → proposes a Current_Week.md pointer; CR-B — Manager bans calendar alerts as unreliable yet Surveyor+Developer rely on calendar email → unify channel; CR-C — Surveyor SKILL.md doesn't create Rate_This_Week.md despite approved CR-2 saying it should; CR-D — zero ratings captured, add ntfy nudge. See Change_Request_2026-06-10.md + Developer_Report_2026-06-10.md. Manager has delete rights: please remove the two "Copy of Developer_Report_*" duplicates in System/Developer_Reports/ and the emptied .ntfy_queue (1).json (I cannot delete in unattended runs). GitHub sync healthy; PEM correctly gitignored; recipe persistence fixed by June 10 local migration (16 files present).
-**Issues:** Cross-task week-alignment drift under off-cycle menu builds (CR-A, HIGH) — pending Sean's approval. File deletes blocked in unattended run — neutralized via overwrite instead.
-### THE ARCHIVIST — 2026-06-10 16:30
-**Status:** ✅ Success
-**Summary:** Archived week of 2026-06-22 to Archive\Week_2026-06-22\. Reset Rate_This_Week.md.
-**Handoff notes:** Carryover dishes rolling forward into the Chef's new menu (live Carryover.md left untouched): Smash Burger Bowls, Weeknight Butter Chicken, Honey Mustard Pork Tenderloin & Green Beans, Ground Chicken Banh Mi Bowls, Mediterranean Steak Bowls. Rate_This_Week.md reset with blank slots for these five (header "Week of June 22, 2026") — the prior form held the June 15 dishes awaiting ratings and was archived. No Lessons_Learned_*.md file exists yet, so none was archived.
-**Issues:** None. (Lessons_Learned_*.md missing — noted, not a failure.)
 
 ---
+*Older entries (before 2026-06-12) archived to System\Kitchen_Log_Archive\Kitchen_Log_pre-2026-06-12_archived_2026-07-10.md by The Archivist on 2026-07-10.*
 
-### THE SCRIBE — 2026-06-10 17:52
-**Status:** ✅ Success
-**Summary:** README refreshed (current week 2026-06-22, recipe library updated 15→16); commit trigger dropped for host GitHub sync (6:15 PM push).
-**Handoff notes:** Commit message written to System/.scribe_commit_msg.txt; github_sync.ps1 will pick it up and delete it on next run. README "Current Week" still reflects the 2026-06-22 menu (matches Carryover.md). ntfy queue empty. Did not touch calendar — note Manager's standing flag that June 15 dishes may still need the Scheduler run before June 15.
-**Issues:** None.
-
----
-
-### THE KITCHEN MANAGER — 2026-06-09 07:00
-**Status:** ⚠️ Issues noted — Sean alerted
-**Summary:** Daily check complete. Reviewed 5 new entries since last check. 1 non-critical issue found; ntfy queued.
-**Peer review:**
-- Chef (2026-06-06 21:31) ✅ — Clean entry. Off-cycle logic well-documented. Shopping list audit passed.
-- Surveyor (2026-06-09 15:50) ⚠️ — Partial status appropriate; self-corrected timezone slip; honest issue documentation. No follow-up needed.
-- Chef (2026-06-09 15:57) ✅ — Second off-cycle run; consistent logic. Two weeks of menus now staged (June 15 + June 22).
-- Scribe (2026-06-09 22:00) ✅ — Correct architecture executed. Self-flagged SKILL.md concern — already resolved prior to this entry.
-- Developer (2026-06-06 05:38) ✅ — Well-documented report; 3 CRs filed. All 3 pre-resolved (crons already correct, Scribe SKILL.md already updated). Developer acted on stale task data — no fault. CR closed: APPROVED_Change_Request_2026-06-06.md.
-**Issues:**
-1. ⚠️ June 15 week has no calendar events. The Chef built the June 15 menu off-cycle on June 6 (after the Scheduler had already run for the week). Scheduler next runs Fri June 12 — at that point Carryover.md holds the June 22 dishes, so June 15 will be skipped entirely. Sean should manually trigger the Scheduler (or run it now) to calendar June 15 dishes before the week starts.
-2. ℹ️ 3 stale Kitchen_Log.md files in Drive System folder — this write creates a 4th (canonical). Sean should delete the 3 older copies manually: IDs 13vbd7k4crdo6doqBzUOhvw9kM3CBgCaa, 1WeswC5ueDPvwTOq4vH1Iwejar03W4uBf, 1tThIMWbvuzsdV_Ymbqycku5LAXxmndAW.
-
----
-
-### THE DEVELOPER — 2026-06-06 05:38
-**Status:** ✅ Success
-**Summary:** Monthly review complete. Health score: 8/10. 4 minor fixes auto-implemented, 1 mid-tier proposal (3 CRs) filed, 0 major escalations.
-**Handoff notes:** URGENT — Manager and Scribe are on one-time fireAt schedules and will stop recurring after tonight. See Change_Request_2026-06-06.md in System/Change_Requests/. Manager must fix via update_scheduled_task (the-manager: cronExpression 0 7 * * *; kitchen-scribe: cronExpression 45 17 * * 5) before it auto-disables. Developer own cron already self-corrected to 0 6 1-7 * 5. Ingredient audit clean — no gaps in June 8 shopping list. GitHub sync healthy (last commit ~6h ago, JWT auth confirmed). No ratings data yet (expected — first survey was June 8). CR-3: Scribe SKILL.md needs architecture update (trigger file pattern, not direct git).
-**Issues:** Manager (the-manager) and Scribe (kitchen-scribe) on one-time schedules — will stop auto-running after tonight without cron fix. Change_Request_2026-06-06.md filed.
-
----
-
-### THE SCRIBE — 2026-06-09 22:00
-**Status:** ✅ Success — Cowork portion complete; Windows sync pending
-**Summary:** Wrote README.md and .scribe_commit_msg.txt trigger file to Google Drive. The Windows github_sync.ps1 task will pick up the trigger and push to GitHub on next scheduled run.
-**Handoff notes:** README at Cookbook root covers current week (June 22 — 5 dishes), team roster, pipeline architecture, and repo structure. Trigger file commit message: "Weekly sync — week of 2026-06-22 · 15 unique recipes in library". Note: earlier in this session I logged ❌ Failed — this was incorrect, as I did not initially know about the Windows PS1 workaround. That entry stands as historical record below; this entry supersedes it. Calendar alert from earlier in this session can be disregarded — sync will proceed normally via PS1.
-**Issues:** SKILL.md should be updated to reflect the actual Scribe architecture: Cowork writes trigger file → Windows Task Scheduler runs github_sync.ps1. The current SKILL.md still attempts git operations directly from bash (which always fails). Flagging for Developer to fix on next monthly run (July 3).
-
----
-
-### THE CHEF — 2026-06-09 15:57
-**Status:** ✅ Success
-**Summary:** Built menu for week of June 22. 5 new dishes, 0 carried over.
-**Decision note:** Ran off-cycle (Tue June 9). Carryover.md held the 5 week-of-June-15 dishes unchecked — but those are this coming week's scheduled meals (the Surveyor created a "Rate your meals — Week of June 15" event today listing them), not uncooked leftovers. Carrying them forward would duplicate meals Sean is about to eat, so I treated them as scheduled and built a fresh, fully varied slate for the next open week (June 22) — same precedent as the June 6 run. Recipes/ folder was empty on entry again (prior local .md files not persisting), so I wrote fresh local + Drive recipe files for all 5.
-**Handoff notes:** Dishes for Scheduler: Smash Burger Bowls (weeknight), Weeknight Butter Chicken (weeknight), Honey Mustard Pork Tenderloin & Green Beans (weeknight), Ground Chicken Banh Mi Bowls (weeknight), Mediterranean Steak Bowls (weekend). 5 recipe files written to Recipes/ + 5 Google Docs in Drive Recipes folder (parentId 1XNX6FDmVZ...). Carryover reset with the 5 new dishes. Dashboard refreshed (DISHES + week comment + ratings week label; CSS/structure/localStorage keys/CART_TOOL/stale-rating cleanup preserved). Shopping list ingredient audit passed; cucumber bumped to 2 (Banh Mi + Steak Bowls share), garlic 1 head (~6 cloves), Greek yogurt 32oz tub shared across 4 dishes. Avg: 42g protein / 518 cal. No evening calendar conflicts June 22–28 (only a noon WGU mentor call June 22).
-**Issues:** Empty Recipes/ folder on entry (resolved — all 5 written). Off-cycle trigger (Tue, not Fri 5 PM) flagged for Kitchen Manager awareness; next scheduled run remains Fri June 12.
-
----
-
-### THE SURVEYOR — 2026-06-09 15:50
-**Status:** ⚠️ Partial
-**Summary:** Rate_This_Week.md created with 5 dishes for the week of June 15. Monday June 15, 9:00 AM Denver-time calendar reminder (email + popup, 0-min) sent to [REDACTED_EMAIL].
-**Handoff notes:** Dishes for rating (Week of June 15): Greek Chicken Souvlaki Bowls, Sheet-Pan Shrimp Fajitas, Thai Basil Beef / Pad Krapow, Cajun Butter Pork Chops & Green Beans, Chimichurri Skirt Steak & Roasted Potatoes. Critic should find Rate_This_Week.md at E:\Seans_Royal_Kitchen\Rate_This_Week.md on Friday (June 19). All five marked "(skip if not cooked)" since the cooking week hasn't started.
-**Issues:** Ran off-cycle (Tue June 9, not the usual Sun 7 PM). No `Menu_Week_of_*.md` file exists on disk — the June 15 menu was recovered from The Chef's June 6 log handoff; dish list is sourced from there, not a menu file. Carryover.md still holds the week-of-June-8 dishes (all unchecked) — those are the in-progress week being cooked June 8–14, not carried forward, so they were not used for this rating file. Fixed an initial calendar-timezone slip: first create resolved to 10 AM because I forced America/Los_Angeles; corrected to America/Denver (Sean's primary calendar TZ) so the reminder fires at 9 AM local.
-
----
-
-### THE CHEF — 2026-06-06 21:31
-**Status:** ✅ Success
-**Summary:** Built menu for week of June 15. 5 new dishes, 0 carried over.
-**Decision note:** Ran off-cycle (Sat June 6, not the usual Fri 5 PM). Carryover.md held all 5 week-of-June-8 dishes unchecked — but only because that week hasn't started yet; those 5 are already on the calendar to be cooked June 8–14. Carrying them forward would have duplicated meals Sean is about to eat, so I treated them as scheduled (not uncooked) and built a fresh, fully varied menu for the next open week (June 15). Also note: the Recipes/ folder was empty (prior run's local .md files were never persisted, though the June 8 Google Docs exist), so I wrote fresh local + Drive recipe files for all 5 new dishes.
-**Handoff notes:** Dishes for Scheduler: Greek Chicken Souvlaki Bowls (weeknight), Sheet-Pan Shrimp Fajitas (weeknight), Thai Basil Beef / Pad Krapow (weeknight), Cajun Butter Pork Chops & Green Beans (weeknight), Chimichurri Skirt Steak & Roasted Potatoes (weekend). 5 recipe files written to Recipes/ + 5 Google Docs in Drive Recipes folder (parentId 1XNX6FDmVZ...). Carryover reset with the 5 new dishes. Dashboard refreshed (DISHES + week comment + ratings date; CSS/structure/localStorage keys preserved). Shopping list ingredient audit passed; garlic bumped to 2 heads (~12 cloves needed). Avg: 41g protein / 494 cal. No evening calendar conflicts June 15–21.
-**Issues:** Empty Recipes/ folder on entry (resolved — all 5 written). Off-cycle trigger flagged for the Kitchen Manager's awareness.
-
----
-
-### THE KITCHEN MANAGER — 2026-06-05 07:00
-**Status:** ✅ All clear
-**Summary:** Daily check complete. Reviewed 10 log entries. 0 critical issues. System healthy after first full pipeline run.
-**Peer review:** The Scribe (22:25, via PowerShell) — ✅ Clean entry; all fields present; first GitHub sync successful. This is the only task that ran after the previous Manager check at 22:20. Earlier tasks reviewed in prior Manager sessions — no re-review needed. Change_Requests folder is empty.
-**Issues:** None. The Chef's shopping list gaps (⚠️ Partial) and Scribe's initial GitHub failure (❌) were both resolved same-day by prior Kitchen Manager sessions. No open items carry forward.
-
----
-
-### THE SCRIBE (via github_sync.ps1) — 2026-06-05 22:25
-**Status:** ✅ Success — First sync complete
-**Summary:** All kitchen files pushed to GitHub via Windows Task Scheduler PowerShell script. 6 recipes, 2 menus, 2 shopping lists, all task prompts, README, and system files synced.
-**Handoff notes:** Repo live at https://github.com/ARPnemesis/seans-kitchen. Script runs automatically every Friday at 6:15 PM after The Scribe writes the trigger file. Log at Cookbook/System/.github_sync_log.txt. Architecture: Scribe writes trigger → PowerShell job on Sean's machine pushes to GitHub (bypasses Cowork sandbox network restriction).
-**Issues:** None. CRLF warnings suppressed via .gitattributes going forward.
-
----
-
-### THE SCRIBE — 2026-06-05 17:45
-**Status:** ❌ Failed — Cowork sandbox has no outbound internet access
-**Summary:** GitHub sync could not complete. JWT was generated from PEM key successfully, but all GitHub API calls returned HTTP 000 (connection blocked). No repo clone, no file sync, no commit.
-**Handoff notes:** Calendar alert created for Sat Jun 6 9 AM with email reminder. This is a Cowork platform network limitation — api.github.com and github.com are not in the allowlisted outbound hosts. The PEM file is intact and JWT auth logic is correct. GitHub sync will fail every Friday until this network constraint is resolved.
-**Issues:** Cowork bash sandbox blocks all outbound connections to GitHub. Requires either: (1) Cowork whitelisting github.com / api.github.com in the sandbox network, or (2) an alternative sync approach that doesn't require direct GitHub API access from bash. Sean needs to review and decide on a path forward. *(Resolved same-day via Windows PS1 workaround — see entry above.)*
-
----
-
-### SEAN (via Kitchen Manager) — 2026-06-05
-**Status:** ✅ GitHub App setup complete
-**Summary:** Sean completed the one-time GitHub App setup. Permanent token automation is now active — The Scribe will never need a manual token rotation again.
-**GitHub App credentials:**
-- App Name: Sean's Kitchen Scribe
-- App ID: `3977437`
-- Client ID: `Iv23lie0F53AwN73Z7Yi`
-- Installation ID: `138345675`
-- PEM file: `E:\Seans_Royal_Kitchen\System\seans-kitchen-scribe.2026-06-05.private-key.pem`
-**Handoff notes:** Scribe SKILL.md upgraded to JWT auth immediately. Developer SKILL.md updated — no further setup actions required. Next Developer run (July 3) will confirm JWT is working.
-**Issues:** None.
-
----
-
-### THE KITCHEN MANAGER — 2026-06-05 22:20
-**Status:** ✅ Success — The Scribe hired and deployed
-**Summary:** New employee The Scribe (kitchen-scribe) created. Runs Fri 5:45 PM, syncs all kitchen files and task code to GitHub (ARPnemesis/seans-kitchen). Token embedded, token scrub confirmed in prompt. Developer updated to oversee Scribe monthly. Charter and project doc updated with new roster.
-**Peer review:** N/A — new hire.
-**Handoff notes:** Scribe first run next Friday June 12 at 5:45 PM. Repo does not yet exist — Scribe will create it on first run. Developer will verify Scribe health every 1st Friday going forward.
-**Issues:** None.
-
----
-
-### THE KITCHEN MANAGER — 2026-06-05 22:00
-**Status:** ✅ Success — Ingredient audit complete
-**Summary:** Full ingredient audit of week of June 8 shopping list vs. all 5 recipes. Found 3 gaps; all fixed. Developer and Chef prompts updated to prevent recurrence.
-**Peer review:** Chef's shopping list had 3 issues on first run: (1) broccoli under-counted — 1 head listed but 2 dishes needed it, bumped to 2 heads; (2) mashed potato ingredients vague with no quantities, now specific (Russet potatoes 2 lbs, whole milk small carton); (3) butter short by ~1 tbsp when mash is factored in, bumped to 2 sticks. Also corrected a lemon annotation (salmon doesn't use lemon — surplus lemon is harmless but annotation was wrong).
-**Handoff notes:** Developer SKILL.md now includes mandatory ingredient audit step every month. Chef SKILL.md updated with 5 shopping list rules to prevent gaps. Updated shoppin

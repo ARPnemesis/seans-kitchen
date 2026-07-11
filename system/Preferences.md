@@ -29,7 +29,7 @@
 ## Auto-Generated: Discovered Preferences
 *Updated by The Critic each Friday based on your ratings. Do not edit.*
 
-*Last updated 2026-07-03 — based on 3 weeks of ratings (weeks of 2026-06-08, 2026-06-15, and 2026-06-22, 13 dishes rated).*
+*Last updated 2026-07-10 (noon run) — submission for week of 2026-06-29 (Rate_Submission_2026-06-29, filed 7/10 8:37 AM) covered 2 of the 2 dishes actually cooked that week (3 others were dropped mid-week and never cooked, per the reconciled ledger). Data below reflects 4 weeks of ratings (06-08, 06-15, 06-22, 06-29 — 15 dishes rated total).*
 
 **High-rated dishes (4–5 ★):**
 - Chicken Shawarma Bowl — 5★ ("Amazing!!")
@@ -41,9 +41,11 @@
 - Mediterranean Steak Bowls — 5★ ("one of the best Mediterranean dishes ever"; girlfriend-approved)
 - High-Protein Cottage Cheese Baked Ziti — 5★
 - Carne Asada Bowls — 5★
+- Thai Basil Chicken Bowls — 5★ ("amazing! loved these!") — NEW
 - Gochujang Ground Turkey Bowl — 4★ (great flavor; oyster sauce smell a minor knock)
 - Harissa Chicken & Chickpea Sheet-Pan Bowls — 4★
 - Egg Roll in a Bowl (Ground Pork) — 4★
+- Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts — 4★ ("Good!") — NEW
 
 **Mid-rated dishes (3 ★):**
 - Miso-Glazed Cod with Bok Choy & Rice — 3★ (first dish to land below 4★; no notes or cook-again response given, so not a confirmed dislike — watch before recycling per the 3★ "only if explicitly carried over" rule)
@@ -52,32 +54,35 @@
 *(none yet — lowest recorded is the 3★ Miso Cod above)*
 
 **Preferred cuisines by rating:**
+- Thai — 5★ (Thai Basil Chicken Bowls — first Thai data point, strong debut) — NEW
 - American comfort — 5★ avg (4 dishes: garlic butter chicken, pot roast, smash burger, cottage cheese baked ziti) — broadest, most consistent winner
 - Mexican/Latin — 5★ (Carne Asada Bowls)
 - Mediterranean — 5★ (1 dish, but a standout "best ever")
 - Middle Eastern — 4.5★ avg (shawarma 5★, harissa chicken 4★)
 - Indian — 5★ (butter chicken; yogurt-based sauce preferred over heavy cream)
-- Asian glazed/fusion — 5★ (honey garlic salmon)
+- Asian glazed/fusion (salmon) — 4.5★ avg (honey garlic salmon 5★, maple-dijon salmon 4★ — two salmon prep styles both landed well)
 - Korean — 4★ (gochujang turkey)
 - Asian bowl (egg roll) — 4★
 - Japanese (miso-glazed) — 3★ (Miso Cod — first cuisine to underperform; single data point, don't overreact yet)
 
 **Preferred proteins by rating:**
 - Beef — 5★ avg across every form (ground/smash, steak/flat-iron, chuck pot roast, carne asada) — most consistent top performer, 4 dishes
-- Chicken — 4.5★ avg (shawarma 5, garlic butter 5, butter chicken 5, harissa 4) — strong, large sample
-- Salmon — 5★
+- Chicken — 4.8★ avg (shawarma 5, garlic butter 5, butter chicken 5, harissa 4, Thai basil chicken 5) — largest sample, still the safest bet
+- Salmon — 4.5★ avg (honey garlic 5★, maple-dijon 4★) — consistently strong across two very different prep styles
 - Pasta/dairy (cottage cheese baked ziti) — 5★
 - Ground pork (egg roll bowl) — 4★
 - Ground turkey — 4★ (still slightly behind the others)
-- White fish (cod) — 3★ (Miso Cod; only fish-in-sauce data point so far — worth another fish dish before concluding fish underperforms, since salmon scored 5★)
+- White fish (cod) — 3★ (Miso Cod; only fish-in-sauce data point so far — worth another fish dish before concluding fish underperforms, since both salmon dishes scored 4–5★)
 
 **Notes from The Critic:**
-- Three weeks of ratings now on file; the model is holding up well — 12 of 13 dishes rated 4★ or higher.
+- Four weeks of ratings now on file, 15 dishes total; 14 of 15 rated 4★ or higher — the model continues to hold up well.
 - Beef remains the strongest, most consistent protein — every single cut/form served (ground, steak, chuck, carne asada) has scored 5★. Lean into beef-forward bowls.
-- First sub-4★ result: Miso-Glazed Cod with Bok Choy & Rice at 3★. No notes or cook-again response were captured this week (see operational issue below), so treat this as a soft signal, not a confirmed dislike — don't recycle it without checking in with Sean first, and don't extrapolate to fish generally (Honey Garlic Salmon scored 5★).
+- Chicken now has the largest sample (5 dishes) and the highest average (4.8★) — Thai Basil Chicken Bowls' 5★ debut confirms chicken travels well across cuisines (Middle Eastern, American, Indian, Thai).
+- Salmon is now 2-for-2 at 4–5★ across different treatments (honey-garlic, maple-dijon) — safe to rotate salmon regularly.
+- No operational gap for week 06-29 after all: the ledger reconciliation (07-10) shows Korean Beef Bulgogi Bowls, Cajun Honey-Butter Shrimp Bowls, and Mississippi Pot Roast were DROPPED mid-week and never cooked — they are not unrated. Both actually-cooked dishes (Thai Basil Chicken Bowls, Maple-Dijon Salmon) were rated: 100% coverage. The earlier "nudge Sean about partial submissions" concern is retired. All four never-cooked drops (those 3 + Lemon-Garlic Scallops from 07-06) are eligible for early reuse — the no-repeat window doesn't apply to them.
+- First sub-4★ result remains Miso-Glazed Cod with Bok Choy & Rice at 3★ (week 06-22, still no notes/cook-again captured) — treat as a soft signal, not a confirmed dislike; don't extrapolate to fish generally given salmon's strong showing.
 - Sauce-technique signal from week 06-15 still holds: Sean prefers tangy yogurt-based sauces over heavy cream. No new sauce data this week.
 - Difficulty estimates remain accurate — every dish rated so far has come in "as expected" or "easier," zero "harder than described."
-- Operational gap this week: the dashboard submission for week 06-22 captured Stars for all 5 dishes but "Cook again" and "Notes" were left blank across the board. Worth flagging to the Surveyor/dashboard — star ratings alone don't tell us whether to recycle a dish, especially borderline ones like Miso Cod.
 - Ground turkey and ground pork are both solid-but-not-standout (4★) — fine as rotation fillers, don't lean on either heavily.
 - Carry-forward operational reminder (week 06-08): shopping list previously omitted honey, sesame seeds, rice wine vinegar. No new list-gap reports since.
 

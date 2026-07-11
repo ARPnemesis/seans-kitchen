@@ -61,12 +61,12 @@ Major change      →  Kitchen Manager prepares proposal → Sean approves
 | Task ID | Name | Schedule | Role |
 |---------|------|----------|------|
 | weekly-kings-menu | The Chef | Fri 5:00 PM | Builds weekly menu, recipe files, shopping list, dashboard |
-| meal-critic-weekly | The Critic | Fri 8:00 AM | Processes ratings, updates taste profile, writes Lessons Learned |
+| meal-critic-weekly | The Critic | Fri 12:00 PM | Processes ratings, updates taste profile, writes Lessons Learned (moved from 8 AM on 2026-07-10 — server may not be online that early) |
 | kitchen-archivist | The Archivist | Fri 4:30 PM | Archives the week before Chef overwrites |
 | meal-surveyor | The Surveyor | Sun 7:00 PM | Creates Monday calendar reminder to rate meals |
-| kitchen-scheduler | The Scheduler | Fri 5:30 PM | Assigns dishes to free evenings, creates recipe-linked calendar events |
-| kitchen-developer | The Developer | 1st Fri 6:00 AM | Monthly system review, auto-fixes minor issues, escalates major ones |
-| kitchen-scribe | The Scribe | Fri 5:45 PM | Syncs all kitchen files and task code to GitHub (ARPnemesis/seans-kitchen) |
+| kitchen-scheduler | The Scheduler | Fri 7:30 PM | Assigns dishes to free evenings, creates recipe-linked calendar events (moved from 5:30 PM on 2026-07-10 to give Sean a correction window after the Chef) |
+| kitchen-developer | The Developer | 1st Fri 11:00 AM | Monthly system review, auto-fixes minor issues, escalates major ones (moved from 6 AM on 2026-07-10 — server may not be online that early) |
+| kitchen-scribe | The Scribe | Fri 7:45 PM | Syncs all kitchen files and task code to GitHub (ARPnemesis/seans-kitchen); host push task fires 8:15 PM (moved from 5:45/6:15 PM on 2026-07-10) |
 
 ---
 
@@ -75,7 +75,7 @@ Major change      →  Kitchen Manager prepares proposal → Sean approves
 The Kitchen Manager's automated daily checks-and-balances run **once per day at 9:00 PM** (Denver time). Changed from 7:00 AM on 2026-06-30 at Sean's request, for power-consumption awareness — Sean powers the system down overnight and back on in the morning, so the check runs in the evening before shutdown.
 
 Timing implications of the 9 PM slot:
-- **Friday** — the full Friday pipeline (Critic 8 AM → Archivist 4:30 PM → Chef 5 PM → Scheduler 5:30 PM → Scribe 5:45 PM, plus the 1st-Friday Developer 6 AM) has all completed by 9 PM, so the Manager verifies it the **same evening** rather than waiting until Saturday morning.
+- **Friday** — the full Friday pipeline (1st-Friday Developer 11 AM → Critic 12 PM → Archivist 4:30 PM → Chef 5 PM → *Sean's correction window 5:00–7:30* → Scheduler 7:30 PM → Scribe 7:45 PM → host GitHub sync 8:15 PM) has all completed by 9 PM, so the Manager verifies it the **same evening** rather than waiting until Saturday morning. The 5:00–7:30 gap is deliberate (added 2026-07-10): Sean reviews the menu/shopping list and may regenerate before anything reaches the calendar or GitHub.
 - **Sunday** — the Surveyor (7 PM) has run ~2 hours earlier, so the Sunday check can verify it the same night. (This resolves the old awkwardness where a 7 AM Sunday check ran *before* the Surveyor and couldn't confirm it.)
 - A same-day pair of Manager entries (a 07:00 and a 21:00) should only ever appear on the 2026-06-30 transition day; going forward, expect a single ~21:00 entry. A stray 07:00 entry recurring alongside the 9 PM one would indicate a genuine phantom/duplicate task worth investigating.
 

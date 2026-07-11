@@ -108,3 +108,17 @@ Each entry follows this structure:
 - Cook again: Not specified
 - Difficulty: As expected
 - Notes: —
+
+### Thai Basil Chicken Bowls
+- Week: 2026-06-29
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Amazing!! Loved these!
+
+### Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts
+- Week: 2026-06-29
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Good!
