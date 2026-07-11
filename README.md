@@ -12,21 +12,21 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-07-06** (Mon Jul 6 – Sun Jul 12)
+**Week of 2026-07-13** (Mon Jul 13 – Sun Jul 19)
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-07-06.md`; the table below reflects the week **as it actually stands** after Sean's mid-week adjustments, not the original plan.*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-07-13.md`; the table below reflects the week as it stands in the ledger.*
 
 | Dish | Style | Night | Protein | Calories | Status |
 |------|-------|-------|---------|----------|--------|
-| Thai Basil Chicken Bowls | Thai | Mon 07/06 | — | — | Carried from week of 06-29 · cooked · rated 5★ |
-| Southwest Turkey & Black Bean Stuffed Sweet Potatoes | Southwest/Tex-Mex | Tue 07/07 | ~40g | ~540 | Cooked |
-| Cuban Mojo Pork Chops with Black Beans & Rice | Cuban/Latin | Wed 07/08 | ~42g | ~520 | Cooked |
-| Garlic Butter Chicken Thighs & Broccoli | American Classic | Thu 07/09 | ~42g | ~440 | Cooked |
-| Peruvian Beef Stir-Fry (Lomo Saltado) | Peruvian | Sat 07/11 | ~44g | ~580 | Scheduled (weekend) |
+| Korean Beef Bulgogi Bowls | Korean | Mon 07/13 | ~43g | ~560 | Scheduled · early reuse (dropped 07-05, never cooked) |
+| Greek Chicken Meatball Bowls with Tzatziki | Greek/Mediterranean | Tue 07/14 | ~43g | ~520 | Scheduled · new |
+| Salmon Tacos with Mango-Corn Salsa | Coastal Latin | Wed 07/15 | ~38g | ~540 | Scheduled · new |
+| Creamy Cajun Shrimp Pasta | Cajun/American | Thu 07/16 | ~42g | ~560 | Scheduled · new |
+| Mississippi Pot Roast | American Comfort | Sat 07/18 | ~40g | ~480 | Scheduled (weekend slow cooker) · 5★ recycle, last served 06-08 |
 
-**Dropped this week (never cooked):** Lemon-Garlic Butter Scallops with Asparagus & Orzo — removed from the plan 07-06; not a survey target and eligible for early reuse by the Chef.
+**Friday 07/17 is Bean's Birthday** — the Scheduler left that evening clear. Average: ~41.2g protein · ~532 calories per serving.
 
-**Previously finished (week of 2026-06-29):** Actually cooked and rated — Thai Basil Chicken Bowls (5★, carried into 07-06 and cooked Mon 07-06) and Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts (4★). Korean Beef Bulgogi Bowls, Cajun Honey-Butter Shrimp Bowls, and Mississippi Pot Roast were dropped mid-week and never cooked — they are not survey targets and are eligible for early reuse. Ratings were processed by The Critic on 2026-07-10.
+**Previously finished (week of 2026-07-06):** Survey targets for the Surveyor — Southwest Turkey & Black Bean Stuffed Sweet Potatoes, Cuban Mojo Pork Chops, Garlic Butter Chicken Thighs & Broccoli, and Peruvian Beef Stir-Fry (Lomo Saltado). Thai Basil Chicken Bowls (carried from 06-29) is already rated 5★; Lemon-Garlic Butter Scallops with Asparagus & Orzo was dropped 07-06, never cooked — not a survey target and eligible for early reuse.
 
 ---
 

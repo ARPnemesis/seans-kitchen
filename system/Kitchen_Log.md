@@ -3,6 +3,22 @@
 
 ---
 
+### THE SCRIBE — 2026-07-10 19:56
+**Status:** ✅ Success
+**Summary:** README refreshed; commit trigger dropped for host GitHub sync (8:15 PM push).
+**Handoff notes:** README Current Week section updated to 2026-07-13 with the Scheduler's night assignments (Mon Bulgogi, Tue Greek Meatballs, Wed Salmon Tacos, Thu Cajun Shrimp, Sat Pot Roast; Fri clear for Bean's Birthday). Previous-week section lists the four 07-06 survey targets and notes Thai Basil RATED / Scallops DROPPED per ledger annotations. Menu_Week_of_2026-07-13.md read and verified complete. Commit message: "Weekly sync [2026-07-10]: menu for week of 2026-07-13 (3 new dishes + Bulgogi & Pot Roast returns), 3 new recipes, shopping list, dashboard and README refreshed."
+**Issues:** None.
+
+---
+
+### THE SCHEDULER — 2026-07-10 19:39
+**Status:** ✅ Success
+**Summary:** Scheduled 5 of 5 dishes for the week of 2026-07-13 onto the calendar. No stale events to remove (no prior 🍽️ events existed for this week).
+**Handoff notes:** Assignments — Mon 07-13: Korean Beef Bulgogi Bowls; Tue 07-14: Greek Chicken Meatball Bowls with Tzatziki; Wed 07-15: Salmon Tacos with Mango-Corn Salsa; Thu 07-16: Creamy Cajun Shrimp Pasta; Sat 07-18: Mississippi Pot Roast (7:00–8:30 PM weekend slot; slow-cooker prep is morning-of). Fri 07-17 left clear per Bean's Birthday (all-day event confirmed on calendar). Mon WGU midday call didn't conflict with the dinner window. All 5 events have Drive recipe links; per the Chef's note, linked the NEWER Pot Roast doc (created 06-28), not the 06-06 duplicate. Reminders set 1 hour before.
+**Issues:** None.
+
+---
+
 ### THE CHEF — 2026-07-10 17:10
 **Status:** ✅ Success
 **Summary:** Built fresh menu for week of 2026-07-13 (normal ROLL) — no repeats of dishes cooked in the last 3 weeks. 3 brand-new dishes (Greek Chicken Meatball Bowls with Tzatziki, Salmon Tacos with Mango-Corn Salsa, Creamy Cajun Shrimp Pasta) + 2 sanctioned returns: Korean Beef Bulgogi Bowls (early reuse — DROPPED 07-05, never cooked, exempt from no-repeat) and Mississippi Pot Roast (early reuse + Critic-flagged 5★ recycle candidate, last served 06-08). Both new sauces use the tangy Greek-yogurt style Sean rated 5★. Menu file re-read and verified complete (all 5 dishes + closing line).
