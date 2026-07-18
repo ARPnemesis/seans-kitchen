@@ -122,3 +122,31 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: As expected
 - Notes: Good!
+
+### Southwest Turkey & Black Bean Stuffed Sweet Potatoes
+- Week: 2026-07-06
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: This was very delicious.
+
+### Cuban Mojo Pork Chops with Black Beans & Rice
+- Week: 2026-07-06
+- Stars: 3/5
+- Cook again: No
+- Difficulty: As expected
+- Notes: Not bad, just not a huge pork chop guy I guess.
+
+### Garlic Butter Chicken Thighs & Broccoli
+- Week: 2026-07-06
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Added pasta to the mix. Par-boiled the broccoli before the sauté pan — much more tender, and made cleaning the burnt bits from the pan easier after pulling the chicken. Love this dish.
+
+### Peruvian Beef Stir-Fry (Lomo Saltado)
+- Week: 2026-07-06
+- Stars: 3/5
+- Cook again: No
+- Difficulty: As expected
+- Notes: Not my favorite

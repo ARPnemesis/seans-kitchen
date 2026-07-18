@@ -29,7 +29,7 @@
 ## Auto-Generated: Discovered Preferences
 *Updated by The Critic each Friday based on your ratings. Do not edit.*
 
-*Last updated 2026-07-10 (noon run) — submission for week of 2026-06-29 (Rate_Submission_2026-06-29, filed 7/10 8:37 AM) covered 2 of the 2 dishes actually cooked that week (3 others were dropped mid-week and never cooked, per the reconciled ledger). Data below reflects 4 weeks of ratings (06-08, 06-15, 06-22, 06-29 — 15 dishes rated total).*
+*Last updated 2026-07-17 (noon run) — submission for week of 2026-07-06 (Rate_Submission_2026-07-06, filed 7/13 10:34 AM) covered 4 of the 4 unannotated dishes cooked that week; Thai Basil Chicken Bowls was carried from 06-29 and already rated, Lemon-Garlic Scallops was dropped and never cooked. Data below reflects 5 weeks of ratings (06-08 through 07-06 — 19 dishes rated total).*
 
 **High-rated dishes (4–5 ★):**
 - Chicken Shawarma Bowl — 5★ ("Amazing!!")
@@ -41,49 +41,55 @@
 - Mediterranean Steak Bowls — 5★ ("one of the best Mediterranean dishes ever"; girlfriend-approved)
 - High-Protein Cottage Cheese Baked Ziti — 5★
 - Carne Asada Bowls — 5★
-- Thai Basil Chicken Bowls — 5★ ("amazing! loved these!") — NEW
+- Thai Basil Chicken Bowls — 5★ ("amazing! loved these!")
+- Southwest Turkey & Black Bean Stuffed Sweet Potatoes — 5★ ("very delicious") — NEW
+- Garlic Butter Chicken Thighs & Broccoli — 5★ ("love this dish"; Sean added pasta and par-boiled the broccoli — keep both mods) — NEW
 - Gochujang Ground Turkey Bowl — 4★ (great flavor; oyster sauce smell a minor knock)
 - Harissa Chicken & Chickpea Sheet-Pan Bowls — 4★
 - Egg Roll in a Bowl (Ground Pork) — 4★
-- Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts — 4★ ("Good!") — NEW
+- Maple-Dijon Glazed Salmon with Roasted Brussels Sprouts — 4★ ("Good!")
 
 **Mid-rated dishes (3 ★):**
-- Miso-Glazed Cod with Bok Choy & Rice — 3★ (first dish to land below 4★; no notes or cook-again response given, so not a confirmed dislike — watch before recycling per the 3★ "only if explicitly carried over" rule)
+- Miso-Glazed Cod with Bok Choy & Rice — 3★ (no notes or cook-again captured; soft signal, not a confirmed dislike)
+- Cuban Mojo Pork Chops with Black Beans & Rice — 3★, **Cook again: No** ("not a huge pork chop guy") — NEW
+- Peruvian Beef Stir-Fry (Lomo Saltado) — 3★, **Cook again: No** ("not my favorite") — NEW
 
 **Low-rated dishes (1–2 ★ — avoid recycling):**
-*(none yet — lowest recorded is the 3★ Miso Cod above)*
+*(none yet — but the two "Cook again: No" dishes above are do-not-recycle regardless of stars)*
 
 **Preferred cuisines by rating:**
-- Thai — 5★ (Thai Basil Chicken Bowls — first Thai data point, strong debut) — NEW
-- American comfort — 5★ avg (4 dishes: garlic butter chicken, pot roast, smash burger, cottage cheese baked ziti) — broadest, most consistent winner
-- Mexican/Latin — 5★ (Carne Asada Bowls)
+- Thai — 5★ (Thai Basil Chicken Bowls)
+- American comfort — 5★ avg (5 dishes: garlic butter chicken ×2, pot roast, smash burger, cottage cheese baked ziti) — broadest, most consistent winner
+- Southwest/Tex-Mex — 5★ (Southwest Turkey Stuffed Sweet Potatoes — strong debut) — NEW
+- Mexican/Latin (carne asada) — 5★
 - Mediterranean — 5★ (1 dish, but a standout "best ever")
 - Middle Eastern — 4.5★ avg (shawarma 5★, harissa chicken 4★)
 - Indian — 5★ (butter chicken; yogurt-based sauce preferred over heavy cream)
-- Asian glazed/fusion (salmon) — 4.5★ avg (honey garlic salmon 5★, maple-dijon salmon 4★ — two salmon prep styles both landed well)
+- Asian glazed/fusion (salmon) — 4.5★ avg (honey garlic 5★, maple-dijon 4★)
 - Korean — 4★ (gochujang turkey)
 - Asian bowl (egg roll) — 4★
-- Japanese (miso-glazed) — 3★ (Miso Cod — first cuisine to underperform; single data point, don't overreact yet)
+- Japanese (miso-glazed) — 3★ (single data point)
+- Cuban — 3★, Cook again: No (mojo pork chops — likely the pork-chop format, not the cuisine) — NEW
+- Peruvian — 3★, Cook again: No (Lomo Saltado — first beef dish to miss) — NEW
 
 **Preferred proteins by rating:**
-- Beef — 5★ avg across every form (ground/smash, steak/flat-iron, chuck pot roast, carne asada) — most consistent top performer, 4 dishes
-- Chicken — 4.8★ avg (shawarma 5, garlic butter 5, butter chicken 5, harissa 4, Thai basil chicken 5) — largest sample, still the safest bet
-- Salmon — 4.5★ avg (honey garlic 5★, maple-dijon 4★) — consistently strong across two very different prep styles
+- Chicken — 4.8★ avg over 6 dishes (largest sample; 5★ across Middle Eastern, American ×2, Indian, Thai) — the safest bet
+- Beef — now 4.6★ avg (ground/smash, steak, chuck, carne asada all 5★; Lomo Saltado 3★/No is the first beef miss — stir-fry-with-fries format didn't land, not beef itself)
+- Ground turkey — up to 4.5★ avg (Southwest Turkey 5★ is turkey's first standout; gochujang 4★)
+- Salmon — 4.5★ avg (two prep styles, both landed)
 - Pasta/dairy (cottage cheese baked ziti) — 5★
 - Ground pork (egg roll bowl) — 4★
-- Ground turkey — 4★ (still slightly behind the others)
-- White fish (cod) — 3★ (Miso Cod; only fish-in-sauce data point so far — worth another fish dish before concluding fish underperforms, since both salmon dishes scored 4–5★)
+- **Pork chops — 3★, Cook again: No** — Sean says he's "not a huge pork chop guy." Treat whole pork chops as a soft dislike; ground pork remains fine — NEW
+- White fish (cod) — 3★ (single data point; don't extrapolate to fish given salmon's record)
 
 **Notes from The Critic:**
-- Four weeks of ratings now on file, 15 dishes total; 14 of 15 rated 4★ or higher — the model continues to hold up well.
-- Beef remains the strongest, most consistent protein — every single cut/form served (ground, steak, chuck, carne asada) has scored 5★. Lean into beef-forward bowls.
-- Chicken now has the largest sample (5 dishes) and the highest average (4.8★) — Thai Basil Chicken Bowls' 5★ debut confirms chicken travels well across cuisines (Middle Eastern, American, Indian, Thai).
-- Salmon is now 2-for-2 at 4–5★ across different treatments (honey-garlic, maple-dijon) — safe to rotate salmon regularly.
-- No operational gap for week 06-29 after all: the ledger reconciliation (07-10) shows Korean Beef Bulgogi Bowls, Cajun Honey-Butter Shrimp Bowls, and Mississippi Pot Roast were DROPPED mid-week and never cooked — they are not unrated. Both actually-cooked dishes (Thai Basil Chicken Bowls, Maple-Dijon Salmon) were rated: 100% coverage. The earlier "nudge Sean about partial submissions" concern is retired. All four never-cooked drops (those 3 + Lemon-Garlic Scallops from 07-06) are eligible for early reuse — the no-repeat window doesn't apply to them.
-- First sub-4★ result remains Miso-Glazed Cod with Bok Choy & Rice at 3★ (week 06-22, still no notes/cook-again captured) — treat as a soft signal, not a confirmed dislike; don't extrapolate to fish generally given salmon's strong showing.
-- Sauce-technique signal from week 06-15 still holds: Sean prefers tangy yogurt-based sauces over heavy cream. No new sauce data this week.
-- Difficulty estimates remain accurate — every dish rated so far has come in "as expected" or "easier," zero "harder than described."
-- Ground turkey and ground pork are both solid-but-not-standout (4★) — fine as rotation fillers, don't lean on either heavily.
+- Five weeks, 19 dishes rated; 16 of 19 at 4★+. Week 07-06 produced the first two "Cook again: No" verdicts — the Watch List is no longer empty.
+- Protein-format signal, not protein signal: pork chops missed (3★/No) while ground pork scored 4★; Lomo Saltado missed while every other beef format is 5★. Judge formats, not just proteins.
+- Emerging candidate hard-dislike for Standing Preferences: whole pork chops. One data point — flag for Sean rather than writing it in.
+- Ground turkey graduated from "rotation filler" to proven winner — Southwest Turkey Stuffed Sweet Potatoes hit 5★.
+- Garlic-butter chicken + broccoli is now 2-for-2 at 5★ across two variants; adopt Sean's mods (pasta added, broccoli par-boiled) into the recipe card next time it's served.
+- Sauce signal holds: tangy yogurt-based over heavy cream. Difficulty estimates remain accurate — still zero "harder than described" across 19 dishes.
+- Never-cooked early-reuse pool: Cajun Honey-Butter Shrimp Bowls (dropped 06-29), Lemon-Garlic Butter Scallops with Asparagus & Orzo (dropped 07-06). No-repeat window does not apply to them.
 - Carry-forward operational reminder (week 06-08): shopping list previously omitted honey, sesame seeds, rice wine vinegar. No new list-gap reports since.
 
 ---

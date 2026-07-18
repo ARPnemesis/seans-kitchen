@@ -12,21 +12,21 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-07-13** (Mon Jul 13 – Sun Jul 19)
+**Week of 2026-07-20** (Mon Jul 20 – Sun Jul 26)
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-07-13.md`; the table below reflects the week as it stands in the ledger.*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-07-20.md`; the table below reflects the week as it stands in the ledger (no annotations — all five dishes stand as planned).*
 
 | Dish | Style | Night | Protein | Calories | Status |
 |------|-------|-------|---------|----------|--------|
-| Korean Beef Bulgogi Bowls | Korean | Mon 07/13 | ~43g | ~560 | Scheduled · early reuse (dropped 07-05, never cooked) |
-| Greek Chicken Meatball Bowls with Tzatziki | Greek/Mediterranean | Tue 07/14 | ~43g | ~520 | Scheduled · new |
-| Salmon Tacos with Mango-Corn Salsa | Coastal Latin | Wed 07/15 | ~38g | ~540 | Scheduled · new |
-| Creamy Cajun Shrimp Pasta | Cajun/American | Thu 07/16 | ~42g | ~560 | Scheduled · new |
-| Mississippi Pot Roast | American Comfort | Sat 07/18 | ~40g | ~480 | Scheduled (weekend slow cooker) · 5★ recycle, last served 06-08 |
+| Weeknight Butter Chicken | Indian | Mon 07/20 | ~45g | ~560 | Scheduled · 5★ recycle (Critic-flagged, last served 06-15) |
+| Ginger-Sesame Turkey Lettuce Wraps | Asian | Tue 07/21 | ~40g | ~450 | Scheduled · new (quickest dish — placed after the 3–5 PM airport pickup) |
+| Italian Sausage, White Bean & Spinach Skillet | Italian | Wed 07/22 | ~40g | ~560 | Scheduled · new |
+| Lemon-Garlic Butter Scallops with Asparagus & Orzo | Coastal/Mediterranean | Thu 07/23 | ~45g | ~520 | Scheduled · early reuse (dropped 07-06, never cooked) |
+| Chimichurri Flank Steak with Charred Corn & Tomato Salad | Argentinian/Latin | Sat 07/25 | ~46g | ~560 | Scheduled (weekend grill dish) · new |
 
-**Friday 07/17 is Bean's Birthday** — the Scheduler left that evening clear. Average: ~41.2g protein · ~532 calories per serving.
+**Tuesday 07/21: Mom & Dad airport pickup 3–5 PM** — the Scheduler gave Tuesday the fastest dish (25 min). Sunday 07/26 left free. Average: ~43g protein · ~530 calories per serving; five distinct proteins and cuisines, no dish over 40 minutes.
 
-**Previously finished (week of 2026-07-06):** Survey targets for the Surveyor — Southwest Turkey & Black Bean Stuffed Sweet Potatoes, Cuban Mojo Pork Chops, Garlic Butter Chicken Thighs & Broccoli, and Peruvian Beef Stir-Fry (Lomo Saltado). Thai Basil Chicken Bowls (carried from 06-29) is already rated 5★; Lemon-Garlic Butter Scallops with Asparagus & Orzo was dropped 07-06, never cooked — not a survey target and eligible for early reuse.
+**Previously finished (week of 2026-07-13):** Survey targets for the Surveyor (Sunday) — Korean Beef Bulgogi Bowls, Greek Chicken Meatball Bowls with Tzatziki, Salmon Tacos with Mango-Corn Salsa, Creamy Cajun Shrimp Pasta, and Mississippi Pot Roast. All five held calendar events per plan (Salmon Tacos cooked Thu per Sean's move; Cajun Shrimp Fri 07-17 — Bean's Birthday, Sean's choice; Pot Roast Sat 07-18); none rated, none dropped as of this sync.
 
 ---
 
