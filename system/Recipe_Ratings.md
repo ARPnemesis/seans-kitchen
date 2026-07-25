@@ -150,3 +150,31 @@ Each entry follows this structure:
 - Cook again: No
 - Difficulty: As expected
 - Notes: Not my favorite
+
+### Korean Beef Bulgogi Bowls
+- Week: 2026-07-13
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: Easy and delicious.
+
+### Greek Chicken Meatball Bowls with Tzatziki
+- Week: 2026-07-13
+- Stars: 3/5
+- Cook again: No
+- Difficulty: As expected
+- Notes: Not bad, but not 100% my speed. Also the Greek yogurt in every recipe is starting to get old.
+
+### Salmon Tacos with Mango-Corn Salsa
+- Week: 2026-07-13
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Sofa king delicious. 10/10.
+
+### Mississippi Pot Roast
+- Week: 2026-07-13
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Sofa king delicious. Still one of his favorite recipes ever. Makes ~4 meals' worth of food.

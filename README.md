@@ -12,21 +12,27 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-07-20** (Mon Jul 20 – Sun Jul 26)
+**Week of 2026-07-27** (Mon Jul 27 – Sun Aug 2)
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-07-20.md`; the table below reflects the week as it stands in the ledger (no annotations — all five dishes stand as planned).*
+*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-07-27.md`; the table below reflects the week as it stands in the ledger — no annotations, all five dishes stand as planned, none carried and none dropped.*
 
 | Dish | Style | Night | Protein | Calories | Status |
 |------|-------|-------|---------|----------|--------|
-| Weeknight Butter Chicken | Indian | Mon 07/20 | ~45g | ~560 | Scheduled · 5★ recycle (Critic-flagged, last served 06-15) |
-| Ginger-Sesame Turkey Lettuce Wraps | Asian | Tue 07/21 | ~40g | ~450 | Scheduled · new (quickest dish — placed after the 3–5 PM airport pickup) |
-| Italian Sausage, White Bean & Spinach Skillet | Italian | Wed 07/22 | ~40g | ~560 | Scheduled · new |
-| Lemon-Garlic Butter Scallops with Asparagus & Orzo | Coastal/Mediterranean | Thu 07/23 | ~45g | ~520 | Scheduled · early reuse (dropped 07-06, never cooked) |
-| Chimichurri Flank Steak with Charred Corn & Tomato Salad | Argentinian/Latin | Sat 07/25 | ~46g | ~560 | Scheduled (weekend grill dish) · new |
+| Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans | Caribbean | Mon 07/27 | ~45g | ~590 | Scheduled 6:30 PM · new (Caribbean is new to the rotation) |
+| Philly Cheesesteak Stuffed Peppers | American Comfort | Tue 07/28 | ~44g | ~470 | Scheduled 6:30 PM · new |
+| Bang Bang Salmon Rice Bowls | Asian-Fusion | Wed 07/29 | ~42g | ~580 | Scheduled 6:30 PM · new (quickest dish — 25 min) |
+| Vietnamese Lemongrass Pork Meatball Bowls | Vietnamese | Thu 07/30 | ~40g | ~540 | Scheduled 6:30 PM · new (Vietnamese is new to the rotation) |
+| Spanish Shrimp & Chorizo Paella | Spanish | Sat 08/01 | ~43g | ~590 | Scheduled 7:00 PM · new (weekend build — 45 min, Spanish is new to the rotation) |
 
-**Tuesday 07/21: Mom & Dad airport pickup 3–5 PM** — the Scheduler gave Tuesday the fastest dish (25 min). Sunday 07/26 left free. Average: ~43g protein · ~530 calories per serving; five distinct proteins and cuisines, no dish over 40 minutes.
+A clean slate: five brand-new dishes, zero recycles and zero early-reuse. Average ~42.8g protein · ~554 calories per serving — every dish clears 40g and stays under 600. Five distinct proteins (chicken thighs, ground beef, salmon, ground pork, shrimp + chorizo) and five distinct cuisines, three of them new.
 
-**Previously finished (week of 2026-07-13):** Survey targets for the Surveyor (Sunday) — Korean Beef Bulgogi Bowls, Greek Chicken Meatball Bowls with Tzatziki, Salmon Tacos with Mango-Corn Salsa, Creamy Cajun Shrimp Pasta, and Mississippi Pot Roast. All five held calendar events per plan (Salmon Tacos cooked Thu per Sean's move; Cajun Shrimp Fri 07-17 — Bean's Birthday, Sean's choice; Pot Roast Sat 07-18); none rated, none dropped as of this sync.
+**Critic rules honored:** the new **yogurt cap** (~1 yogurt-forward sauce per week) — this week has **zero**, with five different sauce bases instead (jerk paste, Worcestershire pan glaze, chili-mayo, nuoc cham, saffron sofrito). No whole pork chops, no stir-fry-with-fries, no tzatziki.
+
+**Calendar:** the week is wide open — the only commitment is Mon 07/27's midday WGU mentor call (12:10–12:25 PM), which doesn't touch dinner. Fri 07/31 and Sun 08/02 left free.
+
+**Previously cooked (week of 2026-07-20)** — the slate the Surveyor asks Sean to rate on Sunday 07/26 and the Critic processes Friday 07/31. **Six dishes**, all cooked, no drops: Creamy Cajun Shrimp Pasta *(carried from 07-13, finally cooked Mon 07/20)*, Ginger-Sesame Turkey Lettuce Wraps, Italian Sausage White Bean & Spinach Skillet, Weeknight Butter Chicken, Lemon-Garlic Butter Scallops with Asparagus & Orzo, and Chimichurri Flank Steak with Charred Corn & Tomato Salad.
+
+**On the bench:** Cajun Honey-Butter Shrimp Bowls (dropped 06-29, never cooked) remains the only early-reuse candidate — passed over this week because Cajun shrimp pasta was on the table Monday.
 
 ---
 
@@ -105,7 +111,7 @@ Auth is handled entirely host-side by the GitHub App private key — The Scribe 
 
 ## Artifacts (live dashboards)
 
-- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, and one-click Instacart cart build. Refreshed each Friday by the Chef. The cart assumes Sean owns nothing and includes every ingredient, then subtracts whatever is marked owned in the Inventory app. Includes a "Save menu changes" bridge button (writes a `Menu_Adjustment_*` doc to Drive for the Manager's daily reconcile) and a "Generate a fresh menu now" button that triggers the Chef via `runScheduledTask("weekly-kings-menu")`.
+- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, and one-click Instacart cart build. Refreshed each Friday by the Chef. The cart assumes Sean owns nothing and includes every ingredient, then subtracts whatever is marked owned in the Inventory app (this week: ~42 items after 18 inventory subtractions from a 60-item union). Includes a "Save menu changes" bridge button (writes a `Menu_Adjustment_*` doc to Drive for the Manager's daily reconcile) and a "Generate a fresh menu now" button that triggers the Chef via `runScheduledTask("weekly-kings-menu")`.
 - **`kings-table-inventory`** — Drive-backed checklist where Sean marks what he already has on hand; it saves a `Kitchen_Inventory` doc to the Cookbook Drive folder, which the dashboard cart reads at build time.
 - **`kings-table-rate-this-week`** — standalone weekly rating survey, refreshed each Sunday by the Surveyor with the week just finished.
 
