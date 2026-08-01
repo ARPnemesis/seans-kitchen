@@ -178,3 +178,45 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: As expected
 - Notes: Sofa king delicious. Still one of his favorite recipes ever. Makes ~4 meals' worth of food.
+
+### Creamy Cajun Shrimp Pasta
+- Week: 2026-07-20
+- Stars: 1/5
+- Cook again: No
+- Difficulty: As expected
+- Notes: All around very bad — the Cajun seasoning clashed with the Greek yogurt. Possibly a weak Cajun blend, possibly large shrimp instead of jumbo. Couldn't finish it. Might be worth revisiting only if the Greek yogurt were swapped for heavy cream. (Carried from 2026-07-13; cooked Mon 07-20.)
+
+### Ginger-Sesame Turkey Lettuce Wraps
+- Week: 2026-07-20
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Really good, but the sauce came out runny and made the meal messy. Not a quick meal — took ~40 minutes, not the advertised weeknight time. Idea for next time: spinach tortilla wraps instead of lettuce.
+
+### Italian Sausage, White Bean & Spinach Skillet
+- Week: 2026-07-20
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: So delicious — was skeptical, ended up awesome. The baguette was a great addition: warmed slices stood around the rim of the bowl, soaked up the sauce and softened. Perfect use case.
+
+### Weeknight Butter Chicken
+- Week: 2026-07-20
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: Always loves butter chicken. One knock: the Greek yogurt works great on the initial cook but separates on reheat. Reminder from Sean — these are two-portion meals for a single adult; leftovers are next-day lunch, so reheat quality matters a lot.
+
+### Lemon-Garlic Butter Scallops with Asparagus & Orzo
+- Week: 2026-07-20
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: Delicious and easier than described. Docked a star because scallops do not reheat well at all — and leftovers are next-day lunch. Shopping-list gap: the list called for multiple lemons, only one made it into the Instacart cart.
+
+### Chimichurri Flank Steak with Charred Corn & Tomato Salad
+- Week: 2026-07-20
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Harder than described
+- Notes: Great dish, loves chimichurri; the salad was great too — the lime softens the onion physically and in flavor. Cooking a whole flank steak to med-rare was challenging (possibly burner too low). Shopping-list gap: had to run to the store for extra cherry tomatoes.
