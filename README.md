@@ -12,133 +12,126 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-08-03** (Mon Aug 3 – Sun Aug 9)
+**Week of 2026-08-10** (Mon Aug 10 – Sun Aug 16)
 
-*Authoritative week and dish lineup come from `System/Current_Week.md` (`ACTIVE_WEEK`), including its per-dish status annotations. The on-disk menu file is `Menu_Week_of_2026-08-03.md`; the table below reflects the week as it stands in the ledger — no annotations, all five dishes stand as planned, none carried and none dropped.*
+*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`), including its per-dish status annotations. The menu file is `Menu_Week_of_2026-08-10.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-08 8:15 PM) — they are not stored in the ledger.** As of this writing the slate carries **no annotations**: all five dishes stand as planned, none dropped.*
 
-| Dish | Style | Night | Protein | Calories | Status |
-|------|-------|-------|---------|----------|--------|
-| Chipotle Chicken Tinga Rice Bowls | Mexican | Mon 08/03 | ~45g | ~580 | Scheduled 6:30 PM · new (35 min) |
-| Thai Red Curry Ground Turkey with Green Beans | Thai | Tue 08/04 | ~43g | ~565 | Scheduled 6:30 PM · new (quickest dish — 30 min) |
-| Smothered Pork Tenderloin Medallions with Mushroom Gravy | American Comfort | Wed 08/05 | ~47g | ~575 | Scheduled 6:30 PM · new (40 min — billed honestly) |
-| Moroccan Ground Lamb & Chickpea Skillet with Couscous | Moroccan / North African | Thu 08/06 | ~41g | ~590 | Scheduled 6:30 PM · new (Moroccan is new to the rotation; ground lamb is a new protein) |
-| Hungarian Beef Goulash with Buttered Egg Noodles | Hungarian | Sat 08/08 | ~46g | ~595 | Scheduled 7:00 PM · new (weekend build — 2 hr 15, 25 active; Hungarian is new to the rotation) |
+| Dish | Style | Night | Protein | Calories | Notes |
+|------|-------|-------|---------|----------|-------|
+| Cuban Picadillo with Black Beans & Rice | Cuban | Tue 08/11, 5:45 PM | ~42g | ~575 | New · 35 min · early start to clear the 7:00 PM change-request review |
+| Korean Braised Chicken & Potatoes (Dak-Dori-Tang) | Korean | Wed 08/12, 6:30 PM | ~44g | ~570 | New · 45 min · braise, better on day two |
+| Baked Rigatoni with Italian Sausage & Ricotta | Italian | Thu 08/13, 6:30 PM | ~46g | ~595 | New · 50 min (20 active) · best-reheating dish on the board |
+| Cajun Honey-Butter Shrimp Bowls | Cajun/Creole | Sat 08/15, 7:00 PM | ~40g | ~525 | 25 min · **best eaten fresh** — weekend for freshness, not effort |
+| Mississippi Pot Roast | American Comfort | Sun 08/16, 7:00 PM | ~40g | ~480 | 8 hrs slow cooker · **start it by ~10:30 AM** · Critic's top recycle pick (5★ ×2) |
 
-A clean slate: five brand-new dishes, zero recycles and zero early-reuse. Average ~44.4g protein · ~581 calories per serving — every dish clears 40g and stays under 600, the fifth straight week hitting both targets. Five distinct proteins (chicken thighs, ground turkey, pork tenderloin, ground lamb, beef chuck) and five distinct cuisines, three of them new.
+**Also on the calendar this week:** Mon 08/10 6:30 PM holds **Chipotle Chicken Tinga Rice Bowls**, a dish from the week of 08-03 that Sean moved forward. It is a live calendar event and a real dinner, but it is not part of the 08-10 slate in the ledger; the Kitchen Manager reconciles that on its next daily pass. **Fri 08/14 is intentionally empty** — see the pipeline note below.
 
-**Built around the Critic's new top criterion — reheat quality.** Two-portion meals for one adult mean next-day lunch is most of the diet, so every dish this week is a braise, skillet, gravy or stew, and there is **not one delicate quick-sear protein on the menu**. Every recipe card carries a "Reheat rating" line and a DAY TWO paragraph.
+Average **~42.4g protein · ~549 calories** per serving. Every dish clears the 35g protein floor and sits under the 600-calorie ceiling. Five distinct proteins (ground beef, chicken thighs, Italian sausage, beef chuck, shrimp) and five distinct cuisines. Zero Greek yogurt; zero quick-sear proteins on a weeknight.
 
-**Other Critic rules honored:** **zero Greek yogurt** anywhere (sauce bodies are chipotle-tomato, coconut milk, a flour-and-broth pan gravy, spiced crushed tomato, and sweet paprika finished with sour cream at the bowl); no whole pork chops — the pork dish is *tenderloin* medallions finished in gravy, a different cut; no tzatziki, no stir-fry-with-fries. **Explicit doneness methods** on the pork (pull at 140°F, 145°F rested) and the goulash (fork-tender cue). **Produce counts stated loudly** on the shopping list: LIMES ×3, LEMONS ×2, RED BELL PEPPERS ×3, YELLOW ONIONS ×5, CARROTS ×2.
+Two entries are deliberate, sanctioned exceptions to the no-repeat rule: **Mississippi Pot Roast** is a Critic-flagged recycle (5★ twice, last served 07-13, explicitly its top pick for this week), and **Cajun Honey-Butter Shrimp Bowls** was dropped un-cooked on 06-29, so the no-repeat window never applied to it. The other three are new to the kitchen.
 
-**Calendar:** every evening Mon–Sun is free. The only two commitments are midday and neither touches dinner — Mon 08/03 WGU mentor call 12:10–12:25 PM, and Wed 08/05 Labcorp venipuncture 11:12 AM (fasting encouraged overnight Tue → Wed, which clears the Tue 6:30 PM dinner by ~17 hours). Fri 08/07 and Sun 08/09 left free.
+**Built on the reheat criterion.** Two-portion meals for one adult mean next-day lunch is most of the diet, so the week is one oven bake, two braises and one slow-cooked roast — and **every recipe card now names its reheat method by hand**, which the Critic identified as the cheapest available 4★→5★ upgrade.
 
-**Previously cooked (week of 2026-07-27)** — the slate the Surveyor asks Sean to rate on Sunday 08/02 and the Critic processes Friday 08/07. **Five dishes**, all cooked, no drops and no carries: Philly Cheesesteak Stuffed Peppers (Mon 07/27), Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans (Tue 07/28), Bang Bang Salmon Rice Bowls (Wed 07/29), Vietnamese Lemongrass Pork Meatball Bowls (Thu 07/30), Spanish Shrimp & Chorizo Paella (Sat 08/01). The Paella is the clean, dairy-free shrimp data point that should settle whether shrimp stays on the roster after the kitchen's only 1★.
+### Previously cooked — week of 2026-08-03
 
-**On the bench:** Cajun Honey-Butter Shrimp Bowls (dropped 06-29, never cooked) remains the only early-reuse candidate — passed over again this week, since it is Cajun *and* shrimp and the week already carries new-protein risk. **Back in range next week:** Mississippi Pot Roast (5★ ×2, last served 07-13) returns to eligibility the week of 08-10.
+Chipotle Chicken Tinga Rice Bowls · Thai Red Curry Ground Turkey with Green Beans · Smothered Pork Tenderloin Medallions with Mushroom Gravy · Moroccan Ground Lamb & Chickpea Skillet with Couscous · Hungarian Beef Goulash with Buttered Egg Noodles
+
+This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
 
 ---
 
 ## The Team
 
-| Employee | Task ID | Schedule | Role |
-|----------|---------|----------|------|
-| 👑 The Kitchen Manager | `the-manager` | Daily ~9 PM | Checks and balances on all employees. Reconciles the ledger daily against the Google Calendar 🍽️ events and Drive `Menu_Adjustment_*` docs. Approves mid-tier changes. Escalates failures to Sean. Sends Wednesday rating nudge if the week is still unrated. |
-| 🔧 The Developer | `kitchen-developer` | 1st Friday 6 AM | Monthly system review. Auto-fixes minor issues. Proposes change requests. Co-owns skill drafting via `System/Proposed_Skills/`. |
-| 🎭 The Critic | `meal-critic-weekly` | Friday 8 AM | Reads the previous week's ratings, updates the taste profile, writes Lessons Learned for the Chef. |
-| 🗄️ The Archivist | `kitchen-archivist` | Friday 4:30 PM | Archives the finished week's files to `Archive/` before the Chef overwrites them. |
-| 🍳 The Chef | `weekly-kings-menu` | Friday 5 PM | Builds the coming week's 5 dishes, recipe files, and shopping list; rolls the `Current_Week.md` pointer (preserving status annotations); refreshes the dashboard. |
-| 📅 The Scheduler | `kitchen-scheduler` | Friday 7:30 PM | Assigns the active dishes to free evenings; creates calendar events with Google Drive recipe links; clears superseded events. |
-| 📜 The Scribe | `kitchen-scribe` | Friday 7:45 PM | Refreshes this README and drops the commit-message trigger for the Windows host GitHub sync. |
-| 📬 The Surveyor | `meal-surveyor` | Sunday 7 PM | Owns `Rate_This_Week.md` (seeds it with the previous week's cooked, unrated dishes); refreshes the standalone rating artifact; sends Monday 9 AM email + ntfy nudge. |
+Eight scheduled tasks, all running on Denver time.
+
+| Name | Schedule | Role |
+|------|----------|------|
+| **The Critic** | Fri 12:00 PM | Reads the week's ratings, updates the taste profile, writes `Lessons_Learned_*.md` |
+| **The Archivist** | Fri 4:30 PM | Archives the finished week before the Chef overwrites it; resets the rating form; trims the Kitchen Log |
+| **The Chef** | Fri 5:00 PM | Builds the new menu, five recipe files, the shopping list; refreshes the dashboard; rolls `Current_Week.md` |
+| **The Scheduler** | Fri 7:30 PM | Assigns dishes to free evenings, creates 🍽️ calendar events with Drive recipe links |
+| **The Scribe** | Fri 7:45 PM | Refreshes this README and drops the commit trigger for the host GitHub sync |
+| **The Surveyor** | Sun 7:00 PM | Seeds the rating form and creates the Monday 9 AM reminder to rate the week's meals |
+| **The Kitchen Manager** | Daily 9:00 PM | Reconciles the ledger against the calendar and dashboard, peer-reviews every task's output, escalates to Sean |
+| **The Developer** | 1st & 3rd Wed 11:00 AM | Bi-weekly system review — auto-fixes minor issues, escalates major ones as Change Requests |
+
+The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, deliberately: its prompt changes now land about two days before the pipeline executes them instead of about one hour.
 
 ---
 
-## Single Source of Truth — `System/Current_Week.md`
+## The Friday Pipeline
 
-Every task reads `Current_Week.md` to decide which week it operates on — **never** by guessing from "the most recent `Menu_Week_of_*.md`". It holds:
+```
+12:00 PM  THE CRITIC       reads ratings → Lessons Learned
+             ↓
+ 4:30 PM  THE ARCHIVIST    archives last week, resets the rating form
+             ↓
+ 5:00 PM  THE CHEF         builds the menu, recipes, shopping list, dashboard
+             ↓
+          ┌──────────────────────────────────────────────┐
+          │  5:00 – 7:30 PM   SEAN'S CORRECTION WINDOW   │
+          │  Review the menu; deselect a dish and the    │
+          │  dashboard writes a Menu_Adjustment doc the  │
+          │  Scheduler reads before booking anything.    │
+          └──────────────────────────────────────────────┘
+             ↓
+ 7:30 PM  THE SCHEDULER    books 🍽️ dinner events on free evenings
+             ↓
+ 7:45 PM  THE SCRIBE       refreshes README, drops the commit trigger
+             ↓
+ 8:15 PM  HOST PS1         commits + pushes everything to GitHub
+             ↓
+ 9:00 PM  THE MANAGER      verifies the whole pipeline the same evening
+```
 
-- **`ACTIVE_WEEK` / `ACTIVE_DISHES`** — the Monday and dishes currently being cooked and scheduled.
-- **`PREVIOUS_WEEK` / `PREVIOUS_DISHES`** — the week most recently finished, which the Surveyor asks Sean to rate.
-- **Dish status annotations** — Sean adjusts plans mid-week, and the ledger records it per dish: `(CARRIED FROM YYYY-MM-DD)` (moved in from an earlier week; counts as served when actually cooked), `(DROPPED YYYY-MM-DD — not cooked)` (removed and never cooked; not surveyed, exempt from the no-repeat window), and `(RATED)` (already rated; the Surveyor skips it). Every task honors these, and the Kitchen Manager reconciles them daily against the calendar and Drive.
+**Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error.
 
-Each Friday the Chef builds a fresh slate of 5 dishes and rolls the ledger forward: the old ACTIVE becomes PREVIOUS (annotations intact), and the newly built week becomes ACTIVE. No dish from the last 3 weeks repeats, except a Critic-recommended 4+ week-old favorite — and never-cooked (dropped) dishes are exempt and eligible for early reuse. Re-running for a week that is already ACTIVE rebuilds it in place and never sets PREVIOUS = ACTIVE.
+**Day assignments are not stored anywhere.** `Current_Week.md` is authoritative for *which* dishes belong to a week and nothing else. *Which night* a dish is cooked is derived from live Google Calendar events, every time, by every task — Sean edits the calendar directly, sometimes minutes after a task has read it, and four consecutive weeks of drift showed the slate was right every time while only the days went stale.
 
 ---
 
-## Friday Pipeline
+## Sync Architecture
+
+The scheduled tasks run in a sandbox with no outbound internet, so nothing in the pipeline can reach GitHub directly. The push is a two-stage handoff:
 
 ```
-6:00 AM → Developer  (1st Friday of month only)
-8:00 AM → Critic     (reads previous week's ratings → updates Preferences.md + writes Lessons Learned)
-4:30 PM → Archivist  (copies finished week's files to Archive/)
-5:00 PM → Chef       (builds new menu, recipe files, shopping list, dashboard; rolls Current_Week.md)
-5–7:30 PM → Sean's correction window (menu tweaks land in the ledger before scheduling)
-7:30 PM → Scheduler  (creates calendar dinner events with Google Drive recipe links)
-7:45 PM → Scribe     (refreshes README + writes .scribe_commit_msg.txt trigger)
-8:15 PM → github_sync.ps1  (Windows Task Scheduler — picks up trigger, commits, pushes)
-~9 PM   → Manager    (daily check — verifies the whole pipeline ran)
+THE SCRIBE (Fri 7:45 PM, sandbox)
+   writes  README.md
+   writes  System/.scribe_commit_msg.txt   ← the trigger
+             ↓
+"Royal Kitchen - GitHub Sync" (Windows Task Scheduler, Fri 8:15 PM)
+   runs    System/github_sync.ps1
+   reads   the trigger file, uses it as the commit message
+   auths   as a GitHub App via System/*.private-key.pem → JWT → install token
+   clones  ARPnemesis/seans-kitchen, syncs files, commits, pushes
+   logs    System/.github_sync_log.txt
 ```
 
-Each stage hands off through `System/Kitchen_Log.md`, the shared briefing board every task reads before running and appends to when done.
+If no trigger file is present the script logs `No trigger file found - sync skipped` and does nothing — so a Scribe run that never happened cannot produce a misleading commit. A trigger dropped after 8:15 PM is picked up on the next run rather than lost.
 
 ---
 
-## Rating Flow
+## Repository Layout
 
 ```
-Sunday 7 PM   → Surveyor populates Rate_This_Week.md with the PREVIOUS week's cooked,
-                unrated dishes (skipping RATED and DROPPED ones), refreshes the standalone
-                survey artifact, and sends a Monday 9 AM email (Google Calendar) + ntfy nudge.
-Anytime       → Sean opens the rating artifact → rates dishes → saves.
-                Artifacts can't write local files, so ratings persist to a Google Drive
-                doc (the Cookbook Drive folder) rather than to disk directly.
-Wednesday     → Manager sends a second ntfy nudge if the week is still unrated.
-Friday 8 AM   → Critic collects the ratings from Drive → appends to Recipe_Ratings.md
-                → updates Preferences.md → writes Lessons Learned for the Chef.
+Menu_Week_of_*.md            weekly menus
+Shopping_List_Week_of_*.md   weekly shopping lists (built for a hand-assembled King Soopers pickup cart)
+Lessons_Learned_Week_of_*.md the Critic's weekly analysis
+Recipes/                     the recipe library
+Archive/                     completed weeks, filed by the Archivist
+Rate_This_Week.md            the rating form, reset weekly
+How_This_Kitchen_Works.md    the plain-language overview
+System/
+  Current_Week.md            the ledger — single source of truth for the active slate
+  Kitchen_Log.md             the shared briefing board; every task reads it and writes to it
+  Preferences.md             Sean's taste profile and standing requests
+  Recipe_Ratings.md          every dish ever rated
+  Kitchen_Manager_Charter.md roles, authorities, escalation chain
+  Change_Requests/           major changes awaiting or holding Sean's sign-off
+  Kitchen_Log_Archive/       trimmed log history
+  *.ps1                      host-side scripts (GitHub sync, ntfy notifications)
 ```
-
-Ratings feed the menu roughly two Fridays later. Notifications go out via **both** Google Calendar (email) **and** ntfy.
 
 ---
 
-## GitHub Sync Architecture
-
-The Cowork sandbox has no outbound internet, so The Scribe never runs `git` directly. Instead:
-
-1. **The Scribe** (Friday 7:45 PM) refreshes this README and writes a one-line commit message to `System/.scribe_commit_msg.txt`.
-2. **`System/github_sync.ps1`** runs on the **Windows host** via Task Scheduler ("Royal Kitchen - GitHub Sync") at **8:15 PM Friday**. It checks for the trigger file, and if present: syncs files, scrubs secrets from copied task prompts, commits with that message, and pushes to **`ARPnemesis/seans-kitchen`** using the GitHub App key in `System/`.
-3. After a successful push, the PS1 deletes the trigger file so the next run is a clean no-op until The Scribe writes a new one. It also flushes the ntfy queue on its way out.
-
-Auth is handled entirely host-side by the GitHub App private key — The Scribe never needs it. If the trigger file is written outside the normal Friday window, it simply waits on disk until the next PS1 run picks it up.
-
----
-
-## Artifacts (live dashboards)
-
-- **`kings-table-kitchen-dashboard`** — menu, macro scoreboard, and one-click Instacart cart build. Refreshed each Friday by the Chef. The cart assumes Sean owns nothing and includes every ingredient, then subtracts whatever is marked owned in the Inventory app (this week: **50 items** after 16 inventory subtractions from a 66-item union). Includes a "Save menu changes" bridge button (writes a `Menu_Adjustment_*` doc to Drive for the Manager's daily reconcile), a "Re-schedule my week" button, and a "Generate a fresh menu now" button that triggers the Chef via `runScheduledTask("weekly-kings-menu")`.
-- **`kings-table-inventory`** — Drive-backed checklist where Sean marks what he already has on hand; it saves a `Kitchen_Inventory` doc to the Cookbook Drive folder, which the dashboard cart reads at build time.
-- **`kings-table-rate-this-week`** — standalone weekly rating survey, refreshed each Sunday by the Surveyor with the week just finished.
-
----
-
-## Repository Structure
-
-```
-seans-kitchen/
-│
-├── README.md                        ← this file (refreshed weekly by The Scribe)
-├── Menu_Week_of_*.md                ← the week's menu (authoritative week set by Current_Week.md)
-├── Shopping_List_Week_of_*.md       ← the week's shopping list
-├── Lessons_Learned_Week_of_*.md     ← the Critic's weekly read on the ratings
-├── Rate_This_Week.md                ← rating form (Surveyor-owned; created Sunday, read Friday)
-├── Weekly_Staples.md                ← standing pantry staples
-├── Recipes/                         ← one .md per dish
-├── Archive/                         ← finished weeks, filed by the Archivist
-└── System/                          ← pointers, logs, scripts, charters
-    ├── Current_Week.md              ← single source of truth for the active/previous week
-    ├── Kitchen_Log.md               ← briefing board (every task logs here)
-    ├── Preferences.md               ← evolving taste profile
-    ├── Recipe_Ratings.md            ← rating history
-    ├── github_sync.ps1              ← host-side commit + push
-    └── .scribe_commit_msg.txt       ← commit-message trigger (written by the Scribe)
-```
+*Maintained by The Scribe. Last refreshed 2026-08-08.*

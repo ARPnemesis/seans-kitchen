@@ -220,3 +220,38 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: Harder than described
 - Notes: Great dish, loves chimichurri; the salad was great too — the lime softens the onion physically and in flavor. Cooking a whole flank steak to med-rare was challenging (possibly burner too low). Shopping-list gap: had to run to the store for extra cherry tomatoes.
+
+### Philly Cheesesteak Stuffed Peppers
+- Week: 2026-07-27
+- Stars: 5/5
+- Cook again: **Not specified — field left BLANK on the submission.** Do not infer; 5★ with an enthusiastic note makes the intent obvious, but it is formally unknown.
+- Difficulty: As expected
+- Notes: "Delicious! Really good for the reheat, just threw right back in the oven." Best reheat report the kitchen has on file. Two standing requests: (1) season the peppers BEFORE the pre-cook — unseasoned peppers dulled the cheesesteak flavor; (2) Sean wants this filling on a hoagie at some point.
+
+### Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans
+- Week: 2026-07-27
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "WOW! I'm still dreaming about this dish. That jerk flavor is awesome!" Dish of the week; first Caribbean/Jamaican entry in the rotation and an immediate top-tier hit.
+
+### Bang Bang Salmon Rice Bowls
+- Week: 2026-07-27
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "This dish was fantastic. That cornstarch gets such a nice crisp on the surface of the salmon. That Bang Bang sauce was awesome as well." Technique worth reusing: cornstarch dredge for crisp surface on salmon. Salmon now 4-for-4 at 4★+.
+
+### Vietnamese Lemongrass Pork Meatball Bowls
+- Week: 2026-07-27
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Really good and pretty easy to make." Score is confounded two ways and should NOT be read as a weak recipe: (1) **lemongrass was missing from the cart and Sean substituted lemon pepper** — he suspects that was "the game changer right there and I missed it"; (2) relative scoring — "a lot of fire dishes this week, so when comparing to the others, this one was less special." Worth a clean re-run with actual lemongrass.
+
+### Spanish Shrimp & Chorizo Paella
+- Week: 2026-07-27
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: **The clean dairy-free shrimp read — shrimp is exonerated.** 4★/Yes with a saffron-sofrito base and zero dairy confirms the 1★ Creamy Cajun Shrimp Pasta was a yogurt-cream-sauce failure, not a shrimp failure. Two knocks, both real: **chorizo was missing from the cart**, and Sean was "too impatient and didn't make enough sofrito." Reheat verdict is the important one: **"subpar on reheat — the microwave and shrimp do not get along. They became rubbery and tough, but still edible."** Also the entry where Sean states he has **officially moved off Instacart as the source of truth** and now builds a King Soopers pickup cart from the actual shopping list.

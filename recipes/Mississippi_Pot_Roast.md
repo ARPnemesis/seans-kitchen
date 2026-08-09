@@ -19,5 +19,7 @@
 7. Serve over mashed potatoes or with crusty bread for soaking up the juices.
 
 ## Notes
+- **Reheat: 350°F oven, covered, 15 min**, with a spoonful of the juices poured over first — this is the best version of the leftovers by a wide margin. Microwave (covered, 2 min) works and doesn't hurt shredded chuck the way it hurts seafood, but the oven gives you back the edges.
 - Chuck roast is the only cut that works here — don't substitute. The fat renders down completely over 8 hours.
-- Leftovers reheat beautifully and make excellent sandwiches the next day.
+- Leftovers reheat beautifully and make excellent sandwiches the next day — pile the shredded beef on a toasted roll with provolone and a few of the pepperoncini.
+- This roast makes roughly **four meals**, which is the best leftover economics in the kitchen. Plan the week around it rather than treating it as one dinner.
