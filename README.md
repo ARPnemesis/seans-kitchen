@@ -12,31 +12,31 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-08-10** (Mon Aug 10 – Sun Aug 16)
+**Week of 2026-08-17** (Mon Aug 17 – Sun Aug 23)
 
-*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`), including its per-dish status annotations. The menu file is `Menu_Week_of_2026-08-10.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-08 8:15 PM) — they are not stored in the ledger.** As of this writing the slate carries **no annotations**: all five dishes stand as planned, none dropped.*
+*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`), including its per-dish status annotations. The menu file is `Menu_Week_of_2026-08-17.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-14 7:55 PM) — they are not stored in the ledger.** The slate carries **no annotations**: all five dishes stand as planned, none dropped, none carried in.*
 
 | Dish | Style | Night | Protein | Calories | Notes |
 |------|-------|-------|---------|----------|-------|
-| Cuban Picadillo with Black Beans & Rice | Cuban | Tue 08/11, 5:45 PM | ~42g | ~575 | New · 35 min · early start to clear the 7:00 PM change-request review |
-| Korean Braised Chicken & Potatoes (Dak-Dori-Tang) | Korean | Wed 08/12, 6:30 PM | ~44g | ~570 | New · 45 min · braise, better on day two |
-| Baked Rigatoni with Italian Sausage & Ricotta | Italian | Thu 08/13, 6:30 PM | ~46g | ~595 | New · 50 min (20 active) · best-reheating dish on the board |
-| Cajun Honey-Butter Shrimp Bowls | Cajun/Creole | Sat 08/15, 7:00 PM | ~40g | ~525 | 25 min · **best eaten fresh** — weekend for freshness, not effort |
-| Mississippi Pot Roast | American Comfort | Sun 08/16, 7:00 PM | ~40g | ~480 | 8 hrs slow cooker · **start it by ~10:30 AM** · Critic's top recycle pick (5★ ×2) |
+| Harissa-Honey Salmon with Lemon-Herb Rice & Blistered Green Beans | North African | Mon 08/17, 6:30 PM | ~44g | ~575 | New · 30 min · front-loaded — most perishable protein on the board |
+| Filipino Chicken Adobo with Garlic Rice | Filipino *(new cuisine)* | Tue 08/18, 6:30 PM | ~47g | ~580 | New · 40 min (10 active) · best reheat on the board · almost entirely pantry |
+| Philly Cheesesteak Hoagies | American comfort | Wed 08/19, 6:30 PM | ~48g | ~625 | 30 min · **the standing hoagie request, delivered** · peppers salted before the pan |
+| Smoky Chipotle Pork & Black Bean Chili | Tex-Mex / American | Thu 08/20, 6:30 PM | ~46g | ~545 | New · 40 min · first chili in nine weeks · makes more than two servings |
+| Mongolian Beef with Jasmine Rice & Charred Scallions | Chinese *(new cuisine)* | Sun 08/23, 7:00 PM | ~45g | ~590 | New · 30 min · 🧊 **FREEZE THE STEAK ON ARRIVAL** — flank slices cleaner semi-frozen |
 
-**Also on the calendar this week:** Mon 08/10 6:30 PM holds **Chipotle Chicken Tinga Rice Bowls**, a dish from the week of 08-03 that Sean moved forward. It is a live calendar event and a real dinner, but it is not part of the 08-10 slate in the ledger; the Kitchen Manager reconciles that on its next daily pass. **Fri 08/14 is intentionally empty** — see the pipeline note below.
+**Fri 08/21 and Sat 08/22 are empty and that is correct** — Friday is the standing overflow slot (see the pipeline note below), and the week was built around Monday–Thursday plus one weekend night.
 
-Average **~42.4g protein · ~549 calories** per serving. Every dish clears the 35g protein floor and sits under the 600-calorie ceiling. Five distinct proteins (ground beef, chicken thighs, Italian sausage, beef chuck, shrimp) and five distinct cuisines. Zero Greek yogurt; zero quick-sear proteins on a weeknight.
+Average **~46g protein · ~583 calories** per serving — the highest weekly protein average on record. Every dish clears the 35g protein floor and sits under the 600-calorie ceiling. Five distinct proteins (salmon, chicken thighs, shaved beef sirloin, ground pork, flank steak) and five distinct cuisines, **three of them new to the kitchen**. Zero Greek yogurt. Nothing on the board takes more than 40 minutes.
 
-Two entries are deliberate, sanctioned exceptions to the no-repeat rule: **Mississippi Pot Roast** is a Critic-flagged recycle (5★ twice, last served 07-13, explicitly its top pick for this week), and **Cajun Honey-Butter Shrimp Bowls** was dropped un-cooked on 06-29, so the no-repeat window never applied to it. The other three are new to the kitchen.
+**This week was revised after it was built.** The Chef's 5:20 PM slate carried two long braises — a Korean braised chicken and a Hungarian goulash — and Sean cut both at 5:30 PM inside the correction window. Rather than treat that as two dish rejections, the Chef read it as a verdict on the shape of the week and replaced them with two quick, saucy dishes: **there is no 2-hour weekend project on this menu at all.** The revision also made the week materially easier to shop.
 
-**Built on the reheat criterion.** Two-portion meals for one adult mean next-day lunch is most of the diet, so the week is one oven bake, two braises and one slow-cooked roast — and **every recipe card now names its reheat method by hand**, which the Critic identified as the cheapest available 4★→5★ upgrade.
+**Built on the reheat criterion.** Two-portion meals for one adult mean next-day lunch is most of the diet, so four of the five dishes are saucy enough to survive a night in the fridge, and **every recipe card names its reheat method by hand**. Two further rules from the Critic are applied five-for-five: **every specialty ingredient names a sanctioned fallback** on its card, and **a vegetable-ratio ceiling** is printed in bold (green beans capped at 8 oz after 10 oz "absolutely dominated" the Thai curry).
 
-### Previously cooked — week of 2026-08-03
+### Previously cooked — week of 2026-08-10
 
-Chipotle Chicken Tinga Rice Bowls · Thai Red Curry Ground Turkey with Green Beans · Smothered Pork Tenderloin Medallions with Mushroom Gravy · Moroccan Ground Lamb & Chickpea Skillet with Couscous · Hungarian Beef Goulash with Buttered Egg Noodles
+Chipotle Chicken Tinga Rice Bowls *(carried in from 08-03)* · Cuban Picadillo with Black Beans & Rice · Baked Rigatoni with Italian Sausage & Ricotta · Mississippi Pot Roast · Cajun Honey-Butter Shrimp Bowls
 
-This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
+**Five cooked dishes, not six.** The Korean Braised Chicken & Potatoes was on the 08-10 plan but Sean removed it on 08-09 for slate size and it was never cooked, so it is annotated `DROPPED` in the ledger and is excluded from rating. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
 
 ---
 
@@ -83,6 +83,8 @@ The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, del
              ↓
  9:00 PM  THE MANAGER      verifies the whole pipeline the same evening
 ```
+
+**The correction window is real and it gets used.** This week Sean rewrote a third of the menu inside it, at 5:30 PM — which is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef. By the time this README is written, it describes the week as Sean actually left it.
 
 **Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error.
 
@@ -134,4 +136,4 @@ System/
 
 ---
 
-*Maintained by The Scribe. Last refreshed 2026-08-08.*
+*Maintained by The Scribe. Last refreshed 2026-08-14.*

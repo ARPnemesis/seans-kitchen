@@ -1,19 +1,21 @@
 # Korean Braised Chicken & Potatoes (Dak-Dori-Tang)
-*Korean · Weeknight · 45 min · ~44g protein · ~570 cal per serving*
+*Korean · Weeknight · 45 min · ~45g protein · ~570 cal per serving*
+
+> This dish was built for week 08-10 and never cooked — it came off the calendar because the week was carrying one dish too many, not because there was anything wrong with it. Same recipe, unchanged in spirit, now with the vegetable ratio dialed to the current standard.
 
 ## Ingredients (2 servings)
 
 **Braise**
 - 1 1/2 lbs bone-in, skinless chicken thighs (or 1 1/4 lbs boneless thighs)
 - 2 medium Yukon Gold potatoes, cut into 1 1/2-inch chunks
-- 1 large carrot, roll-cut into chunks
+- 1 large carrot (~6 oz), roll-cut into chunks
 - 1 yellow onion, cut into thick wedges
 - 2 cups chicken stock
 - 1 tbsp neutral oil
 
 **Braising sauce**
 - 3 tbsp **gochujang** (Korean chili paste)
-- 1 tbsp **gochugaru** (Korean coarse chili flakes)
+- 1 tbsp **gochugaru** (Korean coarse chili flakes) — *if unavailable: 2 tsp sweet paprika + 1/2 tsp cayenne; do NOT use crushed red pepper flakes*
 - 3 tbsp soy sauce
 - 1 tbsp brown sugar
 - 1 tbsp mirin (or 1 tbsp rice wine vinegar + a pinch of sugar)
@@ -37,7 +39,9 @@
 
 ## Notes
 - **Reheat: microwave, covered, 2–3 min**, or gently on the stovetop with a splash of water. This is a braise — it is *better* on day two, when the potatoes have finished drinking the sauce. One of the safest reheats on the roster.
-- **Gochugaru is not interchangeable with cayenne or crushed red pepper.** It is fruity and mild-hot and it is what makes this taste Korean rather than generically spicy. If the store only has one, buy the gochugaru and dial the gochujang down.
+- **Vegetable ratio:** one carrot, roughly 6 oz. The potatoes are the starch, not a vegetable — don't add a second carrot or a handful of anything else. The chicken and the sauce lead here.
+- **Gochugaru is not interchangeable with cayenne or crushed red pepper.** It is fruity and mild-hot and it is what makes this taste Korean rather than generically spicy. If the store only has one, buy the gochugaru and dial the gochujang down. If it has neither, use the fallback listed above.
+- **Chicken thighs are a perishable raw protein.** If this lands later than Wednesday, freeze the package the day you shop and move it to the fridge the night before.
 - Bone-in thighs give a noticeably richer sauce than boneless. If you use boneless, cut the covered simmer to 18 min.
 - Cut the potatoes big. Small chunks disintegrate over a 35-minute braise and cloud the sauce.
 - Traditionally eaten straight from the pot at the table — it holds heat well in a Dutch oven.
