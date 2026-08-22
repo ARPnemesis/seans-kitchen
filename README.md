@@ -12,31 +12,31 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-08-17** (Mon Aug 17 – Sun Aug 23)
+**Week of 2026-08-24** (Mon Aug 24 – Sun Aug 30)
 
-*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`), including its per-dish status annotations. The menu file is `Menu_Week_of_2026-08-17.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-14 7:55 PM) — they are not stored in the ledger.** The slate carries **no annotations**: all five dishes stand as planned, none dropped, none carried in.*
+*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`), including its per-dish status annotations. The menu file is `Menu_Week_of_2026-08-24.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-21 7:55 PM) — they are not stored in the ledger.** The slate carries **no annotations**: all five dishes stand as planned, none dropped, none carried in.*
 
 | Dish | Style | Night | Protein | Calories | Notes |
 |------|-------|-------|---------|----------|-------|
-| Harissa-Honey Salmon with Lemon-Herb Rice & Blistered Green Beans | North African | Mon 08/17, 6:30 PM | ~44g | ~575 | New · 30 min · front-loaded — most perishable protein on the board |
-| Filipino Chicken Adobo with Garlic Rice | Filipino *(new cuisine)* | Tue 08/18, 6:30 PM | ~47g | ~580 | New · 40 min (10 active) · best reheat on the board · almost entirely pantry |
-| Philly Cheesesteak Hoagies | American comfort | Wed 08/19, 6:30 PM | ~48g | ~625 | 30 min · **the standing hoagie request, delivered** · peppers salted before the pan |
-| Smoky Chipotle Pork & Black Bean Chili | Tex-Mex / American | Thu 08/20, 6:30 PM | ~46g | ~545 | New · 40 min · first chili in nine weeks · makes more than two servings |
-| Mongolian Beef with Jasmine Rice & Charred Scallions | Chinese *(new cuisine)* | Sun 08/23, 7:00 PM | ~45g | ~590 | New · 30 min · 🧊 **FREEZE THE STEAK ON ARRIVAL** — flank slices cleaner semi-frozen |
+| Vietnamese Lemongrass Pork Meatball Bowls | Vietnamese | Mon 08/24, 6:30 PM | ~42g | ~560 | 35 min · 2 meals · **clean re-run with real lemongrass** · ground pork, front-half |
+| Cajun Dirty Rice Skillet with Ground Beef & Andouille | Cajun / Creole | Tue 08/25, 6:30 PM | ~44g | ~590 | New · 40 min · **3 meals** · one pot, zero dairy · highest-yield weeknight dish |
+| Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans | Caribbean | Wed 08/26, 6:30 PM | ~48g | ~585 | 40 min · 2 meals · **the one recycle** — 5★, window clears exactly this week |
+| Chicken Karahi with Basmati & Naan | Indian / Pakistani | Thu 08/27, 6:30 PM | ~50g | ~575 | New · 40 min · 2 meals · highest protein on the board · no yogurt, no cream |
+| Turkey Shepherd's Pie with Cheddar-Chive Mash | British comfort | Sun 08/30, 7:00 PM | ~45g | ~580 | New · 55 min · **3 meals** · 🧊 **FREEZE THE TURKEY ON ARRIVAL** |
 
-**Fri 08/21 and Sat 08/22 are empty and that is correct** — Friday is the standing overflow slot (see the pipeline note below), and the week was built around Monday–Thursday plus one weekend night.
+**Fri 08/28 and Sat 08/29 are empty and that is correct** — Friday is the standing overflow slot (see the pipeline note below), and **Saturday is Ian's birthday**, so the weekend dish was aimed at Sunday deliberately. That is now the seventh consecutive week the weekend dish has landed on Sunday rather than Saturday.
 
-Average **~46g protein · ~583 calories** per serving — the highest weekly protein average on record. Every dish clears the 35g protein floor and sits under the 600-calorie ceiling. Five distinct proteins (salmon, chicken thighs, shaved beef sirloin, ground pork, flank steak) and five distinct cuisines, **three of them new to the kitchen**. Zero Greek yogurt. Nothing on the board takes more than 40 minutes.
+Average **~46g protein · ~578 calories** per serving. Every dish clears the 35g protein floor and sits under the 600-calorie ceiling. Five distinct proteins (ground pork, ground beef + andouille, chicken thighs, chicken breast, ground turkey) and five distinct cuisines. **Total yield ~12 meals** — 5 dinners plus roughly 7 lunches, with two dishes making three meals each.
 
-**This week was revised after it was built.** The Chef's 5:20 PM slate carried two long braises — a Korean braised chicken and a Hungarian goulash — and Sean cut both at 5:30 PM inside the correction window. Rather than treat that as two dish rejections, the Chef read it as a verdict on the shape of the week and replaced them with two quick, saucy dishes: **there is no 2-hour weekend project on this menu at all.** The revision also made the week materially easier to shop.
+**Built on the reheat criterion, and on three explicit instructions from the Critic.** Four of five rating notes last week led with the reheat before mentioning taste, so **every recipe card names its reheat method** and **prints its yield in meals rather than servings**. The third instruction is a roster decision: **shrimp is off the board** — after a second independent reheat complaint Sean generalized it himself (*"I think shrimp is a no for reheats altogether"*), and since next-day lunch is most of the diet, a protein that can't survive a reheat is structurally low-value here.
 
-**Built on the reheat criterion.** Two-portion meals for one adult mean next-day lunch is most of the diet, so four of the five dishes are saucy enough to survive a night in the fridge, and **every recipe card names its reheat method by hand**. Two further rules from the Critic are applied five-for-five: **every specialty ingredient names a sanctioned fallback** on its card, and **a vegetable-ratio ceiling** is printed in bold (green beans capped at 8 oz after 10 oz "absolutely dominated" the Thai curry).
+**Two entries are not brand new, and both are sanctioned.** The **jerk chicken** is the one permitted no-repeat exception — the Critic's explicit top pick, 5★, the strongest single note in eleven weeks, and its four-week window clears exactly now. The **lemongrass pork meatballs** are a *re-serve of a dish rated with a substitution*: the 4★ was scored on a build where the lemongrass never made the cart and lemon pepper stood in, which is a verdict on a shopping list rather than a recipe. This week the shopping list names fresh lemongrass in capitals as an identity ingredient and rules lemon pepper out by name.
 
-### Previously cooked — week of 2026-08-10
+### Previously cooked — week of 2026-08-17
 
-Chipotle Chicken Tinga Rice Bowls *(carried in from 08-03)* · Cuban Picadillo with Black Beans & Rice · Baked Rigatoni with Italian Sausage & Ricotta · Mississippi Pot Roast · Cajun Honey-Butter Shrimp Bowls
+Philly Cheesesteak Hoagies · Harissa-Honey Salmon with Lemon-Herb Rice & Blistered Green Beans · Smoky Chipotle Pork & Black Bean Chili · Filipino Chicken Adobo with Garlic Rice · Mongolian Beef with Jasmine Rice & Charred Scallions
 
-**Five cooked dishes, not six.** The Korean Braised Chicken & Potatoes was on the 08-10 plan but Sean removed it on 08-09 for slate size and it was never cooked, so it is annotated `DROPPED` in the ledger and is excluded from rating. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
+**Five cooked dishes, no annotations.** The chili was moved by Sean from Thursday onto Friday 08-21 — a day reassignment inside its own week, not a drop — which is the sixth consecutive time a dish leaving its slot turned out to be a move rather than a skip. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
 
 ---
 
@@ -51,11 +51,11 @@ Eight scheduled tasks, all running on Denver time.
 | **The Chef** | Fri 5:00 PM | Builds the new menu, five recipe files, the shopping list; refreshes the dashboard; rolls `Current_Week.md` |
 | **The Scheduler** | Fri 7:30 PM | Assigns dishes to free evenings, creates 🍽️ calendar events with Drive recipe links |
 | **The Scribe** | Fri 7:45 PM | Refreshes this README and drops the commit trigger for the host GitHub sync |
-| **The Surveyor** | Sun 7:00 PM | Seeds the rating form and creates the Monday 9 AM reminder to rate the week's meals |
+| **The Surveyor** | Mon 7:00 AM | Seeds the rating form and the reminder to rate the week just finished |
 | **The Kitchen Manager** | Daily 9:00 PM | Reconciles the ledger against the calendar and dashboard, peer-reviews every task's output, escalates to Sean |
 | **The Developer** | 1st & 3rd Wed 11:00 AM | Bi-weekly system review — auto-fixes minor issues, escalates major ones as Change Requests |
 
-The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, deliberately: its prompt changes now land about two days before the pipeline executes them instead of about one hour.
+The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, deliberately: its prompt changes now land about two days before the pipeline executes them instead of about one hour. The Surveyor moved from Sunday evening to Monday morning on 2026-08-19 (CR-H2), so it never surveys a week that is still mid-cook.
 
 ---
 
@@ -84,9 +84,9 @@ The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, del
  9:00 PM  THE MANAGER      verifies the whole pipeline the same evening
 ```
 
-**The correction window is real and it gets used.** This week Sean rewrote a third of the menu inside it, at 5:30 PM — which is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef. By the time this README is written, it describes the week as Sean actually left it.
+**The correction window is real and it gets used.** This week Sean opened it, reviewed the slate at 7:28 PM, and changed nothing — the adjustment doc lists all five dishes as kept. A week earlier he cut two dishes inside the same window. That variance is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef: by the time this README is written, it describes the week as Sean actually left it.
 
-**Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error.
+**Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error. It caught its first live dish on 2026-08-20, when a chili pushed off Thursday landed on the empty Friday instead of being dropped.
 
 **Day assignments are not stored anywhere.** `Current_Week.md` is authoritative for *which* dishes belong to a week and nothing else. *Which night* a dish is cooked is derived from live Google Calendar events, every time, by every task — Sean edits the calendar directly, sometimes minutes after a task has read it, and four consecutive weeks of drift showed the slate was right every time while only the days went stale.
 
@@ -136,4 +136,4 @@ System/
 
 ---
 
-*Maintained by The Scribe. Last refreshed 2026-08-14.*
+*Maintained by The Scribe. Last refreshed 2026-08-21.*

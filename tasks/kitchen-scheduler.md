@@ -21,6 +21,7 @@ Read the Chef's newest entry in E:\Seans_Royal_Kitchen\System\Kitchen_Log.md in 
 STEP 1 — WHICH WEEK & DISHES
 - Read E:\Seans_Royal_Kitchen\System\Current_Week.md (the authoritative ledger). Use ACTIVE_WEEK (the Monday being cooked) and ACTIVE_DISHES. Do NOT guess from the most-recent menu file.
 - HONOR THE DISH STATUS ANNOTATIONS documented at the top of that file: NEVER schedule a dish marked `(DROPPED … — not cooked)`. DO schedule dishes marked `(CARRIED FROM …)` unless they're also marked as already cooked/rated.
+- **PARSING ANNOTATIONS — SCAN THE WHOLE LINE, NEVER SPLIT ON THE FIRST PAREN.** Dish names legitimately contain their own parentheses (live case: `Korean Braised Chicken & Potatoes (Dak-Dori-Tang) (DROPPED 2026-08-09 — not cooked)`). Taking "the text before the first ` ('" yields the wrong dish name AND silently loses the DROPPED marker — scheduling a dish Sean deleted. Instead: search the ENTIRE line for the keywords `DROPPED`, `CARRIED FROM`, `RATED`. The dish name is the line with any keyword-bearing parenthetical removed, not the text up to the first bracket.
 - DAY ASSIGNMENTS ARE NOT STORED IN THE LEDGER (CR-B, approved 2026-08-07). Any day-map in the ## Notes section is a time-stamped observation, not state. Derive every day assignment from LIVE calendar events. The ledger is authoritative for the dish SLATE and its annotations only.
 - Open ACTIVE_MENU_FILE in E:\Seans_Royal_Kitchen\ to get each dish's style and weeknight/weekend tag, protein, calories, and time.
 
@@ -47,20 +48,43 @@ STEP 3 — RECIPE LINKS (Google Drive)
 - If not found, fall back to a note to open E:\Seans_Royal_Kitchen\Recipes\, and flag it in Issues.
 
 STEP 4 — CREATE EVENTS
-For each (dish, free evening): Google Calendar event, title "🍽️ [Dish Name]", 6:30–7:30 PM (7:00–8:30 PM for weekend/involved dishes), primary calendar ([REDACTED_EMAIL]), description:
-  "Tonight's dinner: [Dish]
+For each (dish, free evening) create a Google Calendar event on the primary calendar ([REDACTED_EMAIL]).
+
+Pass these as SEPARATE, STRUCTURED arguments to the event-creation tool. Every one of them is its own top-level field — none of them belongs inside another:
+- `summary`: `🍽️ [Dish Name]`
+- `startTime` / `endTime`: 6:30–7:30 PM, or 7:00–8:30 PM for weekend/involved dishes
+- `calendarId`: [REDACTED_EMAIL]
+- `overrideReminders`: `[{"method": "popup", "minutes": 60}]`  ← **a structured top-level field in its own right. It is NOT text, and it does NOT go in the description.**
+- `description`: exactly this text and nothing else —
+  Tonight's dinner: [Dish]
   Style: [style]
   ~[X]g protein · ~[Y] cal · [time]
 
   📖 Recipe: [webViewLink]
 
-  From your Royal Kitchen — built by The Chef on [today]."
-Reminder 1 hour before.
+  From your Royal Kitchen — built by The Chef on [today].
+
+⚠️ **DESCRIPTION HYGIENE — THIS HAS FAILED IN PRODUCTION, TWICE-CONFIRMED (2026-08-14 run, all five events).** The description must be plain text ending at "…built by The Chef on [today]." and nothing after it.
+- The description must NEVER contain `<`, `>`, the string `parameter name=`, `</description>`, or any other fragment of tool-call syntax. On 2026-08-14 the literal text `</description><parameter name="overrideReminders">[{"method":"popup","minutes":60}]` was appended to all five descriptions — which meant the reminder was swallowed into the description **as text** and the real `overrideReminders` field was never set at all. Sean silently lost his 60-minute reminders on every dinner that week and saw the garbage text for five nights. **A reminder that ends up inside the description is a lost reminder, not a cosmetic blemish.**
+- Ampersands: write `&` literally, exactly once. Never `&amp;` and never `&amp;amp;`. (Live case: "Harissa-Honey Salmon with Lemon-Herb Rice &amp;amp; Blistered Green Beans".)
+
+STEP 4.5 — VERIFY WHAT YOU ACTUALLY BOOKED (required; do not skip, do not assume success)
+Creation returning without error does NOT mean the event is correct — the 08-14 corruption was invisible until someone re-read the events. After creating all events, `get_event` **every** event you just created and check four things on each:
+1. `overrideReminders` **exists as a field** and contains a 60-minute popup. If the key is absent entirely, the reminder was lost — this is the exact 08-14 failure.
+2. The description ends with "…built by The Chef on [date]." and contains no `<`, no `parameter name=`, no JSON fragment.
+3. The `summary` contains no `&amp;`.
+4. The recipe link resolves to the right dish.
+
+If anything is wrong, attempt **ONE** repair pass with `update_event`, then **re-read the event and confirm its `updated` timestamp actually advanced.** A repair that leaves `updated` unchanged did not happen — on 2026-08-14 the Scheduler issued five repairs, every one silently no-opped, and it never checked.
+
+🛑 **HARD CAP — ONE REPAIR ATTEMPT PER EVENT, THEN STOP AND GO WRITE YOUR LOG ENTRY.** If repairs are not taking, do NOT keep retrying. On 2026-08-14 the Scheduler spent its entire remaining run inside a repair loop, died mid-loop, and never wrote its Kitchen Log entry — so the Manager had to reconstruct the night from artifacts. **A recorded defect is recoverable; an unlogged run is not.** Record exactly what is still wrong in Issues, note it for the Developer, and proceed to STEP 5. Your log entry is more important than a clean calendar.
+
 DAY ASSIGNMENT RULES:
 - **FRIDAY EVENING IS RESERVED FOR OVERFLOW — do not book it (CR-C, Sean's decision 2026-08-07).** Friday is deliberately kept clear as a guaranteed landing spot for any dish Sean pushes off a weeknight; he used it exactly that way on 08-03 when he moved the Tinga there. Schedule Mon–Thu plus the weekend. Book Friday ONLY if there is no other way to place a dish, and say so loudly in your log entry when you do.
 - Weeknight dishes → Mon–Thu (earliest free first). Spread dishes across the week.
-- Weekend / involved dishes → **default to SUNDAY, not Saturday.** Sean has relocated the weekend dish from Saturday to Sunday three weeks running (07-19, 07-26, 08-01). Use Saturday only if Sunday evening is occupied, or if there are two weekend/involved dishes (then Saturday + Sunday).
+- Weekend / involved dishes → **default to SUNDAY, not Saturday.** Sean has relocated the weekend dish from Saturday to Sunday five weeks running (07-19, 07-26, 08-01, 08-08, 08-09). Use Saturday only if Sunday evening is occupied, or if there are two weekend/involved dishes (then Saturday + Sunday).
 - A very long dish (e.g. an 8-hour slow cooker) wants a day Sean is home to start it in the morning — prefer the weekend and say which day and why.
+- **PERISHABILITY BEATS CONVENIENCE IN THE LAST SLOT.** A highly perishable raw protein (shrimp, fish, ground meat, stew beef) must NOT take the last slot of the week unless its recipe card says "freeze on arrival." Sean shops the weekend after the Friday build, so a Sunday dish sits 7–8 days from purchase — that is what spoiled the stew beef on 2026-08-09 and cost the week a dish. If the only remaining slot is late and the protein is fragile, say so in your handoff notes so the Chef and Manager can see it.
 - If a weekend dish must go on a weeknight, note it in your log entry.
 
 STEP 5 — WRITE TO KITCHEN LOG (do not skip — every run must log, even though it's a background task)
@@ -68,8 +92,8 @@ STEP 5 — WRITE TO KITCHEN LOG (do not skip — every run must log, even though
      ### THE SCHEDULER — [YYYY-MM-DD HH:MM]
      **Status:** ✅ Success / ⚠️ Partial / ❌ Failed [prefix with "ran [N]h[M]m late" if >2 h past your 7:30 PM slot]
      **Summary:** Scheduled [N] of [M] dishes for the week of [ACTIVE_WEEK] onto the calendar. [Removed [K] stale events from a superseded menu, if any.]
-     **Handoff notes:** [dish → night assignments; **Menu_Adjustment doc: KEPT/REMOVED/none found/ignored-as-stale**; how you handled any evening with a conflicting appointment; any dishes left unscheduled and why; any dropped dishes skipped per ledger annotations; stale events removed; whether Friday was left free as designed]
-     **Issues:** [Drive read failures, ambiguous/duplicate recipe doc titles, unmatched REMOVED dish names, event-creation failures, or None]
+     **Handoff notes:** [dish → night assignments; **Menu_Adjustment doc: KEPT/REMOVED/none found/ignored-as-stale**; **STEP 4.5 verification result — reminders confirmed present on [N]/[M] events, descriptions clean yes/no**; how you handled any evening with a conflicting appointment; any dishes left unscheduled and why; any dropped dishes skipped per ledger annotations; stale events removed; whether Friday was left free as designed]
+     **Issues:** [Drive read failures, ambiguous/duplicate recipe doc titles, unmatched REMOVED dish names, event-creation failures, **any event still failing STEP 4.5 verification after its one repair attempt**, or None]
    - SAFE WRITE (required — a naive read-then-rewrite destroyed your 11:49 entry on 2026-08-01): compose your entry FIRST; read Kitchen_Log.md IMMEDIATELY before writing and never reuse an earlier read; read it twice a few seconds apart and confirm the content is identical before proceeding (if it changed, another task is mid-write — wait ~15 s and retry; after three mismatches SKIP the write and report the collision rather than clobbering); insert your entry by ANCHORED EDIT directly above the first `### ` header instead of rewriting the whole file; then verify BOTH that your entry is now the newest header AND that the previously-newest header is still present. If you ran twice today, amend or explicitly supersede your earlier entry — never leave two entries describing different runs.
 
 STEP 6 — DONE. No closing chat message (background task). Log any event-creation failures in your Kitchen Log entry and continue.

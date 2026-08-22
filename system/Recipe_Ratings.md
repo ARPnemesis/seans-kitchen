@@ -278,3 +278,38 @@ Each entry follows this structure:
 - Notes: "This was a really good dish. Probably would have been better with Lamb, but King Soopers didn't have any, so I substituted ground beef. Still really good though." **Rated with substitution:** ground lamb unavailable at King Soopers; cooked with ground beef. Note the direction — this is the first substitution on record that did *not* depress the score. 5★ with the wrong protein means the upside case is a clean re-run with actual lamb, and Moroccan/North African is a cuisine worth expanding into on this evidence.
 
 > **NOT LOGGED — Hungarian Beef Goulash with Buttered Egg Noodles (week 2026-08-03).** The submission carries `Stars: 2, Cook again: yes`, but the note says Sean never cooked or ate it: the King Soopers stew meat was rancid after five days in the fridge and he ordered Panda Express instead. The 2★ scores a ruined weeknight, not a recipe. Deliberately excluded from the ratings record so it cannot blacklist an untested dish on evidence that does not exist. **The recipe is UNTESTED, carries no no-repeat penalty, and is eligible for immediate reuse.** Ledger agrees: `(DROPPED 2026-08-09 — not cooked; stew meat spoiled before the cook date)`. Filed instead as a sourcing/logistics failure in Preferences.md → Harvested Facts.
+
+### Cuban Picadillo with Black Beans & Rice
+- Week: 2026-08-10
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Amazing! I loved it. Reheat was great." Dish of the week. First Cuban entry that is *not* a pork chop — and it lands 5★, which retires the "Cuban = 3★" reading entirely. Ground beef in a saucy skillet-and-rice format; both the format and the reheat are on the proven list.
+
+### Baked Rigatoni with Italian Sausage & Ricotta
+- Week: 2026-08-10
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Very good! Reheat was great. This recipe made one dinner and two lunches." **Three meals from one cook** — the yield is stated unprompted and is the second high-yield dish on record after the Pot Roast. Oven-baked pasta is now 2-for-2 at 5★ (with the Cottage Cheese Baked Ziti) and is the strongest reheat tier the kitchen has.
+
+### Mississippi Pot Roast
+- Week: 2026-08-10
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Always a favorite. This time I did egg noodles instead of mashed potatoes. I think I like mashed potatoes better, though. Reheats beautifully." **Third 5★ in three servings (06-08, 07-13, 08-10) — the kitchen's only dish rated three times and the only permanent fixture.** One actionable request, hedged but explicit: **serve it over mashed potatoes, not egg noodles.** Resolves the Critic's 08-14 open item — this dish WAS cooked in week 08-10.
+
+### Cajun Honey-Butter Shrimp Bowls
+- Week: 2026-08-10
+- Stars: 3/5
+- Cook again: No
+- Difficulty: As expected
+- Notes: "Eh, it was a good dish, but the reheating was awful. I think shrimp is a no for reheats altogether." **Read this carefully — the recipe is exonerated and the protein is constrained, which is the inverse of the usual format-over-protein call.** Sean says plainly it was "a good dish"; the Cook again: No is a **reheat verdict, not a taste verdict**, and the Cajun-without-dairy build worked exactly as the Chef designed it. **But Sean generalized to the ingredient himself**, and this is the *second independent* shrimp-reheat complaint (08-02 Paella: "the microwave and shrimp do not get along, they became rubbery and tough"). Two occurrences plus his own stated conclusion = a standing constraint, harvested to Preferences.md at the ingredient level: **shrimp is a cook-and-eat-same-night protein only.** Watch-Listed on the explicit No, but flagged there as reheat-caused, not taste-caused.
+
+### Chipotle Chicken Tinga Rice Bowls
+- Week: 2026-08-10
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Very good. Reheat was great." **Carried from week 2026-08-03** (pushed Mon 08-03 → Fri 08-07 → cooked in week 08-10; ledger annotation `CARRIED FROM 2026-08-03`), and attributed here to the week it was actually eaten. Sixth consecutive week Sean volunteers a reheat verdict unprompted. Fourth 5★-or-4★ chicken-thigh braise/saucy format in a row.

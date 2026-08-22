@@ -31,22 +31,24 @@
 ## Auto-Generated: Discovered Preferences
 *Updated by The Critic each Friday based on your ratings. Do not edit.*
 
-*Last updated 2026-08-14 12:10 (Friday run, on time — 12:00 slot, ~4 min drift). Submission for week of 2026-08-03 (`Rate_Submission_2026-08-03`, doc `1L3cewV6QUD…`, filed 8/11 4:25 PM — the newest of **four duplicate Drive docs**; the other three were superseded revisions of the same submission). Covered **3 of the 3 actually-cooked dishes** — a full slate. Two of the five planned dishes never hit the table: the Tinga was carried to week 08-10, and the Goulash was lost to spoiled meat. Data below reflects 9 weeks of ratings (06-08 through 08-03 — **37 dish ratings on file**).*
+*Last updated 2026-08-21 12:10 (Friday run, on time — 12:00 slot, ~5 min drift). Submission for week of 2026-08-10 (`Rate_Submission_2026-08-10`, doc `1U3BWcC9NM4…`, created 8/17 4:44 PM — **exactly ONE submission doc for this week, no duplicate revision burst**, unlike week 08-03's four). Covered **5 of the 5 actually-cooked dishes** — a full slate. The sixth dish on the 08-10 line, the Korean Braised Chicken, was `(DROPPED 2026-08-09 — not cooked)` and is correctly absent. Data below reflects 10 weeks of ratings (06-08 through 08-10 — **42 dish ratings on file**).*
 
-> **WEEK 08-03 WAS A SHORT WEEK, NOT A BAD ONE.** Three dishes cooked, three rated: 5★, 5★, 4★ — an average of 4.67, the second-strongest week on record behind 07-27. **Second consecutive week with no dish below 4★, no "Cook again: No," and no difficulty miss.** The week's only failure was not a recipe: it was five-day-old stew meat.
+> **WEEK 08-10 WAS THE FIRST CLEAN-SOURCING WEEK IN FIVE.** Five dishes cooked, five rated: 5★, 5★, 5★, 4★, 3★ — average **4.4**. **Zero substitutions, zero missing ingredients, zero blank fields, zero difficulty misses.** After four consecutive weeks in which a defining ingredient went missing (lemons, lemongrass, chorizo, lamb — plus rancid stew meat), this week lost nothing. The week's only knock was a reheat, not a recipe or a cart.
 
 **Highlights this week:**
-- **Smothered Pork Tenderloin Medallions with Mushroom Gravy — 5★** ("so delicious, wouldn't change anything"). The single most useful data point of the week — see the format-over-protein note below.
-- **Moroccan Ground Lamb & Chickpea Skillet with Couscous — 5★**, cooked with **ground beef** because King Soopers had no ground lamb. **The first substitution on record that did not depress the score.**
-- **Thai Red Curry Ground Turkey with Green Beans — 4★**, reheated well; docked for vegetable ratio, not flavor — 10 oz of green beans "absolutely dominated the dish."
+- **Cuban Picadillo with Black Beans & Rice — 5★** ("Amazing! I loved it. Reheat was great."). Dish of the week, and it **retires the "Cuban is a 3★ cuisine" reading** — that verdict was always about a pork chop.
+- **Baked Rigatoni with Italian Sausage & Ricotta — 5★**, and Sean volunteered the yield: **"one dinner and two lunches."** Oven-baked pasta is 2-for-2 at 5★ and reheats better than anything else on file.
+- **Mississippi Pot Roast — 5★ for the third time in three servings.** The kitchen's only thrice-rated dish and its only permanent fixture. One hedged but explicit request: **mashed potatoes, not egg noodles.**
+- **Chipotle Chicken Tinga Rice Bowls — 4★**, carried in from week 08-03 and attributed here.
+- **Cajun Honey-Butter Shrimp Bowls — 3★ / Cook again: No** — see the shrimp finding below. **The recipe is not the problem.**
 
 **High-rated dishes (4–5 ★):**
 - Chicken Shawarma Bowl — 5★ ("Amazing!!")
 - Garlic Butter Chicken & Broccoli — 5★ ("So simple, yet so good")
 - Honey Garlic Salmon & Sesame Cucumber Salad — 5★ (salmon + salad both winners)
-- Mississippi Pot Roast — 5★ ×2 (declared a permanent favorite; "makes ~4 meals")
+- **Mississippi Pot Roast — 5★ ×3 (06-08, 07-13, 08-10). The only dish rated three times; a permanent fixture. Serve over mashed potatoes. — UPDATED**
 - Smash Burger Bowls — 5★ ("delicious"; came in easier than described)
-- Weeknight Butter Chicken — 5★ ×2 (06-15 and 07-20; re-confirmed favorite. Caveat: the Greek yogurt separates on reheat)
+- Weeknight Butter Chicken — 5★ ×2 (06-15 and 07-20. Caveat: the Greek yogurt separates on reheat)
 - Mediterranean Steak Bowls — 5★ ("one of the best Mediterranean dishes ever"; girlfriend-approved)
 - High-Protein Cottage Cheese Baked Ziti — 5★
 - Carne Asada Bowls — 5★
@@ -57,11 +59,13 @@
 - Salmon Tacos with Mango-Corn Salsa — 5★ ("Sofa king delicious. 10/10")
 - Italian Sausage, White Bean & Spinach Skillet — 5★ ("so delicious"; the warmed baguette used as a sauce-sopper was the standout)
 - Chimichurri Flank Steak with Charred Corn & Tomato Salad — 5★ ("love chimichurri"; the lime-softened onion salad landed too)
-- Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans — 5★ ("WOW! I'm still dreaming about this dish") — strongest single note in nine weeks
-- Philly Cheesesteak Stuffed Peppers — 5★ ("really good for the reheat, just threw right back in the oven"); Cook again field left BLANK — treat as UNKNOWN, not Yes
+- Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans — 5★ ("WOW! I'm still dreaming about this dish") — strongest single note in ten weeks
+- Philly Cheesesteak Stuffed Peppers — 5★ ("really good for the reheat, just threw right back in the oven"); Cook again field left BLANK on 07-27 — treat as UNKNOWN, not Yes
 - Bang Bang Salmon Rice Bowls — 5★ ("fantastic"; the cornstarch crust on the salmon was called out by name)
-- **Smothered Pork Tenderloin Medallions with Mushroom Gravy — 5★ ("so delicious. Wouldn't change anything") — NEW**
-- **Moroccan Ground Lamb & Chickpea Skillet with Couscous — 5★, cooked with ground beef (no lamb at King Soopers) — NEW**
+- Smothered Pork Tenderloin Medallions with Mushroom Gravy — 5★ ("so delicious. Wouldn't change anything")
+- Moroccan Ground Lamb & Chickpea Skillet with Couscous — 5★, cooked with ground beef (no lamb at King Soopers)
+- **Cuban Picadillo with Black Beans & Rice — 5★ ("Amazing! I loved it. Reheat was great.") — NEW**
+- **Baked Rigatoni with Italian Sausage & Ricotta — 5★ ("Very good! Reheat was great. This recipe made one dinner and two lunches.") — NEW**
 - Gochujang Ground Turkey Bowl — 4★ (great flavor; oyster sauce smell a minor knock)
 - Harissa Chicken & Chickpea Sheet-Pan Bowls — 4★
 - Egg Roll in a Bowl (Ground Pork) — 4★
@@ -70,31 +74,34 @@
 - Lemon-Garlic Butter Scallops with Asparagus & Orzo — 4★ (delicious, easier than described; docked only because scallops reheat badly)
 - Vietnamese Lemongrass Pork Meatball Bowls — 4★; substitution-confounded (lemongrass missing, lemon pepper substituted)
 - Spanish Shrimp & Chorizo Paella — 4★; chorizo missing, sofrito under-made, "subpar on reheat"
-- **Thai Red Curry Ground Turkey with Green Beans — 4★ ("great dish, reheated well"); the only knock is the vegetable ratio — 10 oz green beans "absolutely dominated the dish" — NEW**
+- Thai Red Curry Ground Turkey with Green Beans — 4★ ("great dish, reheated well"); docked on vegetable ratio
+- **Chipotle Chicken Tinga Rice Bowls — 4★ ("Very good. Reheat was great."), carried from 08-03 — NEW**
 
 **Mid-rated dishes (3 ★):**
 - Miso-Glazed Cod with Bok Choy & Rice — 3★ (no notes or cook-again captured; soft signal, not a confirmed dislike)
-- Cuban Mojo Pork Chops with Black Beans & Rice — 3★, **Cook again: No** ("not a huge pork chop guy")
+- Cuban Mojo Pork Chops with Black Beans & Rice — 3★, **Cook again: No** ("not a huge pork chop guy"). **The Picadillo's 5★ this week confirms this was the chop, not Cuba.**
 - Peruvian Beef Stir-Fry (Lomo Saltado) — 3★, **Cook again: No** ("not my favorite")
 - Greek Chicken Meatball Bowls with Tzatziki — 3★, **Cook again: No** ("not 100% my speed"; Greek yogurt "in every recipe is starting to get old")
-- *(No new entries this week.)*
+- **Cajun Honey-Butter Shrimp Bowls — 3★, Cook again: No — NEW. The ONLY "Cook again: No" on record that is not a taste verdict:** *"it was a good dish, but the reheating was awful."* Do not read this as a Cajun failure or a recipe failure. See the shrimp finding below.
 
 **Low-rated dishes (1–2 ★ — avoid recycling):**
-- **Creamy Cajun Shrimp Pasta — 1★, Cook again: No** — still the kitchen's only 1★ and the only dish Sean has ever failed to finish. Root cause in his own words: "the Cajun seasoning clashed with the Greek yogurt," and the Paella's 4★ on dairy-free shrimp confirms it was the yogurt cream sauce. Do not recycle in its original form.
-- *(No new entries this week. **The Hungarian Beef Goulash's 2★ does NOT belong on this list** — Sean never ate it. See the spoilage note below.)*
+- **Creamy Cajun Shrimp Pasta — 1★, Cook again: No** — still the kitchen's only 1★ and the only dish Sean has ever failed to finish. Root cause in his own words: "the Cajun seasoning clashed with the Greek yogurt." Do not recycle in its original form.
+- *(No new entries this week. The Hungarian Beef Goulash's 2★ still does NOT belong on this list — Sean never ate it.)*
 
 **Preferred cuisines by rating:**
-- Thai — **4.5★ avg over 2** (Thai Basil Chicken Bowls 5★, **Thai Red Curry Ground Turkey 4★**) — UPDATED
-- Caribbean / Jamaican jerk — 5★ (highest-enthusiasm note on file). Brand-new cuisine, immediate hit — expand here.
-- American comfort — 5★ avg (6 dishes) — broadest and most consistent winner
-- **Moroccan / North African — 5★ (Ground Lamb & Chickpea Skillet, cooked with beef). A 5★ achieved with the *wrong protein* is a strong read on the cuisine itself — expand here, and re-run this one with real lamb. — NEW**
-- Italian — 5★ (Italian Sausage, White Bean & Spinach Skillet — rustic skillet + crusty bread format)
+- **Cuban — THE VERDICT HAS FLIPPED. 4.0★ avg over 2 (Picadillo 5★, Mojo Pork Chops 3★/No).** The 3★ was a **pork chop** — the same format that failed under an American gravy treatment. A saucy Cuban ground-beef-and-rice skillet is a 5★. **Cuban is on the roster; the chop stays off it.** — UPDATED
+- **Italian — 5★ avg over 2 (Italian Sausage White Bean & Spinach Skillet, Baked Rigatoni). Both rustic, both sausage-forward, both 5★. — UPDATED**
+- Caribbean / Jamaican jerk — 5★ (highest-enthusiasm note on file). Expand here.
+- American comfort — 5★ avg (7 dishes) — broadest and most consistent winner
+- Moroccan / North African — 5★ (cooked with beef, not lamb — a 5★ with the *wrong protein* is a strong read on the cuisine). Expand here.
 - Argentine/South American grill — 5★ (Chimichurri Flank Steak)
 - Southwest/Tex-Mex — 5★
 - Mexican/Latin — 5★ avg (carne asada 5★, salmon tacos 5★)
+- **Mexican — chipotle/tinga braise 4★ (Chipotle Chicken Tinga Rice Bowls) — NEW**
 - Mediterranean — 5★ (1 dish, but a standout "best ever")
 - Indian — 5★ (butter chicken ×2; yogurt base works on night one but not on reheat)
-- **American comfort / pan-gravy — 5★ (Smothered Pork Tenderloin Medallions). A gravy-and-medallions format is now proven. — NEW**
+- American comfort / pan-gravy — 5★ (Smothered Pork Tenderloin Medallions). Proven format.
+- Thai — 4.5★ avg over 2
 - Korean — 4.5★ avg (bulgogi 5★, gochujang turkey 4★)
 - Middle Eastern — 4.5★ avg (shawarma 5★, harissa chicken 4★)
 - Asian glazed/fusion (salmon) — 4.7★ avg over 3
@@ -102,44 +109,39 @@
 - Vietnamese — 4★ (single, substituted data point — re-run with real lemongrass before concluding anything)
 - Spanish — 4★ (substituted; format works, reheat is the limit)
 - French-adjacent seafood — 4★
+- **Cajun — TWO DATA POINTS, TWO DIFFERENT FAILURE MODES, AND NEITHER IS THE SEASONING. — UPDATED** The 1★ pasta was a **yogurt-cream-sauce clash**; the 3★ shrimp bowl was a **reheat failure on a dish Sean called good**. Cajun spice itself has never been the named cause. **Cajun is not banned. "Cajun + dairy sauce" is banned, and "Cajun + shrimp + Tuesday leftovers" is banned.** Try a Cajun build on a reheat-tolerant protein (chicken thighs, sausage, ground beef) before writing the cuisine off.
 - Japanese (miso-glazed) — 3★ (single data point)
 - Greek — 3★, Cook again: No (yogurt fatigue)
-- Cuban — 3★, Cook again: No (mojo pork chops — the chop format, not the cuisine)
 - Peruvian — 3★, Cook again: No (stir-fry-with-fries format)
-- Cajun — 1★, Cook again: No (confounded by the yogurt clash; "Cajun + dairy sauce is banned," not "Cajun is banned")
-- **Hungarian — NO DATA. The Goulash was never cooked. Do not record a cuisine verdict. — NEW**
+- Hungarian — NO DATA. The Goulash was never cooked, and has since been declined a second time. Do not record a cuisine verdict.
 
 **Preferred proteins by rating:**
 - **Salmon — 4.75★ avg over 4 dishes.** Four prep styles, four hits — still the single most reliable protein in the kitchen.
-- **Beef — 4.78★ avg over 9 dishes** (ground/smash, steak ×2, chuck, carne asada, bulgogi, Philly cheesesteak peppers, **Moroccan skillet (as lamb substitute)** all 5★; Lomo Saltado 3★/No the only miss) — UPDATED
-- Chicken — 4.6★ avg over 9 dishes (largest sample; Greek meatballs 3★/No the only miss)
-- **Ground turkey — 4.25★ avg over 4 dishes** (Southwest Turkey 5★, gochujang 4★, ginger-sesame wraps 4★, **Thai red curry 4★**). Consistently good, never spectacular — a reliable weeknight workhorse rather than a headline protein. — UPDATED
-- Italian sausage — 5★ (single dish, emphatic)
+- **Beef — 4.8★ avg over 11 dishes** (ground/smash, steak ×2, chuck ×3, carne asada, bulgogi, Philly cheesesteak peppers, Moroccan skillet as lamb substitute, **Cuban Picadillo** all 5★; Lomo Saltado 3★/No the only miss) — UPDATED
+- **Beef chuck / pot roast — 5★ ×3, the most-repeated and most-reliable single cut on file. High yield (~4 portions). — UPDATED**
+- **Chicken — 4.6★ avg over 10 dishes** (Greek meatballs 3★/No the only miss). **Chicken thighs in a braise or saucy build are 4-for-4.** — UPDATED
+- **Italian sausage — 5★ ×2 (skillet and baked pasta). Small sample, but perfect and in two different formats. — UPDATED**
+- Ground turkey — 4.25★ avg over 4 dishes. A reliable weeknight workhorse rather than a headline protein.
 - Pasta/dairy (cottage cheese baked ziti) — 5★
-- **PORK — THE VERDICT HAS FLIPPED, AND IT WAS NEVER ABOUT THE PIG. — UPDATED**
-  - Pork tenderloin (medallions, pan gravy) — **5★, Cook again: Yes** — NEW
-  - Ground pork — 4.0★ avg over 2 (egg roll bowl 4★, Vietnamese meatballs 4★ substitution-depressed)
-  - Whole pork chops — 3★, Cook again: No — **this remains the ONLY pork miss, and it is now clearly a chop-format problem.** Pork as a category is 4.3★ across 4 dishes. Put pork tenderloin and ground pork freely on the roster; keep chops off it.
+- **Pork — 4.3★ across 4 dishes.** Tenderloin (medallions, pan gravy) 5★; ground pork 4.0★ avg over 2; whole pork chops 3★/No. **The chop format is the only pork miss.**
 - Scallops — 4★ (loved fresh, poor reheat — weekend-only protein)
-- **Shrimp — EXONERATED** (1★ was a yogurt-cream-sauce failure; dairy-free Paella scored 4★/Yes). **Hard reheat caveat: "the microwave and shrimp do not get along."** Weekend / best-eaten-fresh protein, same tier as scallops.
-- **Lamb — STILL NO DATA. King Soopers had no ground lamb; the dish was cooked with beef. Do not credit lamb with the 5★. — NEW**
-- **Beef stew meat / chuck for braising — NO NEW TASTE DATA, but one hard logistics fact: it spoiled in five days. See the sourcing note. — NEW**
+- 🦐 **SHRIMP — THE CONSTRAINT IS NOW SETTLED, AND IT IS NOT A TASTE CONSTRAINT. — UPDATED.** Three dishes: 1★ (yogurt-cream-sauce clash), 4★ (dairy-free Paella, "subpar on reheat"), 3★ (honey-butter bowls, *"a good dish, but the reheating was awful"*). **Shrimp cooks well and eats well; it does not survive a reheat, and Sean has now said so twice unprompted and generalized it himself: "I think shrimp is a no for reheats altogether."** → **Shrimp is a cook-and-eat-same-night protein.** Given that leftovers are close to Sean's entire lunch supply, that makes it a **low-value protein for this kitchen** — not banned, but it should appear rarely, on a weekend, in a portion sized for one sitting. Same tier as scallops, only stricter.
+- **Lamb — STILL NO DATA.** King Soopers had no ground lamb; the dish was cooked with beef. Do not credit lamb with the 5★.
 - White fish (cod) — 3★ (single data point; don't extrapolate given salmon's record)
 
 **Notes from The Critic:**
-- Nine weeks, **37 dish ratings; 32 of 37 at 4★+ (86%)**. Four "Cook again: No" verdicts plus the single 1★. **Weeks 07-27 and 08-03 added zero to either list — two consecutive clean weeks.**
-- 🚨 **THE ONLY FAILURE OF WEEK 08-03 WAS A SUPPLY-CHAIN FAILURE, AND IT MUST NOT BE READ AS A FOOD FAILURE.** The Hungarian Beef Goulash arrived in the submission at **2★ / Cook again: yes** with this note: *"Sadly, I didn't get to experience this dish. The stew meat went bad before I could cook the dish… The meat was rancid after sitting in my fridge for 5 days. Had to redirect and go to panda express instead."* The 2★ scores a ruined weeknight. It is **deliberately absent from `Recipe_Ratings.md`**, absent from the low-rated list above, and absent from the Watch List. **The recipe is untested, carries no no-repeat penalty, and is eligible for immediate reuse** — and "Cook again: yes" says Sean still wants it. The actionable lesson is scheduling, not cooking: **do not place a highly perishable raw protein in the last slot of the week without a "freeze on arrival" instruction on the card.**
-- **FORMAT BEATS PROTEIN — NOW SIX CONFIRMATIONS, AND THIS WEEK SUPPLIED THE CLEANEST ONE YET.** Pork chops scored 3★/No; **pork tenderloin medallions in mushroom gravy scored 5★/Yes with "wouldn't change anything."** Same animal, opposite verdicts. The prior five: ground pork fine while chops missed; Lomo Saltado missed while every other beef format hit; Greek meatballs missed on the tzatziki format while chicken was otherwise 5★; Cajun shrimp missed on a yogurt sauce; shrimp returned 4★ the moment the sauce changed. **Judge formats, sauces and techniques. Never conclude anything about an ingredient.**
-- ⭐ **A SUBSTITUTION FINALLY WENT THE OTHER WAY.** Every prior forced substitution depressed a score — lemongrass→lemon pepper (4★), missing chorizo (4★), missing honey, missing sesame seeds. This week **ground beef stood in for ground lamb and the dish still scored 5★** with "still really good though." Two readings, both worth acting on: the **Moroccan spice-and-chickpea skillet format is robust to its protein** (so it is safe to build on), and **lamb is still completely untested** (so do not credit it, and do not assume the store stocks it). If the Chef wants the true ceiling on that dish, re-run it — but it is already a 5★ as cooked.
-- **REHEAT QUALITY CONTINUES TO PAY.** The Thai Red Curry note leads with "reheated well," unprompted. Combined with the Philly Cheesesteak's oven-reheat note from 07-27, the pattern holds: **the reheat method named on the card is being followed and it is showing up in the scores.** Keep naming it on every recipe card.
-- 🥬 **NEW STANDING REQUEST — VEGETABLE RATIO.** "Fewer green beans. 10oz absolutely dominated the dish." This is the first time a vegetable *quantity* rather than a vegetable *choice* cost a star. For a two-serving skillet, a 10 oz vegetable load overwhelms the protein and sauce. **Recommendation to the Chef: treat ~6–8 oz as the ceiling for a single supporting vegetable in a 2-serving dish, and let the protein and sauce lead.**
-- 🛒 **SOURCING IS NOW THE KITCHEN'S LARGEST SOURCE OF LOST STARS, AND IT HAS TWO DISTINCT FAILURE MODES.** Mode one, **cart-building gaps** (lemongrass, chorizo, honey, extra lemons) — mitigated by the move to the King Soopers app and by flagging identity ingredients. Mode two, **new this week and worse: the store itself.** King Soopers had **no ground lamb at all**, and sold **stew meat that was rancid within five days.** The second mode cannot be fixed by writing a better list. **Recommendation to the Chef: (a) name a sanctioned fallback protein on the card whenever a dish depends on a specialty item the store may not carry; (b) never schedule a highly perishable raw protein into the back half of the week without "freeze on arrival" on the card.**
-- **Sean grades on a curve — reconfirmed.** A 4★ in a strong week is not a demotion. Week 08-03 averaged 4.67 across three dishes.
-- **Difficulty estimates remain accurate.** Week 08-03 came back **3-for-3 "as-expected,"** following 07-27's 5-for-5. Two clean weeks running — whatever the Chef changed in how it describes effort is holding.
-- **Yogurt guidance holds.** ~1 yogurt-forward sauce per week maximum, never as the body of a creamy pasta or a spice-forward sauce. Weeks 07-27, 08-03 and 08-10 all carry zero.
-- **Blank fields:** none this week. All four submitted blocks were complete — stars, cook-again, difficulty and notes. First fully-populated submission since the blank-field gap appeared on 07-27.
-- Mississippi Pot Roast is 5★ twice — a locked-in permanent favorite; it was served again in week 08-10 (Thu 08-13), and **its cooked/not-cooked state is unresolved at the time of writing** — the Manager and Surveyor resolve that from Sean, not from the calendar.
-- Never-cooked early-reuse pool (no no-repeat penalty, eligible immediately): **Hungarian Beef Goulash with Buttered Egg Noodles** (dropped 08-09, meat spoiled — Sean explicitly still wants it), **Korean Braised Chicken & Potatoes (Dak-Dori-Tang)** (dropped 08-09 for slate size, never cooked), and **Chipotle Chicken Tinga Rice Bowls** if it did not cook in week 08-10.
+- Ten weeks, **42 dish ratings; 36 of 42 at 4★+ (86%)**. Five "Cook again: No" verdicts plus the single 1★. **Week 08-10 averaged 4.4 across a full five-dish slate — the strongest *full* week on record** (07-27 averaged 4.6 and 08-03 4.67, but on five and three dishes respectively with softer slates).
+- 🎯 **THE HEADLINE: FOUR OF FIVE NOTES THIS WEEK LED WITH THE REHEAT, UNPROMPTED.** "Reheat was great" ×3, "reheats beautifully" ×1, "the reheating was awful" ×1. **Reheat is no longer a criterion the Critic imposes — it is the dimension Sean spontaneously reports first.** It is now the single highest-information field in the submission. → **@Chef: keep naming the reheat method on every card. It is being read, followed, and graded.**
+- 🦐 **THE SHRIMP QUESTION IS CLOSED, AND THE ANSWER EXONERATES THE RECIPE WHILE CONSTRAINING THE INGREDIENT.** This is the **inverse** of the standing format-over-protein rule, and it is allowed here for one reason: **Sean generalized to the ingredient himself.** Format-first is a guard against the Critic over-inferring; it is not a licence to overrule Sean's own stated conclusion. Two independent occurrences (08-02 Paella, 08-10 bowls) plus *"I think shrimp is a no for reheats altogether"* is a standing constraint. **The Cajun Honey-Butter Shrimp Bowls recipe is fine and Sean said so. Do not blacklist the recipe, the Cajun profile, the honey-butter, or the cornstarch dredge.**
+- 🧂 **FIRST CLEAN-SOURCING WEEK IN FIVE — AND THE LIKELY CAUSE IS THE KING SOOPERS MOVE, NOT THE FALLBACK RULE.** Zero substitutions, zero missing ingredients, zero spoilage. Worth stating the timing honestly: the 08-10 menu was built 08-07 and shopped that weekend, so it **predates** the "sanctioned fallback on every card" rule the Critic issued on 08-14. The credit belongs to Sean's move off Instacart onto a hand-built King Soopers pickup cart (in effect since 08-06). **The fallback rule has not been tested yet — week 08-17 is its first live trial.** One clean week is not a solved problem; four of the previous five weeks lost a defining ingredient.
+- 📦 **HIGH-YIELD DISHES ARE A SECOND KIND OF VALUE, AND SEAN IS NOW COUNTING THEM.** "This recipe made one dinner and two lunches" (Rigatoni) joins "makes ~4 meals' worth" (Pot Roast) and his 08-09 statement that slate size is a budget of meals. **Two big-yield dishes on a five-dish slate genuinely covers the week.** → **@Chef: state the expected yield on every card in meals, not just servings, and treat a 3+ meal dish as worth roughly 1.5 slots.**
+- **FORMAT BEATS PROTEIN — SEVENTH CONFIRMATION, and this week it rescued a whole cuisine.** Cuban Mojo Pork **Chops** scored 3★/No; Cuban **Picadillo** scored 5★. Same cuisine, opposite verdicts, and the variable is the chop format that has now failed twice under two different cuisines. Prior six: pork tenderloin 5★ vs. chops 3★; ground pork fine vs. chops; Lomo Saltado missed while every other beef format hit; Greek meatballs missed on the tzatziki format; Cajun shrimp pasta missed on a yogurt sauce; shrimp returned 4★ the instant the sauce changed. **Judge formats, sauces and techniques.**
+- 🍽️ **THE POT ROAST IS THE KITCHEN'S ONLY PERMANENT FIXTURE.** 5★ three times, three servings, ten weeks. It is also the only dish that survives the no-repeat rule on merit. **One correction Sean asked for: mashed potatoes, not egg noodles.** He hedged it ("I think"), which is why it is a standing request rather than a rule — but he raised it unprompted and it is free to honor.
+- **Difficulty estimates remain accurate — 5-for-5 "as expected."** Third consecutive clean week (07-27 5/5, 08-03 3/3, 08-10 5/5). Thirteen straight dishes with no difficulty miss.
+- **Blank fields: none. Substitutions: none. Slate/submission mismatch: none.** All five blocks fully populated, and the submission matched the ledger's five cooked dishes exactly. **The first week on record with nothing for this line to report** — and the first single-doc submission since the dashboard's duplicate-write problem appeared.
+- **Yogurt guidance holds.** ~1 yogurt-forward sauce per week maximum, never as the body of a creamy or spice-forward sauce. Weeks 07-27, 08-03 and 08-10 all carry zero.
+- **Sean grades on a curve — reconfirmed.** A 4★ in a strong week is not a demotion. The Tinga's 4★ sat alongside three 5★ dishes.
+- Never-cooked, no no-repeat penalty, but **twice declined and off the board**: Hungarian Beef Goulash and Korean Braised Chicken & Potatoes (Dak-Dori-Tang). Sean said plainly on 08-14: *"i dont want the goulash or the korean beef braise."* **Treat both as soft passes, not live reuse candidates.** The early-reuse pool is now empty.
 - Garlic-butter chicken + broccoli remains 2-for-2 at 5★; adopt Sean's mods (pasta added, broccoli par-boiled) into the card.
 - Sauce-sopper insight still open: warmed baguette slices around the rim of the bowl. Reuse on saucy skillet/stew dishes.
 
@@ -164,6 +166,11 @@
 - **Store availability — King Soopers does not reliably stock ground lamb (2026-08-11, `Rate_Submission_2026-08-03`):** *"Probably would have been better with Lamb, but King Soopers didn't have any, so I substituted ground beef."* Single data point, but it is a statement about the store's shelves rather than a reaction to a meal, so it is worth carrying. → **@Chef: whenever a dish depends on a specialty protein or specialty ingredient, name a sanctioned fallback on the recipe card and the shopping list** ("ground lamb — if unavailable, 85/15 ground beef; the dish still works"). Sean will substitute anyway; telling him what to substitute is free. *(Related: this is the fourth consecutive week a defining ingredient went missing — lemongrass, chorizo, lamb, plus the earlier honey and lemons.)*
 - 🥬 **Standing request — vegetable ratio (2026-08-11, `Rate_Submission_2026-08-03`):** *"Only thing I would suggest is fewer green beans. 10oz absolutely dominated the dish."* The first time a vegetable **quantity** rather than a vegetable **choice** cost a star. → **@Chef: for a 2-serving dish, treat ~6–8 oz as the ceiling for a single supporting vegetable. The protein and sauce lead; the vegetable supports.** Bake it into the recipe card, not just the menu note.
 - **Reheat criterion confirmed working (2026-08-11, `Rate_Submission_2026-08-03`):** Sean volunteered *"reheated well"* as the second clause of his Thai Red Curry note, unprompted, on a card that named its reheat method. Second consecutive week a reheat outcome appears in the notes without being asked for. → **@Chef: keep naming the reheat method on every card — it is being read and followed.** → **@Critic: reheat remains a first-class scoring dimension.**
+- 🦐 **INGREDIENT-LEVEL CONSTRAINT — SHRIMP DOES NOT REHEAT (2026-08-21, `Rate_Submission_2026-08-10`).** Sean's words on the Cajun Honey-Butter Shrimp Bowls: *"Eh, it was a good dish, but the reheating was awful. **I think shrimp is a no for reheats altogether.**"* This is the **second independent** shrimp-reheat complaint — the 08-02 Paella carried *"the microwave and shrimp do not get along, they became rubbery and tough."* Two occurrences **plus Sean's own explicit generalization to the ingredient** clears the bar for a standing rule, and it is the one case where an ingredient-level conclusion outranks the format-first guard: the guard exists to stop the Critic over-inferring, not to overrule Sean. → **@Chef: shrimp is a cook-and-eat-same-night protein. Place it only on a weekend, portion it for one sitting, and never build a shrimp dish that assumes leftovers.** Because leftovers are close to Sean's entire lunch supply, that makes shrimp structurally low-value here — rare, not banned. → **@Critic: the RECIPE is exonerated.** Sean called it "a good dish"; the Cook again: No is a reheat verdict. Do not blacklist the Cajun profile, the honey-butter, or the cornstarch dredge. *(Note the inverse reading from the Paella entry: there, shrimp was exonerated and the sauce blamed. Both are correct — shrimp's problem was never flavor.)*
+- 🥔 **Standing request — Mississippi Pot Roast starch (2026-08-21, `Rate_Submission_2026-08-10`):** *"This time I did egg noodles instead of mashed potatoes. I think I like mashed potatoes better, though."* Hedged, and a single occurrence, so it is recorded as a **request rather than a rule** — but he raised it unprompted about the kitchen's only thrice-5★ dish, and honoring it is free. → **@Chef: serve the Pot Roast over mashed potatoes. If egg noodles are used again, say why on the card.**
+- 📦 **Constraint of life — yield is counted in MEALS, and Sean states it unprompted (2026-08-21, `Rate_Submission_2026-08-10`):** *"This recipe made one dinner and two lunches"* (Baked Rigatoni). This **corroborates rather than contradicts** the 08-09 slate-size entry above: the Pot Roast is "~4ish portions," the Rigatoni is three meals, and a week carrying two such dishes is genuinely fuller than its dish count suggests. → **@Chef: print expected yield on every card in MEALS, not servings, and treat a 3+ meal dish as worth roughly 1.5 slots when sizing the slate.** → **@Critic: yield is a second axis of value alongside taste and reheat.**
+- ✅ **Sourcing — first clean week since the King Soopers move (2026-08-21, `Rate_Submission_2026-08-10`):** zero substitutions, zero missing ingredients, zero spoilage across five dishes, after four consecutive weeks that each lost a defining ingredient. **Attribution stated honestly: the 08-10 menu was built 08-07 and shopped before the "sanctioned fallback on every card" rule existed, so the credit belongs to the hand-built King Soopers pickup cart (in effect 08-06), not to the fallback rule.** The fallback rule's first live test is week 08-17. → **@Chef: keep writing the list for a human filling a cart by hand; it is working. Do not declare sourcing solved on one week.**
+- 🍽️ **Reheat is now the field Sean reports FIRST (2026-08-21, `Rate_Submission_2026-08-10`):** four of five notes led with a reheat verdict, unprompted — "Reheat was great" ×3, "reheats beautifully," "the reheating was awful." Third consecutive week reheat appears without being asked for, and the first week it appears in **every** note. → **@Chef: name the reheat method on every card, always.** → **@Critic: reheat is the highest-information field in the submission — read it before the stars.**
 
 ---
 
