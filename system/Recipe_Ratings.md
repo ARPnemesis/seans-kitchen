@@ -313,3 +313,38 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: As expected
 - Notes: "Very good. Reheat was great." **Carried from week 2026-08-03** (pushed Mon 08-03 → Fri 08-07 → cooked in week 08-10; ledger annotation `CARRIED FROM 2026-08-03`), and attributed here to the week it was actually eaten. Sixth consecutive week Sean volunteers a reheat verdict unprompted. Fourth 5★-or-4★ chicken-thigh braise/saucy format in a row.
+
+### Philly Cheesesteak Hoagies
+- Week: 2026-08-17
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: — **Closes Sean's own 07-27 standing request** ("wants this filling on a hoagie at some point") — the cheesesteak filling from Philly Cheesesteak Stuffed Peppers (5★, 07-27), reformatted onto a hoagie, lands another 5★.
+
+### Filipino Chicken Adobo with Garlic Rice
+- Week: 2026-08-17
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: — First Filipino dish in the kitchen; immediate 5★ hit with no complaints logged.
+
+### Harissa-Honey Salmon with Lemon-Herb Rice & Blistered Green Beans
+- Week: 2026-08-17
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: — Salmon's fifth prep style and fifth hit (4★+ every time). First harissa/North African dish served with zero substitution.
+
+### Smoky Chipotle Pork & Black Bean Chili
+- Week: 2026-08-17
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: — First chili ever served in this kitchen; immediate 5★. Another win for a braised/stewed pork format, joining the tenderloin-in-gravy 5★ and reinforcing that the chop format (3★/No) is the only pork miss on file.
+
+### Mongolian Beef with Jasmine Rice & Charred Scallions
+- Week: 2026-08-17
+- Stars: 4/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: "Delicious, but 4 stars because the reheat wasn't bad, but wasn't amazing." First Chinese dish in the kitchen. A mild, not a bad, reheat — the only knock on an otherwise clean week.

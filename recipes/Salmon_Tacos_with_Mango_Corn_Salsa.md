@@ -29,5 +29,7 @@
 
 ## Notes
 - Don't move the salmon while it sears — that's how you get the crust.
-- Trending pick this month: salmon tacos with mango-sweet corn salsa are everywhere right now, and salmon is 2-for-2 at 4–5★ in this kitchen.
-- Salsa keeps 2 days — great on eggs or rice at lunch.
+- Trending pick this month: salmon tacos with mango-sweet corn salsa are everywhere right now, and salmon is now 5-for-5 at 4–5★ across five different preparations — still the kitchen's most reliable protein.
+- Reheat: 300°F oven, uncovered, 8–10 min (keeps the tortillas from going soggy), or flake the salmon into a bowl and microwave, covered, 90 sec.
+- Yield: 2 dinners + 1 lunch (~3 meals) — salsa keeps 2 days and is great on eggs or rice at lunch.
+- Recycle pick (5★, last served 2026-07-13) — clears the no-repeat window comfortably.

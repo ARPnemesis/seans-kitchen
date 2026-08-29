@@ -12,31 +12,29 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-08-24** (Mon Aug 24 – Sun Aug 30)
+**Week of 2026-08-31** (Mon Aug 31 – Sun Sep 6)
 
-*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`), including its per-dish status annotations. The menu file is `Menu_Week_of_2026-08-24.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-21 7:55 PM) — they are not stored in the ledger.** The slate carries **no annotations**: all five dishes stand as planned, none dropped, none carried in.*
+*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`). The menu file is `Menu_Week_of_2026-08-31.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-28, ~7:56 PM Denver) — they are not stored in the ledger.***
 
 | Dish | Style | Night | Protein | Calories | Notes |
 |------|-------|-------|---------|----------|-------|
-| Vietnamese Lemongrass Pork Meatball Bowls | Vietnamese | Mon 08/24, 6:30 PM | ~42g | ~560 | 35 min · 2 meals · **clean re-run with real lemongrass** · ground pork, front-half |
-| Cajun Dirty Rice Skillet with Ground Beef & Andouille | Cajun / Creole | Tue 08/25, 6:30 PM | ~44g | ~590 | New · 40 min · **3 meals** · one pot, zero dairy · highest-yield weeknight dish |
-| Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans | Caribbean | Wed 08/26, 6:30 PM | ~48g | ~585 | 40 min · 2 meals · **the one recycle** — 5★, window clears exactly this week |
-| Chicken Karahi with Basmati & Naan | Indian / Pakistani | Thu 08/27, 6:30 PM | ~50g | ~575 | New · 40 min · 2 meals · highest protein on the board · no yogurt, no cream |
-| Turkey Shepherd's Pie with Cheddar-Chive Mash | British comfort | Sun 08/30, 7:00 PM | ~45g | ~580 | New · 55 min · **3 meals** · 🧊 **FREEZE THE TURKEY ON ARRIVAL** |
+| Salmon Tacos with Mango-Corn Salsa | Coastal Latin | Mon 08/31, 6:30 PM | ~38g | ~540 | 25 min · recycled 5★ favorite, salmon's fifth winning prep style |
+| Hawaiian-Style Turkey Meatballs with Pineapple Fried Rice | Hawaiian / Pacific | Tue 09/01, 6:30 PM | ~38g | ~520 | 30 min · new cuisine · front-half perishable |
+| Harissa Braised Chicken Thighs with Chickpeas & Couscous | North African | Wed 09/02, 6:30 PM | ~42g | ~560 | 35 min · Critic-directed repeat, new braised format |
+| Brazilian Garlic Butter Steak Bowls | Brazilian | Thu 09/03, 6:30 PM | ~40g | ~580 | 25 min · new cuisine, trending format |
+| Puerto Rican Pernil-Style Braised Pork Shoulder with Rice & Pigeon Peas | Puerto Rican | *not booked this week* | ~48g | ~590 | Sean deselected it in Friday's correction window (`Menu_Adjustment_2026-08-31`); no calendar event exists for it Mon 08/31–Sun 09/06. Still listed in `Current_Week.md`'s `ACTIVE_DISHES` pending the Kitchen Manager's next reconciliation pass. |
 
-**Fri 08/28 and Sat 08/29 are empty and that is correct** — Friday is the standing overflow slot (see the pipeline note below), and **Saturday is Ian's birthday**, so the weekend dish was aimed at Sunday deliberately. That is now the seventh consecutive week the weekend dish has landed on Sunday rather than Saturday.
+**Fri 09/04, Sat 09/05 and Sun 09/06 are all empty.** Friday is the standing overflow slot (see the pipeline note below) and stays empty by design. Saturday and Sunday are empty because this week has no weekend dish — the pork shoulder was cut in the correction window, so nothing was booked in its place.
 
-Average **~46g protein · ~578 calories** per serving. Every dish clears the 35g protein floor and sits under the 600-calorie ceiling. Five distinct proteins (ground pork, ground beef + andouille, chicken thighs, chicken breast, ground turkey) and five distinct cuisines. **Total yield ~12 meals** — 5 dinners plus roughly 7 lunches, with two dishes making three meals each.
+Average across the four dishes actually cooking this week: **~39.5g protein · ~550 calories** per serving. All five originally-planned dishes clear the 35g protein floor and stay under 600 calories. Four distinct proteins on the calendar this week (salmon, ground turkey, chicken thighs, steak) and four distinct cuisines, two of them brand-new to the kitchen (Brazilian, Hawaiian/Pacific).
 
-**Built on the reheat criterion, and on three explicit instructions from the Critic.** Four of five rating notes last week led with the reheat before mentioning taste, so **every recipe card names its reheat method** and **prints its yield in meals rather than servings**. The third instruction is a roster decision: **shrimp is off the board** — after a second independent reheat complaint Sean generalized it himself (*"I think shrimp is a no for reheats altogether"*), and since next-day lunch is most of the diet, a protein that can't survive a reheat is structurally low-value here.
+**Built on the Critic's 08-28 12:04 briefing**, itself written off the kitchen's best full week on record — week 08-17 closed at 4.8★ average, five for five "cook again," five for five "easier than expected." Harissa/North African and braised pork are both now 2-for-2 at 5★, so harissa returns in a new braised format and pork was slated to return as a weekend braise before Sean cut it. Cuisine expansion keeps paying off (Filipino and Chinese both landed clean last week), so two more new cuisines — Brazilian and Hawaiian/Pacific — joined the board. The early-reuse pool stays empty (Hungarian Beef Goulash and Korean Braised Chicken remain twice-declined soft passes, not live candidates).
 
-**Two entries are not brand new, and both are sanctioned.** The **jerk chicken** is the one permitted no-repeat exception — the Critic's explicit top pick, 5★, the strongest single note in eleven weeks, and its four-week window clears exactly now. The **lemongrass pork meatballs** are a *re-serve of a dish rated with a substitution*: the 4★ was scored on a build where the lemongrass never made the cart and lemon pepper stood in, which is a verdict on a shopping list rather than a recipe. This week the shopping list names fresh lemongrass in capitals as an identity ingredient and rules lemon pepper out by name.
+### Previously cooked — week of 2026-08-24
 
-### Previously cooked — week of 2026-08-17
+Vietnamese Lemongrass Pork Meatball Bowls · Cajun Dirty Rice Skillet with Ground Beef & Andouille · Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans · Chicken Karahi with Basmati & Naan · Turkey Shepherd's Pie with Cheddar-Chive Mash
 
-Philly Cheesesteak Hoagies · Harissa-Honey Salmon with Lemon-Herb Rice & Blistered Green Beans · Smoky Chipotle Pork & Black Bean Chili · Filipino Chicken Adobo with Garlic Rice · Mongolian Beef with Jasmine Rice & Charred Scallions
-
-**Five cooked dishes, no annotations.** The chili was moved by Sean from Thursday onto Friday 08-21 — a day reassignment inside its own week, not a drop — which is the sixth consecutive time a dish leaving its slot turned out to be a move rather than a skip. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
+**Five cooked dishes, no annotations.** Two dishes crossed this week's roll boundary and cooked after the Chef's Friday build: the Chicken Karahi (Sean's own day-move from Thursday to Friday 08-28, one hour after tonight's build) and the Turkey Shepherd's Pie (Sunday 08-30). Their absence from this week's calendar is not evidence either was skipped — both are confirmed cooked-or-cooking as of the roll. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
 
 ---
 
@@ -84,11 +82,11 @@ The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, del
  9:00 PM  THE MANAGER      verifies the whole pipeline the same evening
 ```
 
-**The correction window is real and it gets used.** This week Sean opened it, reviewed the slate at 7:28 PM, and changed nothing — the adjustment doc lists all five dishes as kept. A week earlier he cut two dishes inside the same window. That variance is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef: by the time this README is written, it describes the week as Sean actually left it.
+**The correction window is real and it gets used.** This week Sean opened it and deselected the weekend pork braise, so the Scheduler booked only the four remaining weeknight dishes — nothing was substituted in its place. A week earlier he reviewed the slate and changed nothing. That variance is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef: by the time this README is written, it describes the week as Sean actually left it.
 
-**Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error. It caught its first live dish on 2026-08-20, when a chili pushed off Thursday landed on the empty Friday instead of being dropped.
+**Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error.
 
-**Day assignments are not stored anywhere.** `Current_Week.md` is authoritative for *which* dishes belong to a week and nothing else. *Which night* a dish is cooked is derived from live Google Calendar events, every time, by every task — Sean edits the calendar directly, sometimes minutes after a task has read it, and four consecutive weeks of drift showed the slate was right every time while only the days went stale.
+**Day assignments are not stored anywhere.** `Current_Week.md` is authoritative for *which* dishes belong to a week and nothing else. *Which night* a dish is cooked — or whether it's cooked at all — is derived from live Google Calendar events, every time, by every task. Sean edits the calendar directly, sometimes minutes after a task has read it, and several consecutive weeks of drift showed the slate was right every time while only the days went stale.
 
 ---
 
@@ -136,4 +134,4 @@ System/
 
 ---
 
-*Maintained by The Scribe. Last refreshed 2026-08-21.*
+*Maintained by The Scribe. Last refreshed 2026-08-28.*
