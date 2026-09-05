@@ -12,29 +12,31 @@ A fully automated pipeline that runs every Friday and builds a personalized 5-di
 
 ## Current Week
 
-**Week of 2026-08-31** (Mon Aug 31 – Sun Sep 6)
+**Week of 2026-09-07** (Mon Sep 7 – Sun Sep 13)
 
-*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`). The menu file is `Menu_Week_of_2026-08-31.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-08-28, ~7:56 PM Denver) — they are not stored in the ledger.***
+*The authoritative week and dish slate come from `System/Current_Week.md` (`ACTIVE_WEEK` / `ACTIVE_DISHES`). The menu file is `Menu_Week_of_2026-09-07.md`. **Night assignments below are derived from live Google Calendar 🍽️ events, read at the moment this file was written (2026-09-04, ~7:57 PM Denver) — they are not stored in the ledger.***
 
 | Dish | Style | Night | Protein | Calories | Notes |
 |------|-------|-------|---------|----------|-------|
-| Salmon Tacos with Mango-Corn Salsa | Coastal Latin | Mon 08/31, 6:30 PM | ~38g | ~540 | 25 min · recycled 5★ favorite, salmon's fifth winning prep style |
-| Hawaiian-Style Turkey Meatballs with Pineapple Fried Rice | Hawaiian / Pacific | Tue 09/01, 6:30 PM | ~38g | ~520 | 30 min · new cuisine · front-half perishable |
-| Harissa Braised Chicken Thighs with Chickpeas & Couscous | North African | Wed 09/02, 6:30 PM | ~42g | ~560 | 35 min · Critic-directed repeat, new braised format |
-| Brazilian Garlic Butter Steak Bowls | Brazilian | Thu 09/03, 6:30 PM | ~40g | ~580 | 25 min · new cuisine, trending format |
-| Puerto Rican Pernil-Style Braised Pork Shoulder with Rice & Pigeon Peas | Puerto Rican | *not booked this week* | ~48g | ~590 | Sean deselected it in Friday's correction window (`Menu_Adjustment_2026-08-31`); no calendar event exists for it Mon 08/31–Sun 09/06. Still listed in `Current_Week.md`'s `ACTIVE_DISHES` pending the Kitchen Manager's next reconciliation pass. |
+| Sesame-Ginger Teriyaki Salmon with Broccoli & Rice | Japanese-inspired | Mon 09/07, 6:30 PM | ~40g | ~520 | 25 min · new cuisine · cornstarch-dredge crust, front-loaded for perishability |
+| Nigerian-Inspired Suya-Spiced Chicken Thighs with Peanut Dipping Sauce | West African | Tue 09/08, 6:30 PM | ~42g | ~540 | 35 min · new cuisine |
+| Turkish Ground Turkey Kofta Bowls with Tahini Drizzle | Turkish | Wed 09/09, 6:30 PM | ~38g | ~510 | 30 min · new cuisine · zero Greek yogurt, tahini does the sauce work |
+| Korean Beef Bulgogi Bowls | Korean | Thu 09/10, 6:30 PM | ~40g | ~560 | 30 min · recycle, Critic-flagged 4–5★ favorite |
+| Puerto Rican Pernil-Style Braised Pork Shoulder with Rice & Pigeon Peas | Puerto Rican | Sun 09/13, 7:00 PM | ~48g | ~590 | 2 hr, mostly hands-off · early reuse of a never-cooked dish (built 08-28, deselected before it was ever cooked, so no no-repeat penalty), recipe card reused unchanged · card says FREEZE ON ARRIVAL |
 
-**Fri 09/04, Sat 09/05 and Sun 09/06 are all empty.** Friday is the standing overflow slot (see the pipeline note below) and stays empty by design. Saturday and Sunday are empty because this week has no weekend dish — the pork shoulder was cut in the correction window, so nothing was booked in its place.
+**Fri 09/11 and Sat 09/12 are both empty.** Friday is the standing overflow slot (see the pipeline note below) and stays empty by design; Saturday is empty because this week has only one weekend dish.
 
-Average across the four dishes actually cooking this week: **~39.5g protein · ~550 calories** per serving. All five originally-planned dishes clear the 35g protein floor and stay under 600 calories. Four distinct proteins on the calendar this week (salmon, ground turkey, chicken thighs, steak) and four distinct cuisines, two of them brand-new to the kitchen (Brazilian, Hawaiian/Pacific).
+All five dishes are booked this week — no corrections were made in Friday's window (no `Menu_Adjustment_2026-09-07` doc exists), so the full Chef-built slate went straight to the calendar. Average across all five: **~42g protein · ~544 calories** per serving, every dish clearing the 35g floor and staying under 600 calories. Five distinct proteins (salmon, chicken thighs, ground turkey, beef, pork shoulder) and five distinct cuisines, three of them brand-new to the kitchen (Nigerian, Turkish, and Puerto Rican's first actual cook).
 
-**Built on the Critic's 08-28 12:04 briefing**, itself written off the kitchen's best full week on record — week 08-17 closed at 4.8★ average, five for five "cook again," five for five "easier than expected." Harissa/North African and braised pork are both now 2-for-2 at 5★, so harissa returns in a new braised format and pork was slated to return as a weekend braise before Sean cut it. Cuisine expansion keeps paying off (Filipino and Chinese both landed clean last week), so two more new cuisines — Brazilian and Hawaiian/Pacific — joined the board. The early-reuse pool stays empty (Hungarian Beef Goulash and Korean Braised Chicken remain twice-declined soft passes, not live candidates).
+The only calendar commitment this week is Monday's midday WGU mentor call (12:10–12:25 PM) — no dinner conflict. Sunday the 13th is Dennis's birthday (all-day, no evening block) — noted, not avoided.
 
-### Previously cooked — week of 2026-08-24
+**Built on the Critic's 09-04 briefing**, itself written off a strong four-dish week (08-24 averaged 4.5★, with Chicken Karahi and a second serving of Jamaican Jerk Chicken both landing 5★ — both still inside their no-repeat window, so neither is on this board yet). Korean Beef Bulgogi Bowls returns as the Critic's other standing recommendation, and the Puerto Rican pork shoulder finally gets its night after sitting deselected-but-never-cooked for two weeks. The early-reuse pool is now empty again (Hungarian Beef Goulash and Korean Braised Chicken remain twice-declined soft passes, not live candidates).
 
-Vietnamese Lemongrass Pork Meatball Bowls · Cajun Dirty Rice Skillet with Ground Beef & Andouille · Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans · Chicken Karahi with Basmati & Naan · Turkey Shepherd's Pie with Cheddar-Chive Mash
+### Previously cooked — week of 2026-08-31
 
-**Five cooked dishes, no annotations.** Two dishes crossed this week's roll boundary and cooked after the Chef's Friday build: the Chicken Karahi (Sean's own day-move from Thursday to Friday 08-28, one hour after tonight's build) and the Turkey Shepherd's Pie (Sunday 08-30). Their absence from this week's calendar is not evidence either was skipped — both are confirmed cooked-or-cooking as of the roll. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
+Salmon Tacos with Mango-Corn Salsa · Hawaiian-Style Turkey Meatballs with Pineapple Fried Rice · Harissa Braised Chicken Thighs with Chickpeas & Couscous · Brazilian Garlic Butter Steak Bowls · Turkey Shepherd's Pie with Cheddar-Chive Mash *(carried in from the week of 08-24, cooked Mon 08-31)*
+
+**Five dishes actually cooked.** Puerto Rican Pernil-Style Braised Pork Shoulder was originally planned for this week but deselected in the correction window before it was ever cooked — `(DROPPED 2026-08-28 — not cooked)` in the ledger — so it doesn't count against this week's slate; it returns cooked in the current week instead. This is the week the Surveyor asks Sean to rate, the Critic scores, and the Archivist files.
 
 ---
 
@@ -82,7 +84,7 @@ The Developer moved off Friday and onto a bi-weekly Wednesday on 2026-08-07, del
  9:00 PM  THE MANAGER      verifies the whole pipeline the same evening
 ```
 
-**The correction window is real and it gets used.** This week Sean opened it and deselected the weekend pork braise, so the Scheduler booked only the four remaining weeknight dishes — nothing was substituted in its place. A week earlier he reviewed the slate and changed nothing. That variance is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef: by the time this README is written, it describes the week as Sean actually left it.
+**The correction window is real, even in a week it goes unused.** This week Sean opened no `Menu_Adjustment` doc, so the Scheduler booked the Chef's full five-dish slate exactly as built. Some weeks he deselects a dish instead — that variance is exactly why the Scribe runs at 7:45 PM rather than alongside the Chef: by the time this README is written, it describes the week as Sean actually left it.
 
 **Friday evening is deliberately kept free as an overflow slot.** This is a design decision Sean made on 2026-08-07 (CR-C), not a scheduling gap left by the pipeline day. It exists so that any dish pushed off a weeknight has a guaranteed landing spot. The menu is built around Monday–Thursday plus the weekend and does not assume a Friday cooking slot — so an empty Friday is correct, and a booked Friday usually means Sean moved something there himself. Neither is an error.
 
@@ -123,15 +125,15 @@ Rate_This_Week.md            the rating form, reset weekly
 How_This_Kitchen_Works.md    the plain-language overview
 System/
   Current_Week.md            the ledger — single source of truth for the active slate
-  Kitchen_Log.md             the shared briefing board; every task reads it and writes to it
-  Preferences.md             Sean's taste profile and standing requests
-  Recipe_Ratings.md          every dish ever rated
-  Kitchen_Manager_Charter.md roles, authorities, escalation chain
-  Change_Requests/           major changes awaiting or holding Sean's sign-off
-  Kitchen_Log_Archive/       trimmed log history
-  *.ps1                      host-side scripts (GitHub sync, ntfy notifications)
+  Kitchen_Log.md              the shared briefing board; every task reads it and writes to it
+  Preferences.md              Sean's taste profile and standing requests
+  Recipe_Ratings.md           every dish ever rated
+  Kitchen_Manager_Charter.md  roles, authorities, escalation chain
+  Change_Requests/            major changes awaiting or holding Sean's sign-off
+  Kitchen_Log_Archive/        trimmed log history
+  *.ps1                       host-side scripts (GitHub sync, ntfy notifications)
 ```
 
 ---
 
-*Maintained by The Scribe. Last refreshed 2026-08-28.*
+*Maintained by The Scribe. Last refreshed 2026-09-04.*

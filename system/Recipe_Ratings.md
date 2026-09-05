@@ -348,3 +348,31 @@ Each entry follows this structure:
 - Cook again: Yes
 - Difficulty: Easier
 - Notes: "Delicious, but 4 stars because the reheat wasn't bad, but wasn't amazing." First Chinese dish in the kitchen. A mild, not a bad, reheat — the only knock on an otherwise clean week.
+
+### Vietnamese Lemongrass Pork Meatball Bowls
+- Week: 2026-08-24
+- Stars: 3/5
+- Cook again: Yes
+- Difficulty: Easier
+- Notes: "I had the lemongrass paste this time but somehow forgot to incorporate it into the meatballs... I also had a bad run with the lettuce I received from the store. Infested with aphids, and a mouth full of granular texture." **This is NOT a substitution — the ingredient was on hand and simply not used.** Second consecutive attempt with no real lemongrass in the finished dish: 07-27 scored 4★ with lemon pepper substituted for missing lemongrass; this time the lemongrass was in the kitchen and still didn't make it into the meatballs, scoring *lower* (3★) than the substituted version. The dish has now been served twice and never once as designed — do not read 3★ as a verdict on the recipe. Also carries a standing shopping-list request (see Preferences.md → Harvested Facts): precut/prewashed butter lettuce instead of a head of lettuce.
+
+### Cajun Dirty Rice Skillet with Ground Beef & Andouille
+- Week: 2026-08-24
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Delicious."
+
+### Jamaican Jerk Chicken Thighs with Coconut Rice & Black Beans
+- Week: 2026-08-24
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Great dish!" Second serving of this recipe (first was 07-27, also 5★, "dish of the week" then) — now 2-for-2 at 5★, confirming it as a genuine repeat-worthy favorite rather than a one-off.
+
+### Chicken Karahi with Basmati & Naan
+- Week: 2026-08-24
+- Stars: 5/5
+- Cook again: Yes
+- Difficulty: As expected
+- Notes: "Delicious." First Chicken Karahi on file — immediate 5★ hit, zero substitutions. Built specifically to avoid the yogurt/cream reheat flaw seen elsewhere (per the Chef's 08-14 build notes); no reheat complaint logged.
